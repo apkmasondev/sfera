@@ -13,6 +13,7 @@ W tym pliku dokumentowane są istotne zmiany projektu. Format jest oparty na [Ke
 - dodano progresywne odsłanianie sfery po przygotowaniu pierwszych 20% tekstur;
 - dodano Content Security Policy, politykę referrerów i utwardzono lokalny serwer;
 - dodano prefiksy `backdrop-filter` dla starszych wersji Safari.
+- przeniesiono przypiętą wersję Three.js 0.185.1 z CDN do lokalnego katalogu `vendor/three/` i usunięto zewnętrzne połączenia z polityki CSP.
 
 ## [1.0.0] - 2026-07-12
 

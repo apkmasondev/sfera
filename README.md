@@ -20,15 +20,14 @@ Wersja publiczna: [apkmasondev.github.io/sfera](https://apkmasondev.github.io/sf
 ## Technologie
 
 - HTML5, CSS i JavaScript ES Modules;
-- [Three.js](https://threejs.org/) ładowany przez CDN;
+- [Three.js](https://threejs.org/) 0.185.1 hostowany lokalnie w repozytorium;
 - Node.js używany wyłącznie do lokalnego serwera i generowania danych;
 - WebP dla obrazów kolekcji.
 
 ## Wymagania
 
 - Node.js 18 lub nowszy;
-- nowoczesna przeglądarka z obsługą WebGL;
-- dostęp do internetu podczas działania strony, ponieważ Three.js jest pobierany z CDN.
+- nowoczesna przeglądarka z obsługą WebGL.
 
 Projekt nie ma pakietów npm wymagających instalacji.
 
@@ -65,6 +64,7 @@ Nie należy otwierać `index.html` bezpośrednio przez `file://`, ponieważ prze
 ├── index.html                 # struktura strony i metadane SEO
 ├── style.css                  # interfejs, karta i responsywność
 ├── main.js                    # scena Three.js i interakcje
+├── vendor/three/              # lokalny, przypięty build Three.js wraz z licencją
 ├── content-store.js           # wczytywanie i dopasowywanie ciekawostek
 ├── content-source.json        # jedno źródło wszystkich oczyszczonych rekordów
 ├── content.json               # wynikowy plik używany przez stronę
@@ -77,6 +77,10 @@ Nie należy otwierać `index.html` bezpośrednio przez `file://`, ponieważ prze
 ```
 
 `content.json` i `manifest.json` są plikami generowanymi. Nie należy edytować ich ręcznie, ponieważ następne `npm run build` nadpisze zmiany.
+
+## Aktualizacja Three.js
+
+Aplikacja używa lokalnej, przypiętej wersji `0.185.1`, dzięki czemu podczas działania nie łączy się z zewnętrznym CDN. Pliki `three.module.min.js`, `three.core.min.js` i odpowiadającą im licencję należy aktualizować razem, wyłącznie z oficjalnego pakietu `three` o tej samej wersji. Po zmianie wersji trzeba uruchomić build i test strony w przeglądarce.
 
 ## Dodawanie kolejnych ciekawostek
 

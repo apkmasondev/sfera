@@ -1,4 +1,4 @@
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.185.1/build/three.module.js';
+import * as THREE from './vendor/three/three.module.min.js';
 import { getContentForImage, loadContent } from './content-store.js';
 
 // Najważniejsze parametry — zmień je tutaj, aby dopasować wygląd i zachowanie.
