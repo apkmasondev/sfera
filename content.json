@@ -2,16 +2,16 @@
   "anatomia_91.webp": {
     "image": "anatomia_91.webp",
     "category": "Ciało Człowieka",
-    "title": "Najsilniejszy mięsień",
+    "title": "Siła mięśnia żwacza",
     "summary": "Jeden z mięśni zdolnych wytworzyć bardzo dużą siłę zgryzu.",
-    "text": "Nie istnieje jeden obiektywny sposób wskazania najsilniejszego mięśnia, ponieważ można porównywać siłę, wytrzymałość lub pracę względem masy. Żwacz należy jednak do mięśni zdolnych wytworzyć bardzo dużą siłę podczas zaciskania szczęk."
+    "text": "Trudno wskazać jeden najsilniejszy mięsień, ponieważ siłę można mierzyć na kilka sposobów. Żwacz wyróżnia się jednak ogromną siłą zaciskania szczęk, dzięki której możemy rozgryzać i miażdżyć twarde pokarmy."
   },
   "anatomia_92.webp": {
     "image": "anatomia_92.webp",
     "category": "Ciało Człowieka",
     "title": "Długość naczyń krwionośnych",
-    "summary": "Ich łączna długość dwukrotnie owinęłaby Ziemię.",
-    "text": "Tętnice, żyły oraz naczynia włosowate formują w naszym organizmie zamknięty układ. Łączna długość wszystkich naczyń w ciele dorosłego człowieka wynosi 100 tysięcy kilometrów, co dwukrotnie przewyższa obwód Ziemi."
+    "summary": "Rozległa sieć transportująca krew do niemal każdej tkanki.",
+    "text": "Tętnice, żyły i naczynia włosowate tworzą rozbudowaną sieć doprowadzającą tlen oraz składniki odżywcze do tkanek. Jej dokładnej długości nie da się zmierzyć u żywego człowieka, ale szacunki obejmujące najdrobniejsze naczynia mówią o dziesiątkach tysięcy kilometrów."
   },
   "anatomia_93.webp": {
     "image": "anatomia_93.webp",
@@ -24,22 +24,22 @@
     "image": "anatomia_94.webp",
     "category": "Ciało Człowieka",
     "title": "Ilość kości w ciele",
-    "summary": "Małe noworodki posiadają ich znacznie więcej.",
-    "text": "Noworodek przychodzi na świat mając w ciele 300 kości. Z wiekiem zrastają się one ze sobą, dlatego dorosły człowiek w obrębie czaszki czy miednicy posiada ich już tylko 206."
+    "summary": "Wiele elementów dziecięcego szkieletu zrasta się podczas rozwoju.",
+    "text": "Szkielet noworodka składa się z większej liczby oddzielnych elementów niż szkielet osoby dorosłej. W czasie wzrostu część z nich zrasta się, między innymi w czaszce, kręgosłupie i miednicy; u dorosłego najczęściej wyróżnia się 206 kości, choć liczba może nieznacznie się różnić."
   },
   "anatomia_95.webp": {
     "image": "anatomia_95.webp",
     "category": "Ciało Człowieka",
     "title": "Wielkość mózgu a energia",
-    "summary": "Niewielki narząd pochłaniający ogromne ilości glukozy.",
-    "text": "Mózg to wymagający narząd organizmu. Mimo iż stanowi 2 procent masy ludzkiego ciała, to w stanie spoczynku potrafi pochłaniać 20 procent całej dostępnej energii oraz dostarczanej organizmowi glukozy."
+    "summary": "Niewielka część masy ciała odpowiada za znaczną część zużycia energii.",
+    "text": "Mózg stanowi około 2% masy ciała dorosłego człowieka, ale w spoczynku odpowiada za mniej więcej 20% jego wydatku energetycznego. Energię czerpie przede wszystkim z glukozy i potrzebuje stałego dopływu tlenu z krwią."
   },
   "anatomia_96.webp": {
     "image": "anatomia_96.webp",
     "category": "Ciało Człowieka",
     "title": "Odnowa komórkowa skóry",
-    "summary": "Zupełnie nową zewnętrzną powłokę zyskujesz miesięcznie.",
-    "text": "Proces keratynizacji sprawia, że wierzchnie komórki obumierają i odpadają. Co 28 dni zyskujesz nową warstwę naskórka, gubiąc z powierzchni ciała w ciągu całego roku 4 kilogramy martwych tkanek."
+    "summary": "Naskórek stale odnawia swoją zewnętrzną warstwę.",
+    "text": "Nowe komórki naskórka powstają w jego głębszych warstwach, przesuwają się ku powierzchni, rogowacieją i są stopniowo złuszczane. Pełny cykl trwa zwykle kilka tygodni, ale zależy między innymi od wieku, miejsca na ciele i stanu skóry."
   },
   "anatomia_97.webp": {
     "image": "anatomia_97.webp",
@@ -52,14 +52,14 @@
     "image": "architektura_121.webp",
     "category": "Architektura",
     "title": "Tadż Mahal w Indiach",
-    "summary": "Słynne marmurowe mauzoleum i pomnik miłości.",
-    "text": "Ten indyjski kompleks budowano z białego marmuru przez 20 lat, co było pracą 20 tysięcy robotników. Stanowi on architektoniczne mauzoleum ufundowane przez cesarza Indii po śmierci jego żony."
+    "summary": "Mogolskie mauzoleum wzniesione z białego marmuru.",
+    "text": "Tadż Mahal powstał w Agrze w XVII wieku z inicjatywy mogolskiego władcy Szahdżahana jako mauzoleum jego żony Mumtaz Mahal. Kompleks, wznoszony przez około dwie dekady, łączy tradycje architektury perskiej, islamskiej i indyjskiej."
   },
   "architektura_122.webp": {
     "image": "architektura_122.webp",
     "category": "Architektura",
     "title": "Starożytny beton rzymski",
-    "summary": "Sekretny starożytny materiał budowlany wielkiego imperium.",
+    "summary": "Trwałe spoiwo wytwarzane z wapna i materiału wulkanicznego.",
     "text": "Starożytni Rzymianie łączyli wapno z pucolaną, czyli materiałem bogatym w popiół wulkaniczny. Powstające spoiwo mogło twardnieć także pod wodą, dzięki czemu rzymskie porty, kopuły i inne konstrukcje przetrwały przez wiele stuleci."
   },
   "architektura_123.webp": {
@@ -73,14 +73,14 @@
     "image": "architektura_124.webp",
     "category": "Architektura",
     "title": "Kanał Panamski",
-    "summary": "Wielka przeprawa łącząca dwa ziemskie oceany.",
+    "summary": "Droga wodna łącząca Atlantyk z Pacyfikiem.",
     "text": "Kanał Panamski skraca drogę morską między Atlantykiem a Pacyfikiem. System śluz podnosi statki do poziomu sztucznego jeziora Gatún, położonego około 26 metrów nad poziomem morza, a następnie opuszcza je po drugiej stronie przesmyku."
   },
   "architektura_125.webp": {
     "image": "architektura_125.webp",
     "category": "Architektura",
     "title": "Most Golden Gate",
-    "summary": "Słynny wiszący pomost nad amerykańską zatoką.",
+    "summary": "Wiszący most u wejścia do zatoki San Francisco.",
     "text": "Most Golden Gate ma około 2,7 kilometra długości i łączy San Francisco z hrabstwem Marin. Jego konstrukcja została zaprojektowana tak, by pracować pod wpływem wiatru, a późniejsze modernizacje zwiększyły odporność mostu na trzęsienia ziemi."
   },
   "architektura_126.webp": {
@@ -88,14 +88,14 @@
     "category": "Architektura",
     "title": "Panteon w Rzymie",
     "summary": "Starożytna świątynia z klasyczną otwartą kopułą.",
-    "text": "Ta rzymska rotunda o zewnętrznej średnicy 43 metrów posiada proporcjonalne wymiary. To największa na świecie kopuła wzniesiona z niezbrojonego betonu, która pozostaje architektonicznie nienaruszona od okresu budowy dwa tysiąclecia temu."
+    "text": "Wnętrze rzymskiego Panteonu ma niemal taką samą wysokość jak średnicę, dzięki czemu można wpisać w nie kulę. Jego betonowa kopuła, zwieńczona otwartym okulusem, pozostaje największą zachowaną kopułą wykonaną z niezbrojonego betonu."
   },
   "architektura_127.webp": {
     "image": "architektura_127.webp",
     "category": "Architektura",
     "title": "Sagrada Familia",
-    "summary": "Niesamowita, wciąż nieukończona hiszpańska świątynia katolicka.",
-    "text": "Dzieło architekta Antoniego Gaudíego z 18 docelowymi wieżami budowane jest od 1882 roku w Hiszpanii. Konstrukcja bazyliki wykorzystuje budowlane struktury organiczne, czerpiąc wizualną inspirację z występujących w naturze form przyrody."
+    "summary": "Bazylika Gaudíego łącząca geometrię z formami inspirowanymi naturą.",
+    "text": "Bazylika Sagrada Família w Barcelonie jest budowana od 1882 roku. Projekt Antoniego Gaudíego łączy geometrię konstrukcyjną z formami inspirowanymi naturą, widocznymi między innymi w rozgałęziających się kolumnach i bogato rzeźbionych fasadach."
   },
   "biologia_11.webp": {
     "image": "biologia_11.webp",
@@ -109,7 +109,7 @@
     "category": "Biologia",
     "title": "Mitochondria",
     "summary": "Organelle zasilające nasze własne komórki.",
-    "text": "Te mikroskopijne organelle, jakimi są mitochondria, odpowiadają za produkcję cząsteczek ATP. Posiadają one własne, dziedziczone matczynie mtDNA, co udowadnia, że 1,5 miliarda lat temu były wolno żyjącymi bakteriami."
+    "text": "Mitochondria wytwarzają większość ATP wykorzystywanego jako źródło energii dla komórki. Mają własne koliste DNA, dziedziczone u ludzi głównie po matce; wraz z innymi cechami wspiera to teorię, że ich przodkami były niegdyś wolno żyjące bakterie."
   },
   "biologia_13.webp": {
     "image": "biologia_13.webp",
@@ -123,7 +123,7 @@
     "category": "Biologia",
     "title": "Zasady dziedziczenia Mendla",
     "summary": "Genetyczne reguły odkryte w grochu.",
-    "text": "W 1866 roku austriacki zakonnik Grzegorz Mendel na podstawie uprawy 29 tysięcy roślin grochu udowodnił matematyczne zasady dziedziczenia. Wykazał, że cechy dziedziczne przekazywane są jako allele dominujące lub recesywne."
+    "text": "Grzegorz Mendel, zakonnik i badacz pracujący w Brnie, krzyżował odmiany grochu i analizował cechy ich potomstwa. Wyniki opublikowane w 1866 roku stały się podstawą praw dziedziczenia, choć pojęcia genu i allelu wprowadzono dopiero później."
   },
   "biologia_15.webp": {
     "image": "biologia_15.webp",
@@ -137,48 +137,48 @@
     "category": "Biologia",
     "title": "Odkrycie penicyliny",
     "summary": "Zwykła pleśń trwale odmieniająca medycynę.",
-    "text": "W 1928 roku Alexander Fleming odkrył, że pleśń Penicillium niszczy bakterie. Przełomowe wdrożenie, dające ludzkości pierwszy skuteczny antybiotyk, uratowało szacunkowo ponad 200 milionów istnień podczas wojen i pandemii."
+    "text": "W 1928 roku Alexander Fleming zauważył, że pleśń z rodzaju Penicillium hamuje wzrost bakterii. Dopiero późniejsze prace Howarda Floreya, Ernsta Chaina i ich zespołu umożliwiły oczyszczanie oraz masową produkcję penicyliny, która odmieniła leczenie zakażeń bakteryjnych."
   },
   "biologia_17.webp": {
     "image": "biologia_17.webp",
     "category": "Biologia",
     "title": "Mikrobiom człowieka",
-    "summary": "Niewidzialni lokatorzy ludzkiego układu trawiennego.",
-    "text": "W ciele dorosłego człowieka żyje blisko 39 bilionów bakterii. Twój mikrobiom jelitowy waży około 2 kilogramów i jest absolutnie niezbędny do trawienia, syntezy witamin i działania układu odpornościowego."
+    "summary": "Złożona społeczność mikroorganizmów współtworzących środowisko jelit.",
+    "text": "Szacunki wskazują, że ciało przeciętnego dorosłego człowieka zamieszkuje około 38 bilionów bakterii, z których większość znajduje się w jelicie grubym. Mikrobiom uczestniczy w rozkładaniu składników pożywienia, wytwarzaniu niektórych związków i regulacji układu odpornościowego."
   },
   "chemia_141.webp": {
     "image": "chemia_141.webp",
     "category": "Chemia",
-    "title": "Układ Okresowy Pierwiastków",
+    "title": "Układ okresowy pierwiastków",
     "summary": "Naukowa tablica przewidująca istnienie nieznanych substancji.",
-    "text": "W 1869 roku Dmitrij Mendelejew posegregował 63 znane pierwiastki według ich wagi i masy atomowej. Jego chemiczna tablica przewidziała fizyczną masę i chemiczne właściwości nieodkrytego jeszcze w nauce galu czy germanu."
+    "text": "W 1869 roku Dmitrij Mendelejew uporządkował znane pierwiastki według rosnącej masy atomowej i powtarzających się właściwości. Pozostawił w tablicy luki, trafnie przewidując istnienie oraz część cech pierwiastków odkrytych później, między innymi galu i germanu."
   },
   "chemia_142.webp": {
     "image": "chemia_142.webp",
     "category": "Chemia",
     "title": "Gal - niezwykły metal",
-    "summary": "Zaskakujący pierwiastek chemiczny topniejący w dłoni.",
-    "text": "Ten metal o przypisanej liczbie atomowej równej 31 przypomina chemicznie aluminium. Jego punktowa temperatura topnienia wynosi 29,7 stopni Celsjusza, co technicznie oznacza, że kawałek galu fizycznie stopi się w dłoni."
+    "summary": "Metal topniejący w temperaturze niewiele wyższej od pokojowej.",
+    "text": "Gal jest pierwiastkiem o liczbie atomowej 31 i topi się w temperaturze około 29,8°C. Niewielki kawałek może więc stopnieć od ciepła dłoni, choć metalu nie należy traktować jak zabawki ani przechowywać w aluminiowym naczyniu."
   },
   "chemia_143.webp": {
     "image": "chemia_143.webp",
     "category": "Chemia",
     "title": "Alotropia węgla",
     "summary": "Zwykły grafit z ołówka krewnym diamentu.",
-    "text": "Ołówkowy grafit oraz jubilerski diament zarysowujący chemiczne szkło w obu wariantach składają się z czystego węgla. Obserwowana różnica ich twardości w 10-stopniowej skali Mohsa tkwi w konkretnych, wewnątrzatomowych wiązaniach krystalicznych."
+    "text": "Grafit i diament są odmianami alotropowymi węgla, lecz ich atomy tworzą inne struktury. W diamencie powstaje sztywna sieć przestrzenna, natomiast grafit składa się z warstw łatwo przesuwających się względem siebie, dlatego materiały mają tak różną twardość."
   },
   "chemia_144.webp": {
     "image": "chemia_144.webp",
     "category": "Chemia",
     "title": "Kwas fluoroantymonowy",
-    "summary": "Najsilniejsza substancja kwasowa potrafiąca przeżreć szkło.",
-    "text": "To chemiczny kwas stworzony sztucznie przez człowieka z fizycznym pH rzędu minus 31,3. Jest on 20 trylionów razy silniejszy od kwasu siarkowego, więc można przechowywać go tylko w polimerowym teflonie."
+    "summary": "Wyjątkowo silny superkwas wymagający specjalnych warunków przechowywania.",
+    "text": "Kwas fluoroantymonowy należy do najsilniejszych znanych superkwasów i powstaje z połączenia fluorowodoru z pentafluorkiem antymonu. Jego mocy nie opisuje się zwykłą skalą pH dla roztworów wodnych; reaguje ze szkłem i jest przechowywany w odpornych tworzywach, takich jak PTFE."
   },
   "chemia_145.webp": {
     "image": "chemia_145.webp",
     "category": "Chemia",
     "title": "Anomalia gęstości wody",
-    "summary": "Nietypowe i zaskakujące zachowanie zamarzającej cieczy.",
+    "summary": "Dlaczego lód ma mniejszą gęstość niż ciekła woda.",
     "text": "Woda zwiększa objętość podczas zamarzania, dlatego lód ma mniejszą gęstość i unosi się na powierzchni. Powstająca warstwa lodu ogranicza utratę ciepła, dzięki czemu głębsza woda w jeziorze może pozostać ciekła także zimą."
   },
   "chemia_146.webp": {
@@ -191,44 +191,44 @@
   "chemia_147.webp": {
     "image": "chemia_147.webp",
     "category": "Chemia",
-    "title": "Kamień Filozoficzny",
+    "title": "Kamień filozoficzny",
     "summary": "Mityczne alchemiczne poszukiwania panaceum oraz złota.",
-    "text": "W przeszłości historyczni alchemicy próbowali przetworzyć fizyczny ołów w drogie złoto. Ich laboratoryjne eksperymenty przy użyciu węglowych pieców i destylatorów ukształtowały współczesną chemię, doprowadzając do historycznego odkrycia chemicznego fosforu w 1669 roku."
+    "text": "Alchemicy poszukiwali substancji, która miała przemieniać metale nieszlachetne w złoto i zapewniać długowieczność. Choć kamień filozoficzny pozostał legendą, rozwijane przez alchemików techniki laboratoryjne — destylacja, ogrzewanie i krystalizacja — wpłynęły na późniejszą chemię."
   },
   "eco_1.webp": {
     "image": "eco_1.webp",
     "category": "Ekonomia i Finanse",
     "title": "Piramida Ponziego",
-    "summary": "Niebezpieczny schemat finansowy oraz słynne oszustwo.",
-    "text": "Charles Ponzi w 1920 roku wyłudził 20 milionów dolarów za pomocą kuponów pocztowych. Jego finansowy schemat rynkowy opłacał wczesnych inwestorów z kapitału pochodzącego od 40 tysięcy nowych ofiar."
+    "summary": "Oszustwo wypłacające zyski z wpłat kolejnych uczestników.",
+    "text": "Charles Ponzi obiecywał inwestorom niezwykle wysokie zyski z handlu międzynarodowymi kuponami pocztowymi. W rzeczywistości wypłacał wcześniejszych uczestników pieniędzmi wpłacanymi przez nowych, więc system musiał upaść po wyczerpaniu dopływu kapitału."
   },
   "eco_2.webp": {
     "image": "eco_2.webp",
     "category": "Ekonomia i Finanse",
-    "title": "Ukryty podatek - Inflacja",
+    "title": "Ukryty podatek — inflacja",
     "summary": "Cichy proces niszczący nasze prywatne oszczędności.",
-    "text": "Hiperinflacja w Zimbabwe w 2008 roku osiągnęła mierzony wskaźnik 89 tryliardów procent. Gospodarczy wzrost cen i dodruk bilionowych banknotów niszczył realną siłę nabywczą pieniądza w odniesieniu do oszczędności finansowych obywateli."
+    "text": "Pod koniec 2008 roku miesięczna inflacja w Zimbabwe osiągnęła według szacunków dziesiątki tryliardów procent. Ceny zmieniały się niemal z godziny na godzinę, a bank centralny emitował banknoty o coraz wyższych nominałach, które szybko traciły siłę nabywczą."
   },
   "eco_3.webp": {
     "image": "eco_3.webp",
     "category": "Ekonomia i Finanse",
-    "title": "Podaż i Popyt",
+    "title": "Podaż i popyt",
     "summary": "Fundamentalne rynkowe siły ustalające cenę towarów.",
-    "text": "W 1973 roku organizacja OPEC obniżyła wydobycie surowej ropy o 5 procent miesięcznie. Spadająca rynkowo podaż przy stałym ludzkim zapotrzebowaniu podniosła globalną, giełdową cenę towaru o 400 procent."
+    "text": "W 1973 roku część arabskich eksporterów ropy ograniczyła dostawy i wprowadziła embargo wobec wybranych państw. Przy wysokim popycie gwałtownie podniosło to ceny surowca, pokazując, jak zmniejszenie podaży może wpływać na cały rynek."
   },
   "eco_4.webp": {
     "image": "eco_4.webp",
     "category": "Ekonomia i Finanse",
-    "title": "Byki i Niedźwiedzie",
+    "title": "Byki i niedźwiedzie",
     "summary": "Zwierzęce symbole giełdowego strachu oraz optymizmu.",
-    "text": "Terminologia nowojorskiej giełdy w Stanach pochodzi z XVIII wieku. Rynkowa hossa to uderzające z dołu byki, a giełdową panikę reprezentują niedźwiedzie uderzające łapami w dół i wyprzedające taniejące akcje."
+    "text": "Byk symbolizuje rynek, na którym ceny przeważnie rosną, a niedźwiedź — okres ich spadków. Popularne wyjaśnienie odwołuje się do kierunku ataku tych zwierząt, lecz historyczne pochodzenie giełdowych określeń jest bardziej złożone i niepewne."
   },
   "eco_5.webp": {
     "image": "eco_5.webp",
     "category": "Ekonomia i Finanse",
     "title": "Procent składany",
     "summary": "Matematyczna potęga odsetek i czasu inwestycji.",
-    "text": "Inwestując kapitał 1000 złotych przy stałej rocznej stopie zwrotu równej 8 procent, po 30 latach wypłacimy 10 tysięcy złotych. Rynkowe zyski generują kolejne matematyczne odsetki w wyliczonym horyzoncie czasowym."
+    "text": "Przy stopie 8% rocznie i corocznym dopisywaniu zysków 1000 złotych wzrosłoby po 30 latach do około 10 tysięcy złotych — przed uwzględnieniem podatków, opłat i inflacji. Procent składany działa dlatego, że kolejne odsetki nalicza się także od wcześniejszych zysków."
   },
   "eco_6.webp": {
     "image": "eco_6.webp",
@@ -240,36 +240,36 @@
   "eco_7.webp": {
     "image": "eco_7.webp",
     "category": "Ekonomia i Finanse",
-    "title": "Kryptowaluty i Blockchain",
+    "title": "Kryptowaluty i blockchain",
     "summary": "Cyfrowa rewolucja wolnych i niezależnych finansów.",
-    "text": "W 2009 roku programista Satoshi Nakamoto wydobył pierwszy, obliczeniowo wygenerowany blok kryptograficznej sieci Bitcoin. Zdecentralizowany cyfrowy system w informatyce miał chronić wirtualną własność przed inflacyjnym i bankowym rynkowym pieniądzem fiat."
+    "text": "W styczniu 2009 roku osoba lub grupa działająca pod pseudonimem Satoshi Nakamoto uruchomiła sieć Bitcoin i utworzyła jej pierwszy blok. Transakcje zapisuje rozproszony rejestr, a zgodność uczestników sieci zastępuje centralnego operatora."
   },
   "fact_fiz_61.webp": {
     "image": "fact_fiz_61.webp",
     "category": "Fizyka",
     "title": "Prawo ciążenia Newtona",
     "summary": "Grawitacja jako uniwersalna siła wszechświata.",
-    "text": "W 1687 roku Izaak Newton opublikował matematyczne zasady, opisując grawitację jako siłę proporcjonalną do masy ciał i odwrotnie proporcjonalną do kwadratu odległości. Grawitacja utrzymuje Ziemię na eliptycznych orbitach."
+    "text": "W 1687 roku Izaak Newton opisał prawo powszechnego ciążenia: siła przyciągania rośnie wraz z masami ciał i maleje z kwadratem odległości między nimi. Ta sama zasada wyjaśnia zarówno spadanie przedmiotów na Ziemię, jak i ruch planet oraz księżyców."
   },
   "fact_fiz_62.webp": {
     "image": "fact_fiz_62.webp",
     "category": "Fizyka",
     "title": "Maria Skłodowska-Curie",
     "summary": "Polska badaczka i dwukrotna noblistka.",
-    "text": "Polska fizyczka w 1898 roku osobiście przetworzyła w Paryżu 8 ton blendy smolistej. Za wyizolowanie 1 dekagrama radu i badanie zjawisk promieniotwórczych otrzymała dwie Nagrody Nobla."
+    "text": "Maria Skłodowska-Curie wraz z Pierre’em Curie badała tony pozostałości blendy smolistej, uzyskując z nich niewielkie ilości związków radu i polonu. Otrzymała Nagrodę Nobla z fizyki w 1903 roku oraz z chemii w 1911 roku, stając się pierwszą osobą nagrodzoną w dwóch różnych dziedzinach naukowych."
   },
   "fact_fiz_63.webp": {
     "image": "fact_fiz_63.webp",
     "category": "Fizyka",
-    "title": "Teoria Względności",
-    "summary": "Słynny fizyczny wzór na równoważność masy.",
+    "title": "Teoria względności",
+    "summary": "Teoria łącząca czas, przestrzeń, ruch, masę i energię.",
     "text": "W 1905 roku Albert Einstein opublikował szczególną teorię względności. Wynikają z niej między innymi dylatacja czasu dla szybko poruszających się obserwatorów oraz równoważność masy i energii zapisana wzorem E=mc²."
   },
   "fact_fiz_64.webp": {
     "image": "fact_fiz_64.webp",
     "category": "Fizyka",
     "title": "Mechanika kwantowa",
-    "summary": "Zaskakujący mikroświat niewidzialnych cząstek elementarnych.",
+    "summary": "Prawa opisujące materię i promieniowanie w skali atomowej.",
     "text": "Obiekty kwantowe mogą znajdować się w superpozycji stanów, dopóki pomiar nie da określonego wyniku. Splątane cząstki wykazują silne korelacje nawet przy dużej odległości, ale zjawisko to nie umożliwia przesyłania informacji szybciej od światła."
   },
   "fact_fiz_65.webp": {
@@ -277,98 +277,98 @@
     "category": "Fizyka",
     "title": "Zasada zachowania energii",
     "summary": "Energia w przyrodzie nigdy nie ginie.",
-    "text": "Sformułowana w 1842 roku przez Juliusa Mayera pierwsza zasada termodynamiki mówi, że całkowita ilość energii jest zawsze stała w zamkniętym układzie izolowanym."
+    "text": "Zasada zachowania energii została ukształtowana w XIX wieku dzięki pracom wielu badaczy, między innymi Juliusa Roberta Mayera i Jamesa Joule’a. Mówi, że w układzie izolowanym energia nie powstaje ani nie znika, lecz może zmieniać postać."
   },
   "fact_fiz_66.webp": {
     "image": "fact_fiz_66.webp",
     "category": "Fizyka",
     "title": "Odkrycie elektronu",
     "summary": "Złamanie mitu o niepodzielności budowy atomu.",
-    "text": "W 1897 roku brytyjski fizyk J.J. Thomson odkrył pierwszą cząstkę elementarną o ładunku ujemnym. Jego badania umożliwiły m.in. konstrukcję tranzystorów układów scalonych zasilających współczesne urządzenia i miliardy używanych mikroprocesorów."
+    "text": "W 1897 roku J.J. Thomson wykazał, że promienie katodowe składają się z cząstek o ujemnym ładunku, nazwanych później elektronami. Odkrycie dowiodło, że atom nie jest niepodzielny, i otworzyło drogę do poznania jego wewnętrznej budowy."
   },
   "fact_fiz_67.webp": {
     "image": "fact_fiz_67.webp",
     "category": "Fizyka",
     "title": "Wielki Zderzacz Hadronów",
     "summary": "Największy na świecie eksperyment fizyki cząstek.",
-    "text": "27-kilometrowy akcelerator pod Genewą rozpędza miliony protonów do 99,99 procent prędkości światła. Te kontrolowane, wysokoenergetyczne zderzenia z 2012 roku ostatecznie potwierdziły eksperymentalne istnienie bozonu Higgsa."
+    "text": "Wielki Zderzacz Hadronów to 27-kilometrowy pierścień akceleratora położony pod granicą Francji i Szwajcarii. Zderzenia wiązek protonów o energii bilionów elektronowoltów pozwoliły eksperymentom ATLAS i CMS ogłosić w 2012 roku odkrycie cząstki zgodnej z bozonem Higgsa."
   },
   "geografia_21.webp": {
     "image": "geografia_21.webp",
     "category": "Geografia",
     "title": "Mount Everest",
-    "summary": "Najwyższy ziemski, wciąż rosnący szczyt.",
-    "text": "Mierzący 8848 metrów szczyt rośnie o 4 milimetry rocznie. To nieustanne wypiętrzanie Himalajów jest efektem trwającej od 50 milionów lat kolizji wywołanej w wyniku ruchów tektonicznych płyty indyjskiej z eurazjatycką."
+    "summary": "Najwyższy szczyt Ziemi mierzony względem poziomu morza.",
+    "text": "Mount Everest ma oficjalnie 8848,86 metra wysokości nad poziomem morza. Himalaje powstały w wyniku kolizji płyty indyjskiej z eurazjatycką i nadal ulegają ruchom tektonicznym, choć lokalna wysokość szczytu zmienia się również podczas trzęsień ziemi."
   },
   "geografia_22.webp": {
     "image": "geografia_22.webp",
     "category": "Geografia",
     "title": "Rów Mariański",
     "summary": "Najgłębsze znane miejsce ziemskich oceanów.",
-    "text": "Głębia Challengera w Rowie Mariańskim schodzi 10 920 metrów poniżej poziomu Pacyfiku. Na samym dnie panuje ciśnienie ponad 1000 atmosfer, potrafiące zgnieść tytanowe kadłuby współczesnych okrętów podwodnych."
+    "text": "Głębia Challengera w Rowie Mariańskim znajduje się niemal 11 kilometrów poniżej powierzchni Pacyfiku. Panuje tam ciśnienie ponad tysiąc razy większe niż na poziomie morza, dlatego docierają do niej wyłącznie specjalnie skonstruowane pojazdy głębinowe."
   },
   "geografia_23.webp": {
     "image": "geografia_23.webp",
     "category": "Geografia",
     "title": "Amazonka",
     "summary": "Rzeka transportująca największą ilość wody.",
-    "text": "Rzeka transportuje do Atlantyku 209 tysięcy metrów sześciennych wody w ciągu jednej sekundy. W jej dorzeczu o powierzchni 7 milionów kilometrów kwadratowych oddycha największy las deszczowy świata."
+    "text": "Amazonka ma największy średni przepływ spośród rzek świata i dostarcza do Atlantyku około jednej piątej słodkiej wody spływającej rzekami do oceanów. Jej ogromne dorzecze obejmuje znaczną część największego na Ziemi lasu równikowego."
   },
   "geografia_24.webp": {
     "image": "geografia_24.webp",
     "category": "Geografia",
     "title": "Pustynia Sahara",
     "summary": "Największa gorąca pustynia na świecie.",
-    "text": "Z obszarem 9 milionów kilometrów kwadratowych Sahara dorównuje wielkością obszarowi Stanów Zjednoczonych. W 20-tysiącletnich cyklach potrafi pokryć się roślinnością, stając się wilgotnym ekosystemem zielonej sawanny."
+    "text": "Sahara zajmuje około 9 milionów kilometrów kwadratowych, czyli obszar zbliżony do powierzchni Stanów Zjednoczonych. Zmiany orbity i osi Ziemi okresowo wzmacniają afrykański monsun; kilka tysięcy lat temu znaczne części dzisiejszej pustyni były sawanną z jeziorami."
   },
   "geografia_25.webp": {
     "image": "geografia_25.webp",
     "category": "Geografia",
     "title": "Wielka Rafa Koralowa",
-    "summary": "Największa na Ziemi żywa struktura.",
-    "text": "Ten ogromny australijski system raf ciągnie się na dystansie 2300 kilometrów. Jest to największa pojedyncza struktura stworzona przez organizmy żywe, zbudowana z wapiennych szkieletów miliardów morskich koralowców."
+    "summary": "Największy na świecie system raf koralowych.",
+    "text": "Wielka Rafa Koralowa rozciąga się wzdłuż północno-wschodniego wybrzeża Australii na ponad 2300 kilometrów. Nie jest pojedynczą rafą, lecz systemem tysięcy raf i wysp budowanych przez niezliczone kolonie koralowców."
   },
   "geografia_26.webp": {
     "image": "geografia_26.webp",
     "category": "Geografia",
     "title": "Ruchy płyt tektonicznych",
     "summary": "Proces wywołujący trzęsienia ziemskiej skorupy.",
-    "text": "Zewnętrzna, skalista litosfera Ziemi dzieli się na 7 wielkich i szereg mniejszych fragmentów. Przemieszczające się oceaniczne i kontynentalne płyty pokonują kilka centymetrów rocznie, wywołując jednak silne trzęsienia i wybuchy wulkanów."
+    "text": "Litosfera Ziemi jest podzielona na kilka dużych i wiele mniejszych płyt tektonicznych, które przemieszczają się zwykle o kilka centymetrów rocznie. Na ich granicach najczęściej dochodzi do trzęsień ziemi, powstawania gór i aktywności wulkanicznej."
   },
   "geografia_27.webp": {
     "image": "geografia_27.webp",
     "category": "Geografia",
     "title": "Prądy morskie i Golfsztrom",
     "summary": "Oceaniczny prąd ocieplający europejski klimat.",
-    "text": "Golfsztrom transportuje aż 30 milionów metrów sześciennych ciepłej wody na sekundę. Ten oceaniczny kaloryfer podnosi średnią temperaturę zimowej Europy Zachodniej nawet o 10 stopni Celsjusza w stosunku do Kanady."
+    "text": "Golfsztrom jest częścią systemu prądów przenoszących ciepłą wodę z rejonu tropikalnego ku północnemu Atlantykowi. Wpływa na klimat Europy Zachodniej, ale jej łagodne zimy są wynikiem także cyrkulacji atmosferycznej, położenia geograficznego i innych procesów oceanicznych."
   },
   "historia_polski_1.webp": {
     "image": "historia_polski_1.webp",
     "category": "Historia Polski",
     "title": "966 – Chrzest Polski",
     "summary": "Historyczna decyzja władcy plemienia Polan.",
-    "text": "14 kwietnia 966 roku książę Mieszko I przyjął chrzest od Czechów. Ta decyzja zbrojnie i politycznie zabezpieczyła państwo Polan, włączając na stałe 1,2 miliona jego poddanych w krąg cywilizacji łacińskiej."
+    "text": "W 966 roku Mieszko I przyjął chrzest, prawdopodobnie pod wpływem małżeństwa z czeską księżniczką Dobrawą. Dokładna data i miejsce ceremonii nie są znane, ale wydarzenie zapoczątkowało chrystianizację państwa Piastów i włączyło je w krąg kultury łacińskiej."
   },
   "historia_polski_2.webp": {
     "image": "historia_polski_2.webp",
     "category": "Historia Polski",
     "title": "1025 – Koronacja Chrobrego",
     "summary": "Pierwszy król w historii Polski.",
-    "text": "Wykorzystując osłabienie cesarstwa, 18 kwietnia 1025 roku w Gnieźnie Bolesław Chrobry oficjalnie nałożył królewską koronę. Ceremonia ta ostatecznie zadeklarowała całkowitą suwerenność 250-tysięcznego państwa wobec wszystkich europejskich, zachodnich i sąsiednich potęg."
+    "text": "W 1025 roku, krótko przed śmiercią, Bolesław Chrobry został pierwszym koronowanym królem Polski. Koronacja podkreślała rangę i niezależność państwa Piastów, jednak źródła nie pozwalają pewnie ustalić dokładnego dnia ani miejsca ceremonii."
   },
   "historia_polski_3.webp": {
     "image": "historia_polski_3.webp",
     "category": "Historia Polski",
     "title": "1385 – Unia w Krewie",
     "summary": "Początek trwałego polsko-litewskiego sojuszu.",
-    "text": "W sierpniu 1385 roku pogański książę Jagiełło zawarł strategiczne porozumienie z polską szlachtą. Dokument zapoczątkował blisko 200-letnie rządy potężnej dynastii Jagiellonów, łącząc formalnie obszar liczącego milion kilometrów kwadratowych Wielkiego Księstwa."
+    "text": "W 1385 roku w Krewie uzgodniono warunki małżeństwa wielkiego księcia litewskiego Jagiełły z Jadwigą Andegaweńską. Jagiełło przyjął chrzest i koronę polską, rozpoczynając unię dynastyczną Polski z Litwą oraz panowanie Jagiellonów."
   },
   "historia_polski_4.webp": {
     "image": "historia_polski_4.webp",
     "category": "Historia Polski",
     "title": "1569 – Unia lubelska",
     "summary": "Porozumienie tworzące Rzeczpospolitą Obojga Narodów.",
-    "text": "1 lipca 1569 roku podpisano nierozerwalny akt unii realnej na Zamku Lubelskim. Połączone państwo obejmowało obszar 815 tysięcy kilometrów kwadratowych, wprowadzając zunifikowaną walutę i nowoczesny w Europie ustrój demokracji szlacheckiej."
+    "text": "Unia lubelska z 1569 roku utworzyła Rzeczpospolitą Obojga Narodów ze wspólnym monarchą i sejmem. Korona Królestwa Polskiego oraz Wielkie Księstwo Litewskie zachowały jednak odrębne urzędy, wojsko, skarb i część prawa."
   },
   "historia_polski_5.webp": {
     "image": "historia_polski_5.webp",
@@ -382,62 +382,62 @@
     "category": "Historia Polski",
     "title": "1795 – III rozbiór Polski",
     "summary": "Polska ostatecznie znika z map.",
-    "text": "W październiku 1795 roku Rosja, Prusy i Austria ostatecznie podpisały traktaty dzielące pozostałe 215 tysięcy kilometrów kwadratowych Polski. Te zaborcze siły definitywnie wykreśliły suwerenne królestwo na długie 123 lata."
+    "text": "W 1795 roku Rosja, Prusy i Austria dokonały trzeciego rozbioru, dzieląc pozostałe ziemie Rzeczypospolitej. Niezależne państwo polskie zniknęło z mapy Europy, choć w XIX wieku powstawały zależne lub krótkotrwałe polskie organizmy państwowe."
   },
   "historia_polski_7.webp": {
     "image": "historia_polski_7.webp",
     "category": "Historia Polski",
     "title": "1918 – Niepodległość Polski",
     "summary": "Zakończenie długich 123 lat niewoli.",
-    "text": "11 listopada 1918 roku w Warszawie Józef Piłsudski definitywnie przejął kontrolę nad polskim wojskiem z rąk Rady Regencyjnej. Akt ten zapoczątkował budowę suwerennego państwa po dokładnie 123 latach niewoli."
+    "text": "11 listopada 1918 roku Rada Regencyjna przekazała Józefowi Piłsudskiemu władzę nad wojskiem. Odzyskiwanie niepodległości było dłuższym procesem zachodzącym w różnych częściach ziem polskich, ale ta data stała się jego najważniejszym symbolem i świętem państwowym."
   },
   "historia_swiata_1.webp": {
     "image": "historia_swiata_1.webp",
     "category": "Historia Świata",
     "title": "Wynalezienie pisma",
-    "summary": "Przełomowy wynalazek kończący epokę długiej prehistorii.",
-    "text": "Około 3200 lat p.n.e. Sumerowie wypalili w glinie pierwsze rzędy znaków klinowych. Ich wczesne, księgowe rachunki zapisane w Mezopotamii zamknęły epokę prehistorii, rozpoczynając tym samym udokumentowaną, historyczną erę starożytności."
+    "summary": "Pismo umożliwiło trwałe zapisywanie informacji i rachunków.",
+    "text": "Około 3200 roku p.n.e. w Mezopotamii pojawiły się wczesne zapisy, z których rozwinęło się pismo klinowe. Początkowo służyły głównie ewidencji towarów i zobowiązań; możliwość utrwalania informacji stała się umowną granicą między prehistorią a historią."
   },
   "historia_swiata_2.webp": {
     "image": "historia_swiata_2.webp",
     "category": "Historia Świata",
     "title": "476 n.e. – Upadek Rzymu",
-    "summary": "Koniec starożytności i upadek wielkiego cesarstwa.",
-    "text": "W 476 roku wojska pod dowództwem germańskiego wodza Odoakra zdetronizowały rzymskiego cesarza Romulusa Augustulusa. Upadek Rzymu otworzył na kontynencie tysiącletnią, historyczną erę gospodarczego i społecznego, europejskiego średniowiecza."
+    "summary": "Tradycyjna data końca cesarstwa zachodniorzymskiego.",
+    "text": "W 476 roku germański wódz Odoaker pozbawił władzy Romulusa Augustulusa, ostatniego cesarza zachodniorzymskiego. Datę tę tradycyjnie uznaje się za koniec starożytności na Zachodzie, choć przemiany prowadzące do średniowiecza trwały przez wiele pokoleń."
   },
   "historia_swiata_3.webp": {
     "image": "historia_swiata_3.webp",
     "category": "Historia Świata",
     "title": "1440 – Ruchoma czcionka",
     "summary": "Mechaniczny wynalazek rozpoczynający masowy obieg informacji.",
-    "text": "Około 1450 roku rzemieślnik Jan Gutenberg skonstruował w Moguncji prasę drukarską. Wydana nakładem 180 kopii Biblia Gutenberga potwierdziła techniczną szybkość druku i funkcjonalność metalowej, fizycznej, ruchomej czcionki."
+    "text": "Około połowy XV wieku Johannes Gutenberg połączył w Europie ruchome metalowe czcionki, prasę i odpowiednią farbę drukarską w wydajny system. Wydrukowana przez niego Biblia pokazała, że książki można powielać szybciej i bardziej jednolicie niż podczas ręcznego przepisywania."
   },
   "historia_swiata_4.webp": {
     "image": "historia_swiata_4.webp",
     "category": "Historia Świata",
     "title": "1492 – Odkrycie Ameryki",
-    "summary": "Słynna żeglarska wyprawa ku nowym lądom.",
-    "text": "W 1492 roku flota okrętów Krzysztofa Kolumba dopłynęła do lądów dzisiejszych Bahamów. Ich historyczne lądowanie w obrębie amerykańskiego Nowego Świata zapoczątkowało epokę wielkich odkryć geograficznych."
+    "summary": "Wyprawa, która zapoczątkowała trwały kontakt Europy z Amerykami.",
+    "text": "W 1492 roku wyprawa Krzysztofa Kolumba dotarła z Europy na wyspy Karaibów, zamieszkane już przez ludność rdzenną. Rejs zapoczątkował trwały kontakt między Europą i Amerykami, a także kolonizację, wymianę biologiczną i katastrofalne skutki dla wielu miejscowych społeczności."
   },
   "historia_swiata_5.webp": {
     "image": "historia_swiata_5.webp",
     "category": "Historia Świata",
     "title": "1789 – Rewolucja Francuska",
     "summary": "Koniec monarchii i początek nowych praw.",
-    "text": "W 1789 roku obywatele zdobyli paryskie mury zbrojnej Bastylii. Rewolucyjne rozruchy we Francji obaliły zasady feudalizmu, wymuszając polityczne uchwalenie składającej się z 17 artykułów Deklaracji Praw Człowieka i Obywatela."
+    "text": "Zdobycie Bastylii 14 lipca 1789 roku stało się symbolem rewolucji francuskiej. W kolejnych miesiącach zniesiono wiele przywilejów stanowych i uchwalono Deklarację Praw Człowieka i Obywatela, ale monarchia została obalona dopiero w 1792 roku."
   },
   "historia_swiata_6.webp": {
     "image": "historia_swiata_6.webp",
     "category": "Historia Świata",
-    "title": "Rewolucja Przemysłowa",
+    "title": "Rewolucja przemysłowa",
     "summary": "Maszyny parowe, wielkie fabryki oraz robotnicy.",
-    "text": "Opatentowanie silnika przez Jamesa Watta w 1769 roku rozpoczęło przemysłową epokę maszyny parowej. Zasilane wydobywanym węglem brytyjskie tkalnie i hutnicze fabryki ukształtowały nową i polityczną klasę robotniczą."
+    "text": "James Watt nie wynalazł maszyny parowej, lecz w drugiej połowie XVIII wieku znacznie poprawił jej sprawność. Energia pary, mechanizacja produkcji i wykorzystanie węgla przyspieszyły rozwój fabryk, transportu oraz miast, głęboko zmieniając warunki pracy i strukturę społeczną."
   },
   "historia_swiata_7.webp": {
     "image": "historia_swiata_7.webp",
     "category": "Historia Świata",
     "title": "1989 – Upadek Muru",
-    "summary": "Obalenie betonowej granicy brutalnie dzielącej Europę.",
+    "summary": "Otwarcie granicy, które stało się symbolem końca podziału Europy.",
     "text": "9 listopada 1989 roku, po ogłoszeniu nowych zasad podróżowania, mieszkańcy Berlina wymusili otwarcie przejść granicznych między wschodnią i zachodnią częścią miasta. Wydarzenie stało się symbolem upadku podziału Europy; systematyczną rozbiórkę muru przeprowadzono głównie w 1990 roku."
   },
   "inzynieria_131.webp": {
@@ -445,104 +445,104 @@
     "category": "Inżynieria",
     "title": "Stacja Kosmiczna ISS",
     "summary": "Najdroższa kosmiczna struktura w historii ludzkości.",
-    "text": "Budowana od 1998 roku placówka warta 150 miliardów dolarów utrzymuje sześcioosobową załogę na wysokości 400 kilometrów. Okrąża ona naszą Ziemię co 90 minut na zaprogramowanej, niskiej orbicie."
+    "text": "Pierwszy moduł Międzynarodowej Stacji Kosmicznej wyniesiono w 1998 roku, a od listopada 2000 roku przebywają na niej kolejne załogi. ISS krąży zwykle około 400 kilometrów nad Ziemią i wykonuje pełne okrążenie w mniej więcej 90 minut."
   },
   "inzynieria_132.webp": {
     "image": "inzynieria_132.webp",
     "category": "Inżynieria",
     "title": "Zapora Trzech Przełomów",
     "summary": "Monumentalna budowla wodna zmieniająca obrót Ziemi.",
-    "text": "Warta 31 miliardów dolarów chińska hydroelektrownia spiętrza 39 bilionów kilogramów wody. Ta nagła zmiana punktowego rozkładu masy spowolniła dzienny obrót Ziemi o 0,06 mikrosekundy, subtelnie zmieniając kształt naszej planety."
+    "text": "Zapora Trzech Przełomów na Jangcy tworzy ogromny zbiornik i zasila największą elektrownię wodną pod względem mocy zainstalowanej. Według obliczeń pełne spiętrzenie wody mogłoby wydłużyć dobę o około 0,06 mikrosekundy — jest to skrajnie mały, teoretyczny efekt zmiany rozkładu masy."
   },
   "inzynieria_133.webp": {
     "image": "inzynieria_133.webp",
     "category": "Inżynieria",
     "title": "Plan Delta w Holandii",
     "summary": "Rozległa sieć tam chroniąca europejski kraj.",
-    "text": "Oddany do użytku w 1997 roku po 40 latach pracy holenderski system chroni 4 tysiące kilometrów wybrzeża. Sieć obejmująca 13 wielkich grobli, dziesiątki wałów oraz tysiące śluz zatrzymuje siłę oceanu."
+    "text": "Delta Works to system zapór, wałów i ruchomych barier zbudowany po katastrofalnej powodzi z 1953 roku. Chroni przede wszystkim deltę Renu, Mozy i Skaldy, a jego konstrukcje pozwalają ograniczać ryzyko powodzi przy zachowaniu części połączeń z morzem."
   },
   "inzynieria_134.webp": {
     "image": "inzynieria_134.webp",
     "category": "Inżynieria",
     "title": "Eurotunel pod La Manche",
     "summary": "Długi podwodny tunel łączący europejskie narody.",
-    "text": "Otwarty w 1994 roku podwodny tunel mierzy ponad 50 kilometrów. Odcinek ukryty 40 metrów pod dnem morskim wywierciło 11 specjalistycznych urządzeń znanych dziś w ciężkim przemyśle jako maszyny drążące."
+    "text": "Eurotunel, otwarty w 1994 roku, ma około 50 kilometrów długości, z czego blisko 38 kilometrów przebiega pod dnem kanału La Manche. Tworzą go dwa tunele kolejowe oraz położony między nimi tunel serwisowy."
   },
   "inzynieria_135.webp": {
     "image": "inzynieria_135.webp",
     "category": "Inżynieria",
     "title": "Japońskie pociągi Shinkansen",
     "summary": "Szybki pojazd inspirowany aerodynamicznym dziobem ptaka.",
-    "text": "Podróżujące z prędkością 320 km/h wagony generowały uciążliwy huk wyjeżdżając z tuneli. W 1997 roku japońscy inżynierowie poprawili aerodynamikę maszyn inspirując się dziobem ptaka potrafiącego niezwykle szybko nurkować, zwanego zimorodkiem."
+    "text": "Wjazd szybkiego pociągu do tunelu tworzy falę ciśnienia, która może powodować głośny huk przy wylocie. Inżynier Eiji Nakatsu, obserwator ptaków, wykorzystał kształt dzioba zimorodka jako inspirację dla wydłużonego nosa Shinkansena, ograniczając hałas i opór powietrza."
   },
   "inzynieria_136.webp": {
     "image": "inzynieria_136.webp",
     "category": "Inżynieria",
-    "title": "Rzymskie Akwedukty",
+    "title": "Rzymskie akwedukty",
     "summary": "Antyczne rurociągi dostarczające krystalicznie czystą wodę.",
-    "text": "Mający 400 kilometrów długości rzymski układ rur dostarczał miastu 1 milion metrów sześciennych wody dziennie. Starożytni architekci zagwarantowali stały przepływ operując zaledwie 30-centymetrowym, bardzo starannie wyliczonym spadkiem."
+    "text": "Jedenaście akweduktów dostarczało starożytnemu Rzymowi wodę ze źródeł oddalonych o dziesiątki kilometrów. Woda płynęła dzięki niewielkiemu, starannie utrzymanemu spadkowi; większość kanałów prowadzono pod ziemią, a arkady budowano tam, gdzie wymagał tego teren."
   },
   "inzynieria_137.webp": {
     "image": "inzynieria_137.webp",
     "category": "Inżynieria",
     "title": "Samolot Concorde",
     "summary": "Luksusowy pasażerski odrzutowiec przekraczający barierę dźwięku.",
-    "text": "Wycofany w 2003 roku odrzutowiec pokonywał dystans transatlantycki w 3,5 godziny. Mierząca 61 metrów długości maszyna rozpędzała na pokładzie 100 pasażerów do prędkości bariery dźwiękowej wynoszącej około 2 Machów."
+    "text": "Concorde przewoził pasażerów przez Atlantyk w około trzy i pół godziny, lecąc z prędkością bliską Mach 2, czyli niemal dwukrotnie większą od prędkości dźwięku. Wysokie koszty, hałas i ograniczenia eksploatacyjne przyczyniły się do zakończenia lotów w 2003 roku."
   },
   "jezyk_polski_51.webp": {
     "image": "jezyk_polski_51.webp",
     "category": "Język Polski",
     "title": "Pierwsze polskie zdanie",
-    "summary": "Najstarsze, uwiecznione w historii zdanie.",
-    "text": "Pierwsze 34 litery w języku staropolskim zapisano w 1270 roku na pergaminowych kartach Księgi Henrykowskiej. To 7-wyrazowe zdanie upamiętnia propozycję zmielenia zboża na 20-kilogramowych żarnach przez polskiego wieśniaka."
+    "summary": "Najstarsze znane pełne zdanie zapisane po polsku.",
+    "text": "Około 1270 roku w łacińskiej Księdze Henrykowskiej zapisano słowa: „Day, ut ia pobrusa, a ti poziwai”, czyli „Daj, niech ja pomielę, a ty odpoczywaj”. Według kroniki wypowiedział je Boguchwał do swojej żony podczas mielenia zboża na żarnach."
   },
   "jezyk_polski_52.webp": {
     "image": "jezyk_polski_52.webp",
     "category": "Język Polski",
-    "title": "Pięciu Noblistów literackich",
-    "summary": "Pięcioro uznanych twórców narodowej literatury.",
-    "text": "Trudny pod względem bogatej fleksji język polski uchodzi za precyzyjny. Na przestrzeni 114 lat pięciu polskich autorów otrzymało literacką Nagrodę Nobla o wartości milionów szwedzkich koron."
+    "title": "Pięciu noblistów literackich",
+    "summary": "Pięcioro polskich autorów wyróżnionych literackim Noblem.",
+    "text": "Literacką Nagrodę Nobla otrzymali Henryk Sienkiewicz, Władysław Reymont, Czesław Miłosz, Wisława Szymborska i Olga Tokarczuk. Każde z nich reprezentuje inny rodzaj twórczości — od powieści historycznej i epopei chłopskiej po poezję oraz współczesną prozę."
   },
   "jezyk_polski_53.webp": {
     "image": "jezyk_polski_53.webp",
     "category": "Język Polski",
     "title": "Bogurodzica",
     "summary": "Najstarsza zachowana polska pieśń religijna.",
-    "text": "15 lipca 1410 roku blisko 30 tysięcy polskich rycerzy odśpiewało na grunwaldzkich polach pieśń modlitewną. Ten staropolski, zapisany w 2 strofach utwór pełnił funkcję pierwszego polskiego hymnu narodowego."
+    "text": "„Bogurodzica” jest najstarszą zachowaną polską pieśnią religijną, a jej dwie najstarsze strofy powstały prawdopodobnie w średniowieczu. Według przekazu Jana Długosza śpiewało ją polskie rycerstwo przed bitwą pod Grunwaldem; później pełniła także funkcję pieśni dynastycznej i państwowej."
   },
   "jezyk_polski_54.webp": {
     "image": "jezyk_polski_54.webp",
     "category": "Język Polski",
     "title": "Pan Tadeusz",
-    "summary": "Wielka epopeja, polskie arcydzieło literackie.",
-    "text": "W 1834 roku Adam Mickiewicz opublikował w Paryżu dzieło liczące 9714 wersów. Zapisana trzynastozgłoskowcem polska epopeja narodowa to poetycki pomnik dla zniszczonej przez zaborców dawnej Rzeczypospolitej."
+    "summary": "Polska epopeja narodowa wydana w Paryżu w 1834 roku.",
+    "text": "Adam Mickiewicz opublikował „Pana Tadeusza” w Paryżu w 1834 roku. Epopeja napisana trzynastozgłoskowcem przedstawia życie szlachty na Litwie u schyłku Rzeczypospolitej i łączy nostalgię za utraconą ojczyzną z humorem oraz krytycznym obrazem jej mieszkańców."
   },
   "jezyk_polski_55.webp": {
     "image": "jezyk_polski_55.webp",
     "category": "Język Polski",
     "title": "Języki słowiańskie",
     "summary": "Grupa zachodniosłowiańska pełna szeleszczących zgłosek.",
-    "text": "Liczący ponad 48 milionów rodzimych użytkowników język polski należy do grupy zachodniosłowiańskiej. Z zestawem 7 przypadków, 3 rodzajów oraz mnóstwem szeleszczących zgłosek tworzy twardy orzech dla uczących się obcokrajowców."
+    "text": "Język polski należy do zachodniosłowiańskiej gałęzi rodziny indoeuropejskiej, razem między innymi z czeskim i słowackim. Ma siedem przypadków, rozbudowaną odmianę i liczne szeregi spółgłosek, co może być wyzwaniem dla osób uczących się go jako języka obcego."
   },
   "jezyk_polski_56.webp": {
     "image": "jezyk_polski_56.webp",
     "category": "Język Polski",
-    "title": "Najdłuższe polskie słowo",
-    "summary": "Rekordowy wyraz liczący 54 litery.",
-    "text": "Złożone z 54 liter słowo dziewięćsetdziewięćdziesięciodziewięcionarodowościowego ukazuje potęgę morfologii. Udowadnia ono dużą elastyczność w procesie tworzenia nowych i poprawnych gramatycznie zrostów, czyli długich polskich przymiotników."
+    "title": "Bardzo długie polskie słowo",
+    "summary": "Przykład tego, jak polszczyzna pozwala tworzyć bardzo długie wyrazy.",
+    "text": "Wyraz „dziewięćsetdziewięćdziesięciodziewięcionarodowościowego” bywa podawany jako rekordowo długi, ale jest sztucznie utworzonym przymiotnikiem, a nie słowem używanym na co dzień. Polski nie ma jednego oficjalnego „najdłuższego słowa”, ponieważ reguły słowotwórcze pozwalają budować jeszcze dłuższe formy."
   },
   "jezyk_polski_57.webp": {
     "image": "jezyk_polski_57.webp",
     "category": "Język Polski",
     "title": "Renesans i Jan Kochanowski",
     "summary": "Wybitny twórca renesansowej literatury polskiej.",
-    "text": "W XVI wieku Jan Kochanowski przełamał hegemonię przypisanej kościołowi łacinie. Autor zawarł w 19 trenach renesansowy humanizm, wprowadzając język polski na zupełnie nowe literackie szczyty."
+    "text": "Jan Kochanowski pokazał w XVI wieku, że język polski może służyć twórczości dorównującej literaturze łacińskiej. Pisał fraszki, pieśni, dramaty i „Treny” — cykl dziewiętnastu utworów poświęconych zmarłej córce Urszuli."
   },
   "kino_158.webp": {
     "image": "kino_158.webp",
     "category": "Kino i film",
     "title": "Pokaz kinematografu",
-    "summary": "Pierwszy historyczny i przełomowy pokaz filmowy.",
+    "summary": "Jeden z pierwszych płatnych publicznych pokazów filmowych.",
     "text": "28 grudnia 1895 roku bracia Lumière zorganizowali w Paryżu jeden z pierwszych płatnych publicznych pokazów kinematografu, prezentując program krótkich filmów. Opowieść, że widzowie w panice uciekali przed filmowym pociągiem, jest popularną, lecz kwestionowaną legendą."
   },
   "kino_159.webp": {
@@ -550,308 +550,308 @@
     "category": "Kino i film",
     "title": "Kino dźwiękowe",
     "summary": "Udźwiękowienie filmów bezpowrotnie zmieniło całe Hollywood.",
-    "text": "1927 rok wywrócił hollywoodzki porządek poprzez dodanie do filmów ścieżki dźwiękowej. Dziesiątki aktorów utraciło warte miliony dolarów kontrakty, gdyż w nowym kinie przeszkadzała ich słaba dykcja."
+    "text": "Sukces filmu „Śpiewak jazzbandu” z 1927 roku, zawierającego zsynchronizowane piosenki i krótkie kwestie mówione, przyspieszył przejście Hollywood do kina dźwiękowego. Zmiana wymagała nowych kamer, mikrofonów, sal projekcyjnych i sposobów gry aktorskiej, dlatego w ciągu kilku lat przebudowała całą branżę."
   },
   "kino_160.webp": {
     "image": "kino_160.webp",
     "category": "Kino i film",
     "title": "Kamera wieloplanowa",
     "summary": "Innowacyjna metoda tworzenia głębi trójwymiarowej animacji.",
-    "text": "W 1937 roku Walt Disney sfinansował 3-metrową kamerę wieloplanową. Maszyna zmechanizowanie operowała 7 ręcznie malowanymi warstwami szkła, tworząc w płaskiej animacji \"Królewny Śnieżki\" iluzję trójwymiarowej przestrzeni."
+    "text": "Kamera wieloplanowa fotografowała elementy animacji umieszczone na kilku przezroczystych warstwach w różnej odległości od obiektywu. Przesuwanie ich z odmienną prędkością tworzyło iluzję głębi, szczególnie efektowną w filmach studia Disneya z końca lat trzydziestych."
   },
   "kino_161.webp": {
     "image": "kino_161.webp",
     "category": "Kino i film",
     "title": "Efekty dźwiękowe Foley",
     "summary": "Praktyczna sztuka tworzenia realistycznych efektów dźwiękowych.",
-    "text": "Od 1930 roku specjaliści od efektów Foley symulują brakujące dźwięki z planu. W studiach nagraniowych łamią przed mikrofonami łodygi selera, by wygenerować na ekranie trzask pękających kości."
+    "text": "Artyści Foley odtwarzają w studiu codzienne odgłosy dopasowane do ruchów widocznych na ekranie: kroki, szelest ubrań czy uderzenia przedmiotów. Nazwa techniki pochodzi od Jacka Foleya, pioniera takich nagrań w epoce przejścia do kina dźwiękowego."
   },
   "kino_162.webp": {
     "image": "kino_162.webp",
     "category": "Kino i film",
     "title": "Rewolucja Parku Jurajskiego",
-    "summary": "Kultowe praktyczne efekty oraz przełomowa animatronika.",
-    "text": "W filmie z 1993 roku Spielberg połączył 6 minut animacji z namacalną animatroniką. Wyrzeźbiony, 6-tonowy i warty 2 miliony dolarów model dinozaura T-Rexa przeraził ówczesne Hollywood."
+    "summary": "Połączenie animatroniki z rozwijającą się grafiką komputerową.",
+    "text": "„Park Jurajski” z 1993 roku połączył pełnowymiarowe animatroniczne dinozaury z krótkimi, lecz przełomowymi ujęciami grafiki komputerowej. Wiarygodne zespolenie obu technik pokazało, że cyfrowe stworzenia mogą przekonująco współistnieć z aktorami i realną scenografią."
   },
   "kino_163.webp": {
     "image": "kino_163.webp",
     "category": "Kino i film",
-    "title": "Efekt Bullet time",
-    "summary": "Słynny filmowy efekt manipulowania płynącym czasem.",
-    "text": "W 1999 roku kaskadowy system 120 aparatów fotograficznych otaczających aktora wykreował płynne zwolnienie w produkcji The Matrix. Ten wizualny efekt Bullet time zrewolucjonizował przedstawianie strzelanin w kinie."
+    "title": "Efekt bullet time",
+    "summary": "Pozorny ruch kamery wokół niemal zatrzymanej akcji.",
+    "text": "W filmie „Matrix” z 1999 roku aktorów otaczano szeregiem aparatów wykonujących zdjęcia kolejno z różnych punktów. Po połączeniu klatek i dodaniu cyfrowego tła kamera mogła pozornie poruszać się wokół niemal zatrzymanej akcji — efekt ten nazwano bullet time."
   },
   "kino_164.webp": {
     "image": "kino_164.webp",
     "category": "Kino i film",
-    "title": "Najdłuższy film świata",
+    "title": "Film trwający 857 godzin",
     "summary": "Najdłuższy eksperymentalny projekt filmowy trwa tygodniami.",
-    "text": "Współczesny cyfrowy metraż nie zna barier. Eksperymentalny, wydany w 2012 roku szwedzki projekt \"Logistics\" śledzi bez przerw transport kontenerów do Chin. Odtworzenie takiego filmowego seansu zajmuje 857 godzin."
+    "text": "Szwedzki film eksperymentalny „Logistics” śledzi drogę produktu z magazynu w Szwecji do fabryki w Chinach w odwróconej kolejności łańcucha dostaw. Trwa 857 godzin, czyli 35 dni i 17 godzin, dlatego zwykle prezentuje się go jako instalację, a nie tradycyjny seans kinowy."
   },
   "kosmos_31.webp": {
     "image": "kosmos_31.webp",
     "category": "Kosmos",
     "title": "Wielki Wybuch",
-    "summary": "Fizyczny początek wszechświata oraz przestrzeni.",
-    "text": "13,8 miliarda lat temu Wszechświat narodził się z punktu o nieskończonej gęstości. Kosmologiczna ekspansja wyrzuciła formujące się 380 tysięcy lat później pierwsze atomy wodoru w otwartą przestrzeń."
+    "summary": "Model opisujący gorący i gęsty początek rozszerzającego się Wszechświata.",
+    "text": "Model Wielkiego Wybuchu mówi, że około 13,8 miliarda lat temu Wszechświat był niezwykle gorący i gęsty, a następnie zaczął się rozszerzać i ochładzać. Nie była to eksplozja w pustej przestrzeni; rozszerzała się sama przestrzeń, a po około 380 tysiącach lat mogły powstać neutralne atomy."
   },
   "kosmos_32.webp": {
     "image": "kosmos_32.webp",
     "category": "Kosmos",
     "title": "Układ Słoneczny",
     "summary": "Bezpośrednie sąsiedztwo naszej dziennej gwiazdy.",
-    "text": "Gazowe i skaliste planety mkną wokół plazmowej kuli o średnicy 1,4 miliona kilometrów. Słońce skupia 99,86 procent całkowitej masy układu, kontrolując siłą grawitacji 8 pobliskich globów."
+    "text": "Układ Słoneczny obejmuje Słońce, osiem planet, planety karłowate, księżyce oraz niezliczone mniejsze obiekty. Słońce zawiera około 99,86% masy całego układu, dlatego jego grawitacja dominuje ruch otaczających je ciał."
   },
   "kosmos_33.webp": {
     "image": "kosmos_33.webp",
     "category": "Kosmos",
-    "title": "Czarne Dziury",
+    "title": "Czarne dziury",
     "summary": "Obiekty o niewyobrażalnie silnej grawitacji.",
-    "text": "Wypalona gwiazda po zakończeniu fuzji jądrowej gwałtownie zapada się pod ciężarem własnej masy. W centrum naszej Drogi Mlecznej spoczywa ciężka na 4 miliony słońc supermasywna czarna dziura."
+    "text": "Czarna dziura może powstać, gdy jądro bardzo masywnej gwiazdy zapada się po wyczerpaniu paliwa — większość gwiazd kończy jednak życie inaczej. W centrum Drogi Mlecznej znajduje się supermasywna czarna dziura Sagittarius A* o masie około czterech milionów Słońc."
   },
   "kosmos_34.webp": {
     "image": "kosmos_34.webp",
     "category": "Kosmos",
-    "title": "Rok Świetlny",
+    "title": "Rok świetlny",
     "summary": "Podstawowa jednostka astronomiczna mierząca odległość.",
-    "text": "Kosmiczny rok to jednostka długości wynosząca 9,46 biliona kilometrów. Taki dystans z prędkością 300 tysięcy kilometrów na sekundę pokonuje w próżni fala fotonów."
+    "text": "Rok świetlny jest jednostką odległości, a nie czasu. Oznacza drogę, którą światło pokonuje w próżni przez jeden rok — około 9,46 biliona kilometrów — i pozwala wygodnie opisywać odległości między gwiazdami oraz galaktykami."
   },
   "kosmos_35.webp": {
     "image": "kosmos_35.webp",
     "category": "Kosmos",
     "title": "Droga Mleczna",
     "summary": "Spiralna galaktyka będąca naszym domem.",
-    "text": "Droga Mleczna mierzy 100 tysięcy lat świetlnych średnicy i skupia przeszło 200 miliardów gwiazd. Nasza Galaktyka spiralna ukrywa Układ Słoneczny w mniejszym, bocznym Ramieniu Oriona."
+    "text": "Droga Mleczna jest galaktyką spiralną z poprzeczką, mającą około 100 tysięcy lat świetlnych średnicy i setki miliardów gwiazd. Układ Słoneczny znajduje się w Ostrodze Oriona, między większymi ramionami Perseusza i Strzelca."
   },
   "kosmos_36.webp": {
     "image": "kosmos_36.webp",
     "category": "Kosmos",
     "title": "Lądowanie na Księżycu",
     "summary": "Pierwsze kroki na Srebrnym Globie.",
-    "text": "20 lipca 1969 roku statek Apollo 11 przebył dystans 384 tysięcy kilometrów. Tego dnia astronauci Neil Armstrong i Buzz Aldrin postawili pierwsze kroki na pyle Srebrnego Globu."
+    "text": "20 lipca 1969 roku lądownik misji Apollo 11 osiadł na Księżycu. Neil Armstrong jako pierwszy człowiek zszedł na powierzchnię, a wkrótce dołączył do niego Buzz Aldrin; Michael Collins pozostał na orbicie w module dowodzenia."
   },
   "kosmos_37.webp": {
     "image": "kosmos_37.webp",
     "category": "Kosmos",
     "title": "Teleskop Jamesa Webba",
     "summary": "Kosmiczne obserwatorium badające wczesny wszechświat.",
-    "text": "Wyniesiony w 2021 roku teleskop kosmiczny za 10 miliardów dolarów zajrzał na odległość 13,5 miliarda lat świetlnych. Jego lustro o średnicy 6,5 metra rejestruje widma w podczerwieni."
+    "text": "Kosmiczny Teleskop Jamesa Webba wystartował w 2021 roku i obserwuje Wszechświat głównie w podczerwieni za pomocą segmentowego lustra o średnicy 6,5 metra. Rejestruje światło galaktyk istniejących zaledwie kilkaset milionów lat po Wielkim Wybuchu, pomagając badać kosmiczny świt."
   },
   "kryminalistyka_1.webp": {
     "image": "kryminalistyka_1.webp",
     "category": "Kryminalistyka i Śledztwa",
     "title": "Daktyloskopia",
-    "summary": "Niezawodne wzory na ludzkich palcach.",
-    "text": "Unikalne linie papilarne pomagają identyfikować przestępców od końca XIX wieku. Ślady pozostawione na miejscu zbrodni są ujawniane za pomocą specjalistycznych, fluorescencyjnych proszków lub oparów chemicznych."
+    "summary": "Porównywanie układu linii papilarnych pozostawionych na powierzchniach.",
+    "text": "Ślady linii papilarnych są wykorzystywane w identyfikacji od końca XIX wieku. Eksperci porównują przebieg i zakończenia listewek skórnych, lecz ślady z miejsca zdarzenia bywają niepełne lub zniekształcone, dlatego jakość materiału i kontrola błędów mają duże znaczenie."
   },
   "kryminalistyka_2.webp": {
     "image": "kryminalistyka_2.webp",
     "category": "Kryminalistyka i Śledztwa",
     "title": "Profilowanie DNA",
-    "summary": "Biologiczny podpis każdego człowieka.",
-    "text": "Rewolucyjna metoda wprowadzona w latach osiemdziesiątych ubiegłego wieku. Analiza mikroskopijnych próbek krwi, śliny lub włosów pozwala na bezbłędne przypisanie dowodu do konkretnej, poszukiwanej osoby."
+    "summary": "Porównywanie wybranych fragmentów DNA obecnych w materiale biologicznym.",
+    "text": "Profilowanie DNA wprowadzono do kryminalistyki w latach osiemdziesiątych XX wieku. Może bardzo silnie wskazywać zgodność próbki z daną osobą, ale wynik zależy od jakości materiału, ryzyka zanieczyszczenia i interpretacji mieszanin; bliźnięta jednojajowe mają zwykle taki sam standardowy profil."
   },
   "kryminalistyka_3.webp": {
     "image": "kryminalistyka_3.webp",
     "category": "Kryminalistyka i Śledztwa",
     "title": "Test luminolowy",
     "summary": "Błękitny blask zdradzający ukrytą krew.",
-    "text": "Chemiczny odczynnik reagujący z żelazem obecnym w ludzkiej hemoglobinie. Spryskanie podejrzanej powierzchni wywołuje zjawisko chemiluminescencji, dzięki któremu zmyte ślady zbrodni zaczynają świecić w ciemności."
+    "text": "Luminol może emitować niebieskie światło w reakcji katalizowanej między innymi przez związki żelaza obecne we krwi. Test pomaga ujawnić bardzo rozcieńczone lub zmyte ślady, lecz reaguje również z niektórymi innymi substancjami, dlatego wymaga dalszego potwierdzenia laboratoryjnego."
   },
   "kryminalistyka_4.webp": {
     "image": "kryminalistyka_4.webp",
     "category": "Kryminalistyka i Śledztwa",
     "title": "Toksykologia",
     "summary": "Poszukiwanie cichego, chemicznego zabójcy.",
-    "text": "Nauka badająca wpływ trucizn i narkotyków na organizm. Śledczy potrafią wykryć nawet śladowe ilości toksycznych substancji we krwi lub tkankach ofiary, ustalając dokładną przyczynę zgonu."
+    "text": "Toksykologia sądowa bada obecność alkoholu, leków, narkotyków i trucizn w materiale biologicznym. Wyniki pomagają ocenić ich możliwy wpływ na zachowanie lub śmierć, ale wymagają interpretacji razem z sekcją zwłok, historią medyczną i okolicznościami zdarzenia."
   },
   "kryminalistyka_5.webp": {
     "image": "kryminalistyka_5.webp",
     "category": "Kryminalistyka i Śledztwa",
     "title": "Analiza balistyczna",
     "summary": "Precyzyjna nauka o torze pocisku.",
-    "text": "Badanie wystrzelonej amunicji w celu odnalezienia konkretnego narzędzia zbrodni. Każda lufa pozostawia na kuli absolutnie unikalny system mikroskopijnych rys, pełniący funkcję swoistego, mechanicznego odcisku palca."
+    "text": "Lufa, iglica i zamek broni mogą pozostawiać na pociskach oraz łuskach mikroskopijne ślady. Ekspert porównuje je z materiałem uzyskanym podczas strzałów testowych, jednak podobne oznaczenia mogą wystąpić także w różnych egzemplarzach broni, więc nie należy mówić o nieomylnym „odcisku palca”."
   },
   "kryminalistyka_6.webp": {
     "image": "kryminalistyka_6.webp",
     "category": "Kryminalistyka i Śledztwa",
     "title": "Portret pamięciowy",
     "summary": "Twarz zrekonstruowana na podstawie wspomnień.",
-    "text": "Wizualna rekonstrukcja wyglądu sprawcy rysowana przez wyspecjalizowanego artystę. Wykorzystuje relacje świadków i uwzględnia proporcje anatomiczne, aby stworzyć szkic będący kluczowym narzędziem w dalszych poszukiwaniach policyjnych."
+    "text": "Portret pamięciowy powstaje na podstawie opisu świadka, z pomocą rysownika lub programu składającego cechy twarzy. Może pomóc w poszukiwaniach i pozyskiwaniu nowych informacji, ale pamięć jest podatna na zniekształcenia, więc portret nie stanowi samodzielnego dowodu tożsamości."
   },
   "kryminalistyka_7.webp": {
     "image": "kryminalistyka_7.webp",
     "category": "Kryminalistyka i Śledztwa",
     "title": "Wariograf",
-    "summary": "Detektor kłamstw podłączony do ciała.",
-    "text": "Urządzenie rejestrujące bezwarunkowe reakcje fizjologiczne, takie jak potliwość, tętno czy częstotliwość oddechu. Odchylenia na wykresie mogą wskazywać, że przesłuchiwany odczuwa silny stres podczas ukrywania prawdy."
+    "summary": "Urządzenie rejestrujące reakcje fizjologiczne podczas zadawania pytań.",
+    "text": "Wariograf mierzy między innymi oddech, tętno, ciśnienie i przewodnictwo skóry. Rejestruje pobudzenie organizmu, a nie kłamstwo samo w sobie — podobne reakcje mogą wywołać strach, stres lub zaskoczenie, dlatego wiarygodność badania jest ograniczona."
   },
   "kulinaria_165.webp": {
     "image": "kulinaria_165.webp",
     "category": "Kulinaria i Jedzenie",
-    "title": "Wynalazek Mikrofalówki",
+    "title": "Wynalazek mikrofalówki",
     "summary": "Kuchenny wynalazek odkryty przypadkiem dzięki radarom.",
-    "text": "W 1945 roku inżynier Percy Spencer w trakcie prowadzonych prób zauważył, że 10-kilowatowy magnetron rozpuścił czekoladowego batonika w jego kieszeni, co dało początek erze domowych kuchenek mikrofalowych."
+    "text": "W 1945 roku inżynier Percy Spencer zauważył, że podczas pracy przy aktywnym magnetronie stopił się batonik znajdujący się w jego kieszeni. Eksperymenty z podgrzewaniem żywności mikrofalami doprowadziły do powstania pierwszych kuchenek, początkowo ogromnych i przeznaczonych dla gastronomii."
   },
   "kulinaria_166.webp": {
     "image": "kulinaria_166.webp",
     "category": "Kulinaria i Jedzenie",
-    "title": "Kłamstwo Francuskich Frytek",
+    "title": "Skąd pochodzą frytki?",
     "summary": "Przekąska, o której pochodzenie spierają się Belgia i Francja.",
     "text": "Dokładne pochodzenie frytek pozostaje sporne: zarówno Belgia, jak i Francja wskazują własne tradycje ich przygotowywania. Popularna belgijska opowieść o mieszkańcach doliny Mozy smażących ziemniaki podczas zamarznięcia rzeki nie ma mocnego potwierdzenia w źródłach z epoki."
   },
   "kulinaria_167.webp": {
     "image": "kulinaria_167.webp",
     "category": "Kulinaria i Jedzenie",
-    "title": "Miód Nigdy Się Nie Psuje",
+    "title": "Dlaczego miód jest tak trwały?",
     "summary": "Produkt wyjątkowo trwały dzięki małej zawartości wody i kwaśnemu środowisku.",
     "text": "Niska zawartość wody, kwaśne środowisko i związki wytwarzane przez pszczoły sprawiają, że prawidłowo przechowywany miód jest bardzo odporny na rozwój drobnoustrojów. Może krystalizować lub fermentować po zawilgoceniu, dlatego określenie „nigdy się nie psuje” jest uproszczeniem."
   },
   "kulinaria_168.webp": {
     "image": "kulinaria_168.webp",
     "category": "Kulinaria i Jedzenie",
-    "title": "Zabójcza Ryba Fugu",
+    "title": "Fugu i tetrodotoksyna",
     "summary": "Wykwintny wodny przysmak skrywający śmiertelną truciznę.",
-    "text": "Aby przyrządzić ten rybny posiłek, japoński kucharz musi niezwykle ostrożnie usunąć gruczoły zawierające truciznę. Już 2 miligramy tej toksyny potrafią po chwili uśmiercić w restauracji dorosłego konsumenta."
+    "text": "Niektóre narządy ryb fugu mogą zawierać tetrodotoksynę, która blokuje przewodzenie impulsów nerwowych i nie jest usuwana przez zwykłe gotowanie. W Japonii przygotowywanie fugu podlega ścisłym zasadom i wymaga odpowiedniego szkolenia, aby trujące części nie trafiły do potrawy."
   },
   "kulinaria_169.webp": {
     "image": "kulinaria_169.webp",
     "category": "Kulinaria i Jedzenie",
-    "title": "Królewska Pomarańczowa Marchew",
+    "title": "Kolory marchwi",
     "summary": "Uprawne odmiany marchwi występowały dawniej w wielu kolorach.",
     "text": "Wczesne uprawne odmiany marchwi miały różne kolory, między innymi fioletowy, żółty i biały. Pomarańczowe odmiany upowszechniły się w Europie w okresie nowożytnym, lecz popularna opowieść, że wyhodowano je specjalnie na cześć dynastii Orańskiej, nie jest dobrze udokumentowana."
   },
   "kulinaria_170.webp": {
     "image": "kulinaria_170.webp",
     "category": "Kulinaria i Jedzenie",
-    "title": "Najdroższa Przyprawa Świata",
+    "title": "Szafran — kosztowna przyprawa",
     "summary": "Ręcznie zbierana przyprawa droższa od złota.",
-    "text": "Aby otrzymać 1 kilogram szafranu o wartości rzędu 30 tysięcy złotych, rolnicy muszą żmudnie i ręcznie wyciąć małe pręciki z aż 150 tysięcy fioletowych kwiatów krokusa rosnących na plantacji."
+    "text": "Szafran powstaje z suszonych znamion słupków krokusa uprawnego, zbieranych ręcznie z każdego kwiatu. Do uzyskania kilograma przyprawy potrzeba zwykle ponad stu tysięcy kwiatów, dlatego szafran należy do najdroższych przypraw świata."
   },
   "kulinaria_171.webp": {
     "image": "kulinaria_171.webp",
     "category": "Kulinaria i Jedzenie",
-    "title": "Najdziwniejsza Kawa Świata",
+    "title": "Kawa kopi luwak",
     "summary": "Najdroższy kofeinowy napar pozyskiwany z odchodów.",
-    "text": "Kawa Kopi Luwak potrafi kosztować 100 dolarów za jedną filiżankę. Pozbawia się ją gorzkiego smaku w kwasach żołądkowych małego, zwinnego ssaka. Azjatyckie cywety na plantacjach wydalają strawione ziarna kawowca."
+    "text": "Kopi luwak produkuje się z ziaren kawowca wydalonych przez łaskuny, w których przewodzie pokarmowym miąższ owocu ulega trawieniu i fermentacji. Wysoka cena doprowadziła do hodowli zwierząt w klatkach oraz problemów z fałszowaniem produktu, dlatego jego pochodzenie ma znaczenie etyczne."
   },
   "lata90_1.webp": {
     "image": "lata90_1.webp",
     "category": "Lata dziewięćdziesiąte",
     "title": "Tamagotchi",
     "summary": "Wirtualny pupil w twojej kieszeni.",
-    "text": "Japońska cyfrowa zabawka wydana w 1996 roku przez firmę Bandai. Wymagała regularnego karmienia, sprzątania i leczenia na małym ekranie LCD. Na całym świecie sprzedano imponujące 82 miliony egzemplarzy."
+    "text": "Tamagotchi, wprowadzone przez firmę Bandai w Japonii w 1996 roku, zamknęło w breloczku prostego wirtualnego pupila. Użytkownik musiał go karmić, sprzątać po nim i reagować na jego potrzeby, dzięki czemu zabawka stała się światowym fenomenem."
   },
   "lata90_2.webp": {
     "image": "lata90_2.webp",
     "category": "Lata dziewięćdziesiąte",
     "title": "Windows 95",
     "summary": "Rewolucja na ekranach osobistych komputerów.",
-    "text": "Przełomowy system operacyjny Microsoftu z sierpnia 1995 roku, w którym zadebiutował słynny przycisk Start i pasek zadań. Kampania marketingowa tego oprogramowania kosztowała zawrotne 300 milionów dolarów."
+    "text": "Windows 95 zadebiutował w sierpniu 1995 roku i spopularyzował elementy interfejsu używane przez Microsoft przez kolejne dekady, między innymi menu Start i pasek zadań. Premiera była wspierana wyjątkowo dużą kampanią marketingową i pomogła upowszechnić komputery osobiste."
   },
   "lata90_3.webp": {
     "image": "lata90_3.webp",
     "category": "Lata dziewięćdziesiąte",
     "title": "Game Boy",
-    "summary": "Legendarna konsola przenośna firmy Nintendo.",
-    "text": "Ośmiobitowe urządzenie z monochromatycznym wyświetlaczem zadebiutowało w Europie pod koniec 1990 roku. Dzięki dołączonej w zestawie grze Tetris, sprzęt ten znalazł aż 118 milionów nabywców na całym globie."
+    "summary": "Przenośna konsola Nintendo z monochromatycznym ekranem.",
+    "text": "Przenośny Game Boy firmy Nintendo zadebiutował w Japonii w 1989 roku, a później trafił do Europy. Prosty monochromatyczny ekran, długi czas pracy na bateriach i popularność „Tetrisa” pomogły urządzeniu oraz jego wersji Color osiągnąć łącznie ponad 100 milionów sprzedanych egzemplarzy."
   },
   "lata90_4.webp": {
     "image": "lata90_4.webp",
     "category": "Lata dziewięćdziesiąte",
     "title": "Kasety VHS",
     "summary": "Domowe centrum taśmowej, analogowej rozrywki.",
-    "text": "Analogowy magnetyczny nośnik obrazu, który całkowicie zdominował rynek domowego wideo w latach dziewięćdziesiątych. Standardowa taśma pozwalała na zapis 240 minut materiału, co napędziło gigantyczny rozwój wypożyczalni kaset."
+    "text": "VHS zapisywał analogowy obraz i dźwięk na taśmie magnetycznej zamkniętej w kasecie. W latach osiemdziesiątych i dziewięćdziesiątych stał się dominującym formatem domowego wideo, umożliwiając nagrywanie programów telewizyjnych oraz rozwój wypożyczalni filmów."
   },
   "lata90_5.webp": {
     "image": "lata90_5.webp",
     "category": "Lata dziewięćdziesiąte",
     "title": "Discman",
     "summary": "Kompaktowa muzyka odporna na wstrząsy.",
-    "text": "Przenośny odtwarzacz płyt kompaktowych wprowadzony przez firmę Sony. W latach dziewięćdziesiątych kluczowym ulepszeniem była technologia Anti-Skip, buforująca kilkanaście sekund muzyki, co ostatecznie zapobiegało irytującemu przerywaniu podczas intensywnego spaceru."
+    "text": "Sony wprowadziło pierwszy odtwarzacz Discman w 1984 roku, przenosząc płyty kompaktowe poza domowy zestaw audio. Późniejsze modele buforowały fragment nagrania w pamięci, dzięki czemu wstrząsy podczas chodzenia rzadziej powodowały przeskakiwanie dźwięku."
   },
   "lata90_6.webp": {
     "image": "lata90_6.webp",
     "category": "Lata dziewięćdziesiąte",
     "title": "Furby",
     "summary": "Mówiąca zabawka o wielkich oczach.",
-    "text": "Interaktywny, elektroniczny robot przypominający włochatą sowę zadebiutował w 1998 roku. Zabawka posiadała język furbish składający się z 24 słów i na całym świecie sprzedała się w 40 milionach sztuk."
+    "text": "Furby zadebiutował w 1998 roku jako elektroniczna zabawka reagująca na światło, dźwięk, dotyk i ruch. Z czasem używał coraz więcej angielskich słów, co sprawiało wrażenie uczenia się, choć jego zachowanie było zaprogramowane."
   },
   "lata90_7.webp": {
     "image": "lata90_7.webp",
     "category": "Lata dziewięćdziesiąte",
     "title": "Nokia 3210",
-    "summary": "Niezniszczalny telefon z wewnętrzną anteną.",
-    "text": "Legendarny telefon z 1999 roku, sprzedany w liczbie ponad 160 milionów sztuk. Poprzednik kultowej Nokii 3310, który wyróżniał się wewnętrzną anteną, wbudowaną grą Snake, wymiennymi obudowami oraz znakomitym czasem pracy na jednym ładowaniu."
+    "summary": "Popularny telefon, który pomógł ukryć antenę wewnątrz obudowy.",
+    "text": "Nokia 3210 z 1999 roku wyróżniała się wewnętrzną anteną, wymiennymi obudowami i grami, w tym „Snake”. Prosta obsługa i duża popularność uczyniły ją jednym z najbardziej rozpoznawalnych telefonów swojej epoki, choć określenie „niezniszczalna” jest oczywiście legendą."
   },
   "matematyka_41.webp": {
     "image": "matematyka_41.webp",
     "category": "Matematyka",
     "title": "Ciąg Fibonacciego",
-    "summary": "Szereg liczb opisujący proporcje przyrody.",
-    "text": "Każda wartość tego ciągu liczbowego jest sumą dwóch poprzednich. Stosunek sąsiadujących wartości stale dąży do proporcji 1,618, zbiegając się w nieskończoności ze złotym podziałem."
+    "summary": "Ciąg, w którym każdy kolejny wyraz powstaje z dwóch poprzednich.",
+    "text": "W ciągu Fibonacciego każdy wyraz jest sumą dwóch poprzednich, na przykład 0, 1, 1, 2, 3, 5 i 8. Iloraz kolejnych wyrazów zbliża się do złotej liczby około 1,618, a podobne modele pojawiają się w opisie niektórych układów liści i nasion."
   },
   "matematyka_42.webp": {
     "image": "matematyka_42.webp",
     "category": "Matematyka",
     "title": "Liczba Pi (π)",
     "summary": "Nieskończona stała wyznaczająca obwód koła.",
-    "text": "Ta stała wynosząca 3,14 określa stosunek obwodu do średnicy. Będąc liczbą niewymierną, potrafi wyliczyć każdy obwód – już 39 miejsc po przecinku wystarcza do obliczenia obrysu widzialnego wszechświata!"
+    "text": "Liczba π opisuje stały stosunek obwodu koła do jego średnicy. Jest niewymierna, więc jej rozwinięcie dziesiętne nie kończy się i nie tworzy okresu; w codziennych obliczeniach wystarcza kilka cyfr, choć komputery wyznaczyły ich biliony."
   },
   "matematyka_43.webp": {
     "image": "matematyka_43.webp",
     "category": "Matematyka",
     "title": "Twierdzenie Pitagorasa",
     "summary": "Fundament klasycznej geometrii trójkątów prostokątnych.",
-    "text": "Starożytny Grek w 500 r. p.n.e. opisał trójkąty z 90-stopniowym kątem. Suma kwadratów długości dwóch przyprostokątnych zawsze jest równa kwadratowi długości ich najdłuższej przeciwprostokątnej."
+    "text": "W trójkącie prostokątnym suma kwadratów długości przyprostokątnych jest równa kwadratowi długości przeciwprostokątnej. Twierdzenie nazwano imieniem Pitagorasa, ale zależność była znana i stosowana w niektórych kulturach jeszcze przed jego epoką."
   },
   "matematyka_44.webp": {
     "image": "matematyka_44.webp",
     "category": "Matematyka",
     "title": "Złoty podział",
-    "summary": "Klasyczna proporcja definiująca estetyczną harmonię.",
-    "text": "Matematyczna stała Fi wynosi 1,618. Znajdziemy ją we współczesnym designie i w antycznym Partenonie o wysokości 14 metrów, ponieważ ta proporcja jest przez ludzi odbierana jako naturalnie harmonijna."
+    "summary": "Proporcja matematyczna o wartości około 1,618.",
+    "text": "Złoty podział zachodzi wtedy, gdy stosunek całości do większej części jest taki sam jak większej części do mniejszej. Proporcję tę świadomie wykorzystuje się w części projektów artystycznych i graficznych, ale popularne twierdzenia o jej powszechnej obecności w dawnych budowlach bywają naciągane."
   },
   "matematyka_45.webp": {
     "image": "matematyka_45.webp",
     "category": "Matematyka",
     "title": "Fraktale",
     "summary": "Nieskończenie zapętlone, samopodobne obiekty matematyczne.",
-    "text": "Te obiekty matematyczne są samopodobne. Nieważne, czy powiększysz fraktal o 100 czy milion procent, struktura bryły pozostanie wizualnie podobna na każdym poziomie powiększenia."
+    "text": "Fraktale mają złożoną strukturę, która wykazuje samopodobieństwo w różnych skalach. Fraktale matematyczne mogą powtarzać wzór bez końca, natomiast obiekty naturalne — linie brzegowe, paprocie czy chmury — przypominają je tylko w ograniczonym zakresie skal."
   },
   "matematyka_46.webp": {
     "image": "matematyka_46.webp",
     "category": "Matematyka",
     "title": "Zero jako liczba",
     "summary": "Koncepcja trwale rewolucjonizująca matematyczne obliczenia.",
-    "text": "W 628 roku w Indiach matematyk Brahmagupta zapisał zero jako pełnoprawną liczbę. To pojęcie odmieniło ówczesną algebrę, stanowiąc dziś logiczną podstawę dla współczesnych obliczeń systemów zero-jedynkowych."
+    "text": "Różne kultury wcześniej używały znaków oznaczających puste miejsce, lecz indyjski matematyk Brahmagupta w VII wieku opisał reguły działań z zerem jako liczbą. System pozycyjny z zerem ułatwił rozwój algebry i późniejszych metod obliczeniowych."
   },
   "matematyka_47.webp": {
     "image": "matematyka_47.webp",
     "category": "Matematyka",
     "title": "Liczby pierwsze",
     "summary": "Matematyczni strażnicy nowoczesnych cyfrowych danych.",
-    "text": "Liczby podzielne wyłącznie przez jedynkę i same siebie (np. 13, 17) to klucz cyfrowego bezpieczeństwa. 2048-bitowe klucze RSA oparte na liczbach pierwszych są podstawą we współczesnej kryptografii."
+    "text": "Liczba pierwsza ma dokładnie dwa dodatnie dzielniki: 1 i samą siebie. W algorytmie RSA bezpieczeństwo wiąże się z trudnością rozkładu bardzo dużej liczby na dwa pierwsze czynniki, choć współczesna kryptografia korzysta także z wielu innych problemów matematycznych."
   },
   "memy_1.webp": {
     "image": "memy_1.webp",
     "category": "Klasyka internetu",
     "title": "Nyan Cat",
     "summary": "Kosmiczny kot z pop-tarta.",
-    "text": "Słynna 8-bitowa animacja z 2011 roku łączy wizerunek kota i wiśniowego ciastka Pop-Tart. Wideo w serwisie YouTube z charakterystyczną japońską piosenką wygenerowało setki milionów wyświetleń na całym świecie."
+    "text": "Nyan Cat powstał w 2011 roku z połączenia pikselowej animacji kota z ciałem przypominającym ciastko oraz piosenki „Nyanyanyanyanyanyanya!”. Zapętlony lot przez kosmos z tęczowym śladem szybko stał się jednym z najbardziej rozpoznawalnych memów wczesnego YouTube’a."
   },
   "memy_2.webp": {
     "image": "memy_2.webp",
     "category": "Klasyka internetu",
     "title": "Rickroll",
     "summary": "Największy muzyczny żart internetu.",
-    "text": "Zjawisko zapoczątkowane na forum 4chan w 2007 roku. Polega na nieoczekiwanym przekierowaniu do teledysku Ricka Astleya z 1987 roku. Oryginalne wideo przekroczyło ponad miliard odtworzeń w serwisie YouTube."
+    "text": "Rickroll polega na ukryciu linku prowadzącego niespodziewanie do teledysku Ricka Astleya „Never Gonna Give You Up” z 1987 roku. Żart rozpowszechnił się w 2007 roku i stał się trwałym elementem internetowej kultury podstępnych przekierowań."
   },
   "memy_3.webp": {
     "image": "memy_3.webp",
     "category": "Klasyka internetu",
     "title": "Pieseł (Doge)",
     "summary": "Wewnętrzny monolog psa rasy shiba.",
-    "text": "Fenomen z 2013 roku oparty na zdjęciu suczki rasy shiba inu o imieniu Kabosu. Charakterystyczny tekst pisany kolorową czcionką Comic Sans na zawsze odmienił styl internetowej komunikacji."
+    "text": "Memy Doge wykorzystują zdjęcie suczki shiba inu o imieniu Kabosu oraz krótkie, celowo niegramatyczne komentarze zapisane kolorową czcionką Comic Sans. Format osiągnął szczyt popularności około 2013 roku i zainspirował między innymi nazwę kryptowaluty Dogecoin."
   },
   "memy_4.webp": {
     "image": "memy_4.webp",
@@ -865,75 +865,75 @@
     "category": "Klasyka internetu",
     "title": "Harambe",
     "summary": "Goryl, którego opłakiwał cały internet.",
-    "text": "Zastrzelenie 17-letniego, ważącego 200 kilogramów goryla nizinnego w ogrodzie zoologicznym w Cincinnati w 2016 roku wywołało globalną reakcję. Tragiczne zdarzenie błyskawicznie przerodziło się w potężny wiralowy fenomen kultury."
+    "text": "Harambe, goryl z zoo w Cincinnati, został zastrzelony w 2016 roku po tym, jak małe dziecko dostało się na jego wybieg. Zdarzenie wywołało debatę o bezpieczeństwie i odpowiedzialności, a następnie zostało przekształcone przez internet w falę memów, często oderwanych od pierwotnego kontekstu."
   },
   "memy_6.webp": {
     "image": "memy_6.webp",
     "category": "Klasyka internetu",
     "title": "Smutna Żaba (Pepe)",
     "summary": "Antropomorficzna żaba z komiksu.",
-    "text": "Antropomorficzna postać z niezależnego komiksu Boy's Club Matta Furiego z 2005 roku. Z biegiem lat wizerunek tej zielonej żaby ewoluował, stając się najczęściej modyfikowanym memem w sieci."
+    "text": "Pepe pojawił się w komiksie „Boy’s Club” Matta Furiego w 2005 roku. Internauci zaczęli przerabiać wizerunek żaby, nadając mu najróżniejsze emocje i znaczenia; część późniejszych zastosowań była sprzeczna z intencjami autora."
   },
   "memy_7.webp": {
     "image": "memy_7.webp",
     "category": "Klasyka internetu",
     "title": "Hide the Pain Harold",
     "summary": "Uśmiech skrywający głęboki, wewnętrzny ból.",
-    "text": "Seria zdjęć stockowych z 2011 roku przedstawiająca węgierskiego inżyniera Andrása Arató. Jego nienaturalny, spięty uśmiech idealnie oddaje uczucie tłumienia ogromnego stresu lub frustracji w codziennych, niezręcznych sytuacjach."
+    "text": "Meme wykorzystuje zdjęcia stockowe węgierskiego inżyniera Andrása Arató, którego uśmiech internauci odczytali jako próbę ukrycia dyskomfortu. Arató z czasem zaakceptował niespodziewaną popularność i zaczął publicznie występować jako Hide the Pain Harold."
   },
   "mitologia_1.webp": {
     "image": "mitologia_1.webp",
     "category": "Mitologia i Legendy",
     "title": "Minotaur",
     "summary": "Uwięziona w labiryncie bycza bestia.",
-    "text": "Mityczny grecki potwór o ludzkim ciele i głowie byka. Według prastarych legend zamieszkiwał ogromny, skomplikowany labirynt na Krecie, gdzie zginął z rąk odważnego herosa Tezeusza."
+    "text": "W mitologii greckiej Minotaur był istotą o ludzkim ciele i głowie byka, zamkniętą w labiryncie na Krecie. Tezeusz zabił potwora i odnalazł drogę powrotną dzięki nici podarowanej mu przez Ariadnę."
   },
   "mitologia_2.webp": {
     "image": "mitologia_2.webp",
     "category": "Mitologia i Legendy",
     "title": "Kraken",
-    "summary": "Gigantyczny postrach mórz i oceanów.",
-    "text": "Legendarny, monstrualny potwór morski wywodzący się z dawnych wierzeń nordyckich. Gigantyczna istota, przypominająca potężną kałamarnicę, miała rzekomo zatapiać wielkie statki swoimi mackami i tworzyć śmiercionośne wiry wodne."
+    "summary": "Morski potwór ze skandynawskich opowieści.",
+    "text": "Kraken wywodzi się ze skandynawskich opowieści o ogromnym stworzeniu morskim, które mogło być brane za wyspę i zagrażać statkom. Późniejsza kultura popularna nadała mu wygląd olbrzymiej kałamarnicy lub ośmiornicy."
   },
   "mitologia_3.webp": {
     "image": "mitologia_3.webp",
     "category": "Mitologia i Legendy",
     "title": "Thor i Mjölnir",
     "summary": "Gromowładny obrońca Asgardu i ludzi.",
-    "text": "Nordycki bóg burzy dzierżący legendarny młot bojowy Mjölnir. Wykuty przez krasnoludów magiczny artefakt zawsze powracał do dłoni właściciela i był tak ciężki, że mógł go unieść tylko sam Thor."
+    "text": "Thor, nordycki bóg piorunów, władał młotem Mjölnir wykutym przez karłów Sindriego i Brokkra. W źródłach młot wraca po rzuceniu, a Thor posługuje się nim między innymi przy pomocy żelaznych rękawic i pasa zwiększającego siłę."
   },
   "mitologia_4.webp": {
     "image": "mitologia_4.webp",
     "category": "Mitologia i Legendy",
     "title": "Walhalla",
     "summary": "Złota sala poległych nordyckich wojowników.",
-    "text": "Mityczna kraina w Asgardzie rządzona przez wszechpotężnego Odyna. Odważni wikingowie polegli w bitwie byli tam zabierani przez Walkirie, by nieustannie ucztować i walczyć aż do nadejścia ostatecznego zmierzchu bogów."
+    "text": "W mitologii nordyckiej Walhalla była salą Odyna, do której walkirie zabierały część wojowników poległych w bitwie. Einherjerowie ucztowali i ćwiczyli walkę, przygotowując się do Ragnaröku; pozostali polegli mogli trafiać do innych krain."
   },
   "mitologia_5.webp": {
     "image": "mitologia_5.webp",
     "category": "Mitologia i Legendy",
     "title": "Meduza",
     "summary": "Wężowłosa kobieta o morderczym spojrzeniu.",
-    "text": "Najsłynniejsza z greckich Gorgon, która zamiast włosów miała na głowie jadowite węże. Samo spojrzenie bezpośrednio w jej oczy natychmiast zamieniało każdego nieszczęśnika w martwy, kamienny posąg."
+    "text": "Meduza była jedną z trzech Gorgon i jedyną z nich śmiertelną. Jej spojrzenie zamieniało ludzi w kamień, dlatego Perseusz zbliżył się do niej, obserwując odbicie w wypolerowanej tarczy; szczegóły jej pochodzenia różnią się między wersjami mitu."
   },
   "mitologia_6.webp": {
     "image": "mitologia_6.webp",
     "category": "Mitologia i Legendy",
     "title": "Sfinks",
     "summary": "Egipski strażnik królewskich, pustynnych grobowców.",
-    "text": "Mityczne stworzenie o ciele spoczywającego lwa i głowie człowieka, najczęściej faraona. Monumentalny rzeźbiony posąg w Gizie od tysiącleci strzeże starożytnych piramid, fascynując historyków swoją potężną i niezmienną formą."
+    "text": "Egipskie sfinksy łączyły ciało lwa z ludzką głową i symbolizowały królewską siłę oraz opiekę. Wielki Sfinks w Gizie jest monumentalnym posągiem stojącym obok kompleksu piramid, ale określenie go dosłownym strażnikiem grobowców jest interpretacją, a nie zapisaną legendą."
   },
   "mitologia_7.webp": {
     "image": "mitologia_7.webp",
     "category": "Mitologia i Legendy",
     "title": "Excalibur",
     "summary": "Legendarny miecz prawowitego króla Brytów.",
-    "text": "Magiczny oręż należący do celtyckiego króla Artura. Zgodnie z popularną legendą, miecz został wręczony władcy przez mistyczną Panią Jeziora i gwarantował swojemu prawowitemu posiadaczowi całkowitą niezwyciężoność w walce."
+    "text": "Excalibur był mieczem króla Artura w średniowiecznych legendach. W wielu wersjach otrzymał go od Pani Jeziora, a po śmierci króla broń została jej zwrócona; miecz wyciągnięty z kamienia bywa osobnym orężem, choć późniejsze opowieści często je utożsamiają."
   },
   "muzyka_151.webp": {
     "image": "muzyka_151.webp",
     "category": "Muzyka",
-    "title": "Najstarsza piosenka świata",
+    "title": "Hymny huryckie z Ugarit",
     "summary": "Jeden z najstarszych zachowanych zapisów melodii.",
     "text": "Tabliczki z Ugarit w dzisiejszej Syrii zawierają zapis hymnów sprzed około 3400 lat. Najlepiej zachowany Hymn hurycki nr 6 zapisano pismem klinowym wraz ze wskazówkami muzycznymi; utwór pochodzi z kultury huryckiej, a nie sumeryjskiej."
   },
@@ -956,7 +956,7 @@
     "category": "Muzyka",
     "title": "Jak działają płyty winylowe?",
     "summary": "Mechaniczna muzyczna magia wytłoczona w tworzywie.",
-    "text": "Płyta obracająca się z mechaniczną prędkością 33 obrotów na minutę posiada wytłoczony zapis 500-metrowego woskowego rowka. Przesuwająca się wewnątrz fizyczna igła gramofonu przenosi wytłoczone dane na drgania i w konsekwencji muzykę."
+    "text": "Na powierzchni płyty winylowej biegnie spiralny rowek, którego drobne wychylenia odpowiadają zapisanej fali dźwiękowej. Igła poruszająca się w rowku wprawia wkładkę gramofonową w drgania, a ta zamienia ruch na sygnał elektryczny wzmacniany przez zestaw audio."
   },
   "muzyka_155.webp": {
     "image": "muzyka_155.webp",
@@ -970,35 +970,35 @@
     "category": "Muzyka",
     "title": "Auto-Tune – od ropy do wokalu",
     "summary": "Algorytm służący dawniej poszukiwaczom złóż nafty.",
-    "text": "W 1997 roku inżynier Andy Hildebrand użył w sprzęcie audio cyfrowych algorytmów z lądowego przemysłu wydobywczego. Pierwotnie inżynieryjna analiza fal sejsmicznych służyła poszukiwaniom ropy naftowej, by ostatecznie w studiu skorygować wokal piosenkarzy."
+    "text": "Andy Hildebrand wcześniej zajmował się analizą danych sejsmicznych wykorzystywanych przy poszukiwaniu złóż, a następnie zastosował pokrewne metody przetwarzania sygnału w muzyce. Auto-Tune, wprowadzony w 1997 roku, wykrywa wysokość głosu i przesuwa ją w stronę wybranego dźwięku."
   },
   "muzyka_157.webp": {
     "image": "muzyka_157.webp",
     "category": "Muzyka",
-    "title": "Mozart i Słuch Absolutny",
-    "summary": "Rzadki ludzki dar bezbłędnego rozpoznawania dźwięków.",
-    "text": "W wieku 14 lat Mozart spisał z pamięci w nutach 15-minutowy utwór po jednokrotnym wysłuchaniu kompozycji w Rzymie. Wykorzystał w ten sposób ludzki, przypisany statystycznie dla 1 na 10 tysięcy ludzi słuch absolutny."
+    "title": "Mozart i słuch absolutny",
+    "summary": "Rozpoznawanie wysokości dźwięku bez punktu odniesienia.",
+    "text": "Według relacji czternastoletni Mozart zapisał z pamięci „Miserere” Gregoria Allegriego po wysłuchaniu utworu w Kaplicy Sykstyńskiej, a później naniósł poprawki. Historia świadczy o niezwykłej pamięci muzycznej, ale sama nie dowodzi słuchu absolutnego, czyli rozpoznawania wysokości dźwięku bez punktu odniesienia."
   },
   "psy_1.webp": {
     "image": "psy_1.webp",
     "category": "Psychologia",
     "title": "Efekt Mandeli",
     "summary": "Fałszywa pamięć współdzielona przez rzesze ludzi.",
-    "text": "W 2010 roku blogerka Fiona Broome określiła to zjawisko psychologicznej pamięci zbiorowej. Miliony ludzi błędnie i zbiorowo zapamiętały, że aresztowany w 1962 roku polityk Nelson Mandela zmarł fizycznie w więzieniu."
+    "text": "Określenie „efekt Mandeli” spopularyzowała Fiona Broome, która zauważyła, że część osób błędnie pamiętała śmierć Nelsona Mandeli w więzieniu. Zjawisko nie jest tajemniczą pamięcią zbiorową, lecz przykładem podobnych błędów pamięci powstających pod wpływem skojarzeń, sugestii i uproszczeń."
   },
   "psy_2.webp": {
     "image": "psy_2.webp",
     "category": "Psychologia",
     "title": "Paradoks wyboru",
     "summary": "Zbyt wiele opcji utrudnia podejmowanie decyzji.",
-    "text": "W amerykańskim eksperymencie z 2000 roku klienci posiadający do wyboru 24 owocowe dżemy kupowali je 10 razy rzadziej niż ludzie mający 6 wariantów. Stanowi to naukowy przykład paraliżu decyzyjnego."
+    "text": "W znanym eksperymencie stoisko z 24 rodzajami dżemu przyciągało więcej uwagi, lecz klienci częściej kupowali produkt, gdy pokazano im tylko 6 możliwości. Badanie stało się ilustracją przeciążenia wyborem, ale wielkość tego efektu zależy od sytuacji i nie każda duża oferta utrudnia decyzję."
   },
   "psy_3.webp": {
     "image": "psy_3.webp",
     "category": "Psychologia",
     "title": "Świadome sny",
-    "summary": "Przejmowanie pełnej kontroli nad nocnymi marzeniami.",
-    "text": "Po 90 minutach w nocy mózg wchodzi we właściwą fazę snu. Świadomi śniący psychologicznie stosują sprawdzane testy rzeczywistości, licząc na przykład palce u rąk, by uzyskać pełną kontrolę nad marzeniami."
+    "summary": "Sen, podczas którego śniący zdaje sobie sprawę, że śni.",
+    "text": "Świadomy sen występuje wtedy, gdy osoba podczas snu rozpoznaje, że przeżywane wydarzenia nie są rzeczywiste. Najczęściej zdarza się w fazie REM, lecz świadomość nie zawsze oznacza pełną kontrolę nad treścią snu, a skuteczność technik jego wywoływania jest różna."
   },
   "psy_4.webp": {
     "image": "psy_4.webp",
@@ -1010,8 +1010,8 @@
   "psy_5.webp": {
     "image": "psy_5.webp",
     "category": "Psychologia",
-    "title": "Siła Placebo",
-    "summary": "Podświadomość umysłu autentycznie wspomagająca proces leczenia.",
+    "title": "Siła placebo",
+    "summary": "Wpływ oczekiwań pacjenta na odczuwanie niektórych objawów.",
     "text": "Efekt placebo może zmieniać odczuwanie niektórych objawów, zwłaszcza bólu, poprzez oczekiwania pacjenta i reakcje układu nerwowego. Nie jest jednak uniwersalnym lekarstwem ani dowodem, że sama wiara usuwa przyczynę choroby."
   },
   "psy_6.webp": {
@@ -1031,30 +1031,30 @@
   "sport_71.webp": {
     "image": "sport_71.webp",
     "category": "Sport",
-    "title": "Starożytne Igrzyska",
+    "title": "Starożytne igrzyska",
     "summary": "Historyczne zmagania starożytnych greckich atletów.",
-    "text": "Pierwsze zmagania odbyły się w 776 r. p.n.e. w greckiej Olimpii. Te surowe testy fizycznej siły przeznaczone dla męskich atletów organizowano ku czci boga Zeusa."
+    "text": "Rok 776 p.n.e. jest datą najstarszych zachowanych zapisów zwycięzców igrzysk w Olimpii, a nie pewnym początkiem zawodów. Greckie igrzyska odbywały się ku czci Zeusa i obejmowały z czasem biegi, zapasy, pięciobój, wyścigi rydwanów oraz inne konkurencje."
   },
   "sport_72.webp": {
     "image": "sport_72.webp",
     "category": "Sport",
     "title": "Początki piłki nożnej",
     "summary": "Wiktoriańskie początki współczesnych reguł sportowej rywalizacji.",
-    "text": "W 1863 roku w Wielkiej Brytanii po raz pierwszy spisano oficjalne zasady \"The Football Association\". W ten sposób skodyfikowano ramy dla współczesnej, sportowej rywalizacji 11-osobowych drużyn piłkarskich."
+    "text": "W 1863 roku londyńskie kluby utworzyły The Football Association i przyjęły wspólny zestaw reguł odróżniających piłkę nożną od rugby. Przepisy nadal ewoluowały — między innymi później ujednolicono liczbę zawodników, wprowadzono rzuty karne i zmieniano zasadę spalonego."
   },
   "sport_73.webp": {
     "image": "sport_73.webp",
     "category": "Sport",
     "title": "Rekord Usaina Bolta",
-    "summary": "Bezkonkurencyjny sprinter pokonujący ludzkie bariery fizyczne.",
-    "text": "W 2009 roku w Berlinie jamajski sprinter przekroczył granice ludzkiej anatomii. Rozpędził się do prędkości 44,72 km/h, pokonując dystans 100 metrów z czasem 9,58 sekundy."
+    "summary": "Rekord świata na 100 metrów ustanowiony w Berlinie.",
+    "text": "W 2009 roku podczas mistrzostw świata w Berlinie Usain Bolt przebiegł 100 metrów w 9,58 sekundy, ustanawiając rekord świata. Analizy biegu wskazują, że w jego najszybszej fazie osiągnął prędkość chwilową około 44–45 km/h."
   },
   "sport_74.webp": {
     "image": "sport_74.webp",
     "category": "Sport",
     "title": "Tour de France",
     "summary": "Wycieńczający, trzytygodniowy alpejski wyścig kolarski.",
-    "text": "Ten 3-tygodniowy, prestiżowy wyścig kolarski liczy 3500 kilometrów. Od 1903 roku alpejskie wzniesienia stanowią ogromne wyzwanie dla kolarzy, spalających każdego dnia jazdy nawet 8 tysięcy kalorii."
+    "text": "Tour de France rozgrywany jest od 1903 roku, z przerwami spowodowanymi wojnami. Współczesna trasa zmienia się co roku, zwykle obejmuje około 3500 kilometrów w ciągu trzech tygodni i łączy etapy płaskie, jazdę na czas oraz wymagające podjazdy górskie."
   },
   "sport_75.webp": {
     "image": "sport_75.webp",
@@ -1068,21 +1068,21 @@
     "category": "Sport",
     "title": "Złoty medal Ireny Szewińskiej",
     "summary": "Wybitna multimedalistka polskiej i światowej lekkoatletyki.",
-    "text": "Ta polska lekkoatletka uczestniczyła w 5 Igrzyskach Olimpijskich. Stanęła 7 razy na olimpijskim podium i 10 razy biła rekordy świata na trzech różnych sprinterskich dystansach."
+    "text": "Irena Szewińska startowała na pięciu igrzyskach olimpijskich i zdobyła siedem medali, w tym trzy złote. Ustanawiała rekordy świata w sprintach, a jako jedyna zawodniczka w historii była rekordzistką na 100, 200 i 400 metrów."
   },
   "sport_77.webp": {
     "image": "sport_77.webp",
     "category": "Sport",
     "title": "Powstanie koszykówki",
     "summary": "Halowa gra wymyślona by ominąć mrozy.",
-    "text": "W grudniu 1891 roku, by rozwiązać problem zimowych mrozów, kanadyjski nauczyciel podwiesił 2 kosze po brzoskwiniach na wysokości 3,05 metra, rozpoczynając erę nowej koszykówki halowej."
+    "text": "W 1891 roku nauczyciel James Naismith opracował w Springfield grę, która miała zapewnić studentom ruch w hali podczas zimy. Zawiesił dwa kosze po brzoskwiniach i spisał trzynaście zasad; wysokość koszy, około 3,05 metra, pozostała standardem do dziś."
   },
   "sztuka_101.webp": {
     "image": "sztuka_101.webp",
     "category": "Sztuka",
     "title": "Mona Lisa",
     "summary": "Renesansowy obraz pędzla florenckiego mistrza sfumato.",
-    "text": "Ukończony po 4 latach w 1507 roku olejny portret na 77-centymetrowej topolowej desce zachwyca widzów uśmiechem. Leonardo osiągnął ten efekt optyczny aplikując na obraz 30 transparentnych warstw malarskiego sfumato."
+    "text": "Leonardo da Vinci pracował nad „Mona Lisą” od początku XVI wieku i prawdopodobnie wracał do obrazu przez wiele lat. Subtelne przejścia między światłem i cieniem, nazywane sfumato, zacierają ostre kontury twarzy i współtworzą niejednoznaczny wyraz jej uśmiechu."
   },
   "sztuka_102.webp": {
     "image": "sztuka_102.webp",
@@ -1095,29 +1095,29 @@
     "image": "sztuka_103.webp",
     "category": "Sztuka",
     "title": "Kaplica Sykstyńska",
-    "summary": "Słynny renesansowy fresk pędzla włoskiego mistrza.",
-    "text": "W 1512 roku Michał Anioł po 4 latach fizycznej pracy pokrył 800 metrów kwadratowych sklepienia rzymskiego. Ten klasyczny i wielowarstwowy fresk poświadcza historyczny dorobek włoskiego i europejskiego malarstwa renesansowego."
+    "summary": "Renesansowe freski Michała Anioła na sklepieniu kaplicy.",
+    "text": "Michał Anioł malował sklepienie Kaplicy Sykstyńskiej w latach 1508–1512, tworząc rozbudowany program scen biblijnych z centralnymi epizodami Księgi Rodzaju. Pracował głównie techniką fresku, nakładając pigment na świeży tynk fragmentami możliwymi do ukończenia jednego dnia."
   },
   "sztuka_104.webp": {
     "image": "sztuka_104.webp",
     "category": "Sztuka",
     "title": "Piramidy w Gizie",
     "summary": "Megalityczne, kamienne grobowce starożytnych egipskich władców.",
-    "text": "W 2560 r. p.n.e. wybudowano 146-metrową Piramidę Cheopsa. Składa się ona z 2,3 miliona kamiennych bloków ważących po 2 tony, będąc inżynieryjnym i historycznym grobowcem wzniesionym dla egipskich faraonów."
+    "text": "Wielka Piramida w Gizie została wzniesiona około połowy III tysiąclecia p.n.e. jako grobowiec faraona Chufu, zwanego Cheopsem. Pierwotnie miała około 146,6 metra wysokości i powstała z milionów bloków kamienia o bardzo zróżnicowanej masie."
   },
   "sztuka_105.webp": {
     "image": "sztuka_105.webp",
     "category": "Sztuka",
     "title": "Vincent van Gogh",
     "summary": "Holenderski artysta tworzący rewolucyjne postimpresjonistyczne krajobrazy.",
-    "text": "Zmagający się z chorobą holenderski artysta odrzucił dawny i powszechny impresjonizm. Skupił się on na nowatorskiej palecie barw postimpresjonizmu, w zaledwie 10 lat malując 860 olejnych obrazów."
+    "text": "Vincent van Gogh tworzył jako artysta przez około dekadę, pozostawiając setki obrazów i ponad tysiąc rysunków. Intensywne kolory, wyraziste pociągnięcia pędzla oraz osobiste ujęcie pejzażu i portretu wywarły duży wpływ na sztukę XX wieku."
   },
   "sztuka_106.webp": {
     "image": "sztuka_106.webp",
     "category": "Sztuka",
     "title": "Gotyk",
     "summary": "Średniowieczna inżynieria wysokich katedr i witraży.",
-    "text": "Zrodzona w 1140 roku sztuka wykorzystywała inżynierię rozkładania ciężaru dachów z pomocą kamiennych łuków oporowych. Ściany 40-metrowych katedr zastępowano ołowianymi i szklanymi witrażami, wpuszczając światło do środka budowli."
+    "text": "Architektura gotycka rozwinęła się w XII-wiecznej Francji. Ostre łuki, sklepienia żebrowe i łuki przyporowe pozwalały wznosić wyższe budowle oraz odciążać ściany, w których można było umieszczać duże okna z barwnymi witrażami."
   },
   "sztuka_107.webp": {
     "image": "sztuka_107.webp",
@@ -1130,21 +1130,21 @@
     "image": "tech_81.webp",
     "category": "Technologia",
     "title": "Powstanie Internetu (ARPANET)",
-    "summary": "Wojskowa sieć komunikacyjna łącząca pierwsze komputery.",
+    "summary": "Finansowana przez ARPA sieć łącząca pierwsze ośrodki akademickie.",
     "text": "W 1969 roku w finansowanej przez amerykańską agencję ARPA sieci połączono pierwsze ośrodki akademickie. Podczas próby przesłania słowa „LOGIN” z UCLA do Stanford Research Institute system zawiesił się po literach „LO”, ale eksperyment zapoczątkował rozwój sieci pakietowych."
   },
   "tech_82.webp": {
     "image": "tech_82.webp",
     "category": "Technologia",
-    "title": "Pierwszy komputer ENIAC",
-    "summary": "Pierwszy elektroniczny system obliczeniowy amerykańskiej armii.",
+    "title": "Komputer ENIAC",
+    "summary": "Jeden z pierwszych programowalnych komputerów elektronicznych.",
     "text": "ENIAC, ukończony w latach czterdziestych XX wieku, zawierał około 18 tysięcy lamp elektronowych i ważył ponad 27 ton. Potrafił wykonywać około 5 tysięcy dodawań na sekundę, co było przełomem, choć współczesne urządzenia liczą nieporównywalnie szybciej."
   },
   "tech_83.webp": {
     "image": "tech_83.webp",
     "category": "Technologia",
     "title": "Odkrycie tranzystora",
-    "summary": "Miniaturowy fizyczny przełącznik napędzający erę cyfrową.",
+    "summary": "Półprzewodnikowy element, który umożliwił miniaturyzację elektroniki.",
     "text": "W 1947 roku w Bell Labs zademonstrowano pierwszy działający tranzystor. Ten półprzewodnikowy element mógł wzmacniać i przełączać sygnały, a z czasem umożliwił zastępowanie dużych lamp elektronowych oraz rozwój układów scalonych."
   },
   "tech_84.webp": {
@@ -1152,12 +1152,12 @@
     "category": "Technologia",
     "title": "World Wide Web",
     "summary": "Początek swobodnego i darmowego internetowego surfowania.",
-    "text": "W 1989 roku brytyjski informatyk Tim Berners-Lee opracował w ośrodku CERN darmowy system WWW. Powiązane ze sobą hipertekstowo strony zrewolucjonizowały świat, zapewniając ludziom szybki dostęp do globalnej sieci informacji."
+    "text": "W 1989 roku Tim Berners-Lee zaproponował w CERN system łączący dokumenty hipertekstowymi odnośnikami. Następnie stworzył podstawy WWW: adresy URL, protokół HTTP i język HTML; udostępnienie technologii bez opłat licencyjnych pomogło jej szybko się rozpowszechnić."
   },
   "tech_85.webp": {
     "image": "tech_85.webp",
     "category": "Technologia",
-    "title": "Sztuczna Inteligencja",
+    "title": "Sztuczna inteligencja",
     "summary": "Algorytmy obliczeniowe badające i naśladujące człowieka.",
     "text": "W 1950 roku Alan Turing zaproponował „grę w naśladownictwo” jako sposób rozmowy o inteligencji maszyn. Współczesne systemy uczą się wzorców z danych i potrafią świetnie wykonywać wybrane zadania, ale nie działają ani nie rozumują dokładnie tak jak ludzki mózg."
   },
@@ -1165,8 +1165,8 @@
     "image": "tech_86.webp",
     "category": "Technologia",
     "title": "Pierwszy iPhone",
-    "summary": "Dotykowe urządzenie zapoczątkowujące globalną smartfonową rewolucję.",
-    "text": "W styczniu 2007 roku Steve Jobs zaprezentował 3,5-calowe urządzenie bez fizycznej klawiatury. Jego dotykowy ekran i postępująca miniaturyzacja zapoczątkowały nową erę smartfonów, a pierwszy model kosztował 499 dolarów."
+    "summary": "Telefon z wielodotykowym ekranem zaprezentowany w 2007 roku.",
+    "text": "Steve Jobs zaprezentował pierwszego iPhone’a w styczniu 2007 roku, a urządzenie trafiło do sprzedaży w czerwcu. Wielodotykowy ekran zastąpił większość fizycznych przycisków i połączył telefon, odtwarzacz muzyki oraz przeglądarkę, silnie wpływając na rozwój rynku smartfonów."
   },
   "tech_87.webp": {
     "image": "tech_87.webp",
@@ -1179,7 +1179,7 @@
     "image": "zwierzeta_111.webp",
     "category": "Zwierzęta",
     "title": "Płetwal błękitny",
-    "summary": "Morski ssak znacznie większy od dinozaurów.",
+    "summary": "Największe znane zwierzę w historii Ziemi.",
     "text": "Płetwal błękitny może osiągać około 30 metrów długości i masę przekraczającą 150 ton, co czyni go największym znanym zwierzęciem w historii Ziemi. Jego ogromne serce i układ krążenia są przystosowane do zasilania ciała podczas długich wędrówek oceanicznych."
   },
   "zwierzeta_112.webp": {
@@ -1187,13 +1187,13 @@
     "category": "Zwierzęta",
     "title": "Inteligencja krukowatych",
     "summary": "Zdumiewający ptasi spryt oraz analityczny intelekt.",
-    "text": "Te inteligentne, 1,5-kilogramowe ptaki bez problemu zapamiętują ludzkie twarze na 5 lat wstecz. By wyciągnąć larwy, ptaki samodzielnie przygotowują prowizoryczne 10-centymetrowe narzędzia opierając się na leżących w lesie gałązkach."
+    "text": "Ptaki krukowate potrafią rozwiązywać złożone problemy, zapamiętywać twarze i uczyć się od innych osobników. Szczególnie dobrze zbadane wrony brodate przygotowują haczyki oraz inne narzędzia z gałązek i liści, aby wydobywać pokarm ze szczelin."
   },
   "zwierzeta_113.webp": {
     "image": "zwierzeta_113.webp",
     "category": "Zwierzęta",
     "title": "Echolokacja u nietoperzy",
-    "summary": "Latające ssaki świetnie opanowujące biologiczną echolokację.",
+    "summary": "Orientowanie się w ciemności za pomocą dźwięku i echa.",
     "text": "Wiele nietoperzy orientuje się i poluje za pomocą echolokacji. Emitują krótkie dźwięki o wysokiej częstotliwości, a na podstawie powracającego echa oceniają odległość, kierunek i ruch niewielkich owadów."
   },
   "zwierzeta_114.webp": {
@@ -1201,27 +1201,27 @@
     "category": "Zwierzęta",
     "title": "Gepard",
     "summary": "Najszybszy lądowy drapieżnik polegający na sprincie.",
-    "text": "Rekordzista rozpędza się do prędkości 100 km/h w czasie 3 sekund. Krótki sprint trwa do 20 sekund, biologicznie zapobiegając śmiertelnemu przegrzaniu mięśni w 50-kilogramowym ciele najszybszego lądowego kota."
+    "text": "Gepard jest najszybszym zwierzęciem lądowym i podczas krótkiego sprintu może przekraczać 90 km/h. Elastyczny kręgosłup, długie kończyny i ogon pomagający utrzymać równowagę umożliwiają gwałtowne przyspieszanie oraz zmianę kierunku, lecz taki wysiłek szybko go męczy."
   },
   "zwierzeta_115.webp": {
     "image": "zwierzeta_115.webp",
     "category": "Zwierzęta",
     "title": "Kolory kameleonów",
-    "summary": "Prawdziwy cel niesamowitej kolorowej transformacji gadów.",
+    "summary": "Zmiana barwy służąca komunikacji i regulacji temperatury.",
     "text": "Kameleony zmieniają barwę głównie podczas komunikacji, reakcji na stres i regulowania temperatury, a nie tylko dla kamuflażu. U części gatunków odpowiada za to zmiana ułożenia nanokryształów w wyspecjalizowanych komórkach skóry."
   },
   "zwierzeta_116.webp": {
     "image": "zwierzeta_116.webp",
     "category": "Zwierzęta",
     "title": "Pamięć słoni",
-    "summary": "Pamięć emocjonalna największych roślinożernych ssaków lądowych.",
+    "summary": "Rozwinięta pamięć przestrzenna i społeczna słoni.",
     "text": "Słonie mają bardzo dobrą pamięć przestrzenną i społeczną, pomagającą rozpoznawać osobniki oraz odnajdywać wodę na rozległym terenie. Obserwowano u nich także zainteresowanie szczątkami zmarłych słoni, choć ludzkie określenia emocji należy stosować ostrożnie."
   },
   "zwierzeta_117.webp": {
     "image": "zwierzeta_117.webp",
     "category": "Zwierzęta",
     "title": "Niesporczaki",
-    "summary": "Mikroskopijne i wyjątkowo odporne bezkręgowce wodne.",
+    "summary": "Mikroskopijne bezkręgowce zdolne przetrwać skrajne warunki.",
     "text": "Niesporczaki to mikroskopijne bezkręgowce, z których część potrafi wejść w stan kryptobiozy przy skrajnym wysuszeniu. W tym stanie niektóre gatunki znoszą mróz, próżnię i dawki promieniowania zabójcze dla wielu innych zwierząt, choć nie są niezniszczalne."
   }
 }
