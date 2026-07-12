@@ -64,6 +64,14 @@ body::after {
   pointer-events: none;
 }
 
+.hero,
+.status,
+.hint,
+.reset-button {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
 .brand {
   display: inline-flex;
   align-items: center;

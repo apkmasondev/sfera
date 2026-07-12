@@ -14,7 +14,8 @@ W tym pliku dokumentowane są istotne zmiany projektu. Format jest oparty na [Ke
 - dodano Content Security Policy, politykę referrerów i utwardzono lokalny serwer;
 - dodano prefiksy `backdrop-filter` dla starszych wersji Safari.
 - przeniesiono przypiętą wersję Three.js 0.185.1 z CDN do lokalnego katalogu `vendor/three/` i usunięto zewnętrzne połączenia z polityki CSP.
-- zaktualizowano i rozbudowano treść ciekawostek w kategoriach Technologia oraz Zwierzęta.
+- zaktualizowano i rozbudowano treść ciekawostek w 21 kategoriach.
+- wyłączono możliwość zaznaczania tekstu dla elementów interfejsu (hero, status, podpowiedzi, reset), zachowując ją dla karty ciekawostki.
 
 ## [1.0.0] - 2026-07-12
 
