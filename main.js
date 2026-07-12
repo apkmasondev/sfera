@@ -14,6 +14,7 @@ const MAX_CAMERA_DISTANCE = 15;
 const LOAD_CONCURRENCY = 10;
 const TEXTURE_MAX_SIZE = 256;
 const INITIAL_REVEAL_RATIO = 0.2;
+const POINTER_MOVE_THRESHOLD = { mouse: 5, pen: 8, touch: 12 };
 
 const canvas = document.querySelector('#scene');
 const loading = document.querySelector('#loading');
@@ -43,6 +44,8 @@ let downPointer = { x: 0, y: 0 };
 let velocity = { x: 0, y: 0 };
 let lastInteraction = performance.now();
 let pinchDistance = 0;
+let activePointerType = 'mouse';
+let multiTouchGesture = false;
 let closeCardTimer = null;
 let previouslyFocusedElement = null;
 let focusController = null;
@@ -201,9 +204,12 @@ function bindEvents() {
   canvas.addEventListener('pointerdown', onPointerDown);
   window.addEventListener('pointermove', onPointerMove);
   window.addEventListener('pointerup', onPointerUp);
+  window.addEventListener('pointercancel', onPointerCancel);
   canvas.addEventListener('wheel', onWheel, { passive: false });
   canvas.addEventListener('touchstart', onTouchStart, { passive: false });
   canvas.addEventListener('touchmove', onTouchMove, { passive: false });
+  canvas.addEventListener('touchend', onTouchEnd, { passive: true });
+  canvas.addEventListener('touchcancel', onTouchEnd, { passive: true });
   window.addEventListener('resize', onResize);
   window.addEventListener('keydown', onKeyDown);
   resetButton.addEventListener('click', resetView);
@@ -221,6 +227,8 @@ function onPointerDown(event) {
   if (lightbox.hidden === false || !focusController?.isIdle()) return;
   pointerDown = true;
   pointerMoved = false;
+  activePointerType = event.pointerType || 'mouse';
+  if (activePointerType !== 'mouse') clearHoveredMesh();
   lastPointer = { x: event.clientX, y: event.clientY };
   downPointer = { ...lastPointer };
   velocity = { x: 0, y: 0 };
@@ -231,11 +239,19 @@ function onPointerDown(event) {
 
 function onPointerMove(event) {
   updatePointerNdc(event.clientX, event.clientY);
-  if (!pointerDown || !sphereGroup) return;
+  if (!pointerDown || !sphereGroup || multiTouchGesture) return;
 
   const dx = event.clientX - lastPointer.x;
   const dy = event.clientY - lastPointer.y;
-  if (Math.hypot(event.clientX - downPointer.x, event.clientY - downPointer.y) > 5) pointerMoved = true;
+  const moveThreshold = POINTER_MOVE_THRESHOLD[activePointerType] ?? POINTER_MOVE_THRESHOLD.mouse;
+  if (!pointerMoved) {
+    const distanceFromStart = Math.hypot(event.clientX - downPointer.x, event.clientY - downPointer.y);
+    if (distanceFromStart <= moveThreshold) {
+      lastPointer = { x: event.clientX, y: event.clientY };
+      return;
+    }
+    pointerMoved = true;
+  }
 
   const speed = 0.0052;
   sphereGroup.rotation.y += dx * speed;
@@ -250,10 +266,15 @@ function onPointerUp(event) {
   if (!pointerDown) return;
   pointerDown = false;
   canvas.classList.remove('is-dragging');
-  if (!pointerMoved) {
-    if (hoveredMesh?.userData.loaded) onImageClick(hoveredMesh);
-    else pickImage(event.clientX, event.clientY);
-  }
+  if (canvas.hasPointerCapture?.(event.pointerId)) canvas.releasePointerCapture(event.pointerId);
+  if (!pointerMoved && !multiTouchGesture) pickImage(event.clientX, event.clientY);
+}
+
+function onPointerCancel(event) {
+  pointerDown = false;
+  pointerMoved = true;
+  canvas.classList.remove('is-dragging');
+  if (canvas.hasPointerCapture?.(event.pointerId)) canvas.releasePointerCapture(event.pointerId);
 }
 
 function updatePointerNdc(x, y) {
@@ -269,6 +290,8 @@ function onWheel(event) {
 
 function onTouchStart(event) {
   if (event.touches.length === 2) {
+    multiTouchGesture = true;
+    pointerMoved = true;
     pinchDistance = touchDistance(event.touches);
     markInteraction();
   }
@@ -283,19 +306,26 @@ function onTouchMove(event) {
   markInteraction();
 }
 
+function onTouchEnd(event) {
+  if (event.touches.length === 0) multiTouchGesture = false;
+}
+
 function touchDistance(touches) {
   return Math.hypot(touches[0].clientX - touches[1].clientX, touches[0].clientY - touches[1].clientY);
 }
 
 function raycastAt(x, y) {
   updatePointerNdc(x, y);
+  sphereGroup.updateWorldMatrix(true, true);
+  camera.updateWorldMatrix(true, false);
   raycaster.setFromCamera(pointerNdc, camera);
-  return raycaster.intersectObjects(imageMeshes, false)[0]?.object ?? null;
+  const intersections = raycaster.intersectObjects(imageMeshes, false);
+  return intersections.find(({ object }) => object.userData.loaded)?.object ?? null;
 }
 
 function pickImage(x, y) {
   const mesh = raycastAt(x, y);
-  if (mesh?.userData.loaded) onImageClick(mesh);
+  if (mesh) onImageClick(mesh);
 }
 
 function clearHoveredMesh() {
