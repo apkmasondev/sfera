@@ -15,6 +15,7 @@ const LOAD_CONCURRENCY = 10;
 const TEXTURE_MAX_SIZE = 256;
 const INITIAL_REVEAL_RATIO = 0.2;
 const POINTER_MOVE_THRESHOLD = { mouse: 5, pen: 8, touch: 12 };
+const INITIAL_SPHERE_ROTATION = { x: -0.08, y: -0.35, z: 0.04 };
 
 const canvas = document.querySelector('#scene');
 const loading = document.querySelector('#loading');
@@ -49,9 +50,14 @@ let multiTouchGesture = false;
 let closeCardTimer = null;
 let previouslyFocusedElement = null;
 let focusController = null;
+let spherePitch = INITIAL_SPHERE_ROTATION.x;
 
 const raycaster = new THREE.Raycaster();
 const pointerNdc = new THREE.Vector2(2, 2);
+const worldXAxis = new THREE.Vector3(1, 0, 0);
+const worldYAxis = new THREE.Vector3(0, 1, 0);
+const pitchQuaternion = new THREE.Quaternion();
+const yawQuaternion = new THREE.Quaternion();
 const reducedMotionQuery = matchMedia('(prefers-reduced-motion: reduce)');
 let lastFrameTime = performance.now();
 
@@ -101,7 +107,8 @@ function setupScene() {
 
   sphereGroup = new THREE.Group();
   sphereGroup.position.x = innerWidth > 760 ? 1.75 : 0;
-  sphereGroup.rotation.set(-0.08, -0.35, 0.04);
+  sphereGroup.rotation.set(INITIAL_SPHERE_ROTATION.x, INITIAL_SPHERE_ROTATION.y, INITIAL_SPHERE_ROTATION.z);
+  spherePitch = INITIAL_SPHERE_ROTATION.x;
   scene.add(sphereGroup);
 
   const glow = new THREE.Mesh(
@@ -224,7 +231,9 @@ function markInteraction() {
 }
 
 function onPointerDown(event) {
-  if (lightbox.hidden === false || !focusController?.isIdle()) return;
+  if (lightbox.hidden === false) return;
+  focusController?.interruptRestore();
+  if (!focusController?.isIdle()) return;
   pointerDown = true;
   pointerMoved = false;
   activePointerType = event.pointerType || 'mouse';
@@ -254,10 +263,8 @@ function onPointerMove(event) {
   }
 
   const speed = 0.0052;
-  sphereGroup.rotation.y += dx * speed;
-  sphereGroup.rotation.x += dy * speed;
-  sphereGroup.rotation.x = THREE.MathUtils.clamp(sphereGroup.rotation.x, -1.25, 1.25);
-  velocity = { x: dy * speed, y: dx * speed };
+  const pitchDelta = rotateSphere(dy * speed, dx * speed);
+  velocity = { x: pitchDelta, y: dx * speed };
   lastPointer = { x: event.clientX, y: event.clientY };
   markInteraction();
 }
@@ -387,7 +394,8 @@ function onKeyDown(event) {
 function resetView() {
   focusController?.reset();
   clearHoveredMesh();
-  sphereGroup.rotation.set(-0.08, -0.35, 0.04);
+  sphereGroup.rotation.set(INITIAL_SPHERE_ROTATION.x, INITIAL_SPHERE_ROTATION.y, INITIAL_SPHERE_ROTATION.z);
+  spherePitch = INITIAL_SPHERE_ROTATION.x;
   camera.position.z = getInitialCameraDistance();
   velocity = { x: 0, y: 0 };
   markInteraction();
@@ -420,13 +428,12 @@ function animate(now = performance.now()) {
   lastFrameTime = now;
 
   if (!pointerDown && lightbox.hidden && focusController?.isIdle()) {
-    sphereGroup.rotation.x += velocity.x;
-    sphereGroup.rotation.y += velocity.y;
+    velocity.x = rotateSphere(velocity.x, velocity.y);
     velocity.x *= Math.pow(0.91, delta * 60);
     velocity.y *= Math.pow(0.91, delta * 60);
 
     if (performance.now() - lastInteraction > AUTO_ROTATE_DELAY && !reducedMotionQuery.matches) {
-      sphereGroup.rotation.y += AUTO_ROTATE_SPEED * delta * 60;
+      rotateSphere(0, AUTO_ROTATE_SPEED * delta * 60);
     }
   }
 
@@ -434,4 +441,22 @@ function animate(now = performance.now()) {
   focusController?.update(now, hoveredMesh);
 
   renderer.render(scene, camera);
+}
+
+function rotateSphere(pitchDelta, yawDelta) {
+  const nextPitch = THREE.MathUtils.clamp(spherePitch + pitchDelta, -1.25, 1.25);
+  const appliedPitch = nextPitch - spherePitch;
+
+  if (yawDelta) {
+    yawQuaternion.setFromAxisAngle(worldYAxis, yawDelta);
+    sphereGroup.quaternion.premultiply(yawQuaternion);
+  }
+
+  if (appliedPitch) {
+    pitchQuaternion.setFromAxisAngle(worldXAxis, appliedPitch);
+    sphereGroup.quaternion.premultiply(pitchQuaternion);
+  }
+
+  spherePitch = nextPitch;
+  return appliedPitch;
 }

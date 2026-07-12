@@ -6,6 +6,7 @@ W tym pliku dokumentowane są istotne zmiany projektu. Format jest oparty na [Ke
 
 ### Zmieniono
 
+- usunięto sporadyczny skok sfery po zamknięciu karty przez ujednolicenie obrotu na quaternionach i bezpieczne przejmowanie kończącej się animacji powrotu;
 - poprawiono wybieranie obrazów na ekranach dotykowych przez świeży raycast, większą tolerancję mikroruchu palca i rozdzielenie tapnięcia od gestów wielodotykowych;
 - dodano kinowe ustawianie klikniętego obrazu przed kamerą, wyróżnianie jego kategorii oraz płynne przywracanie sfery po zamknięciu karty;
 - przeprowadzono pełny audyt redakcyjno-faktograficzny 175 ciekawostek, usuwając nielogiczne sformułowania, popularne mity, nieuzasadnione rekordy i oczywiste nieścisłości;

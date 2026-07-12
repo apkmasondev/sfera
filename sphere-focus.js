@@ -89,6 +89,15 @@ export function createSphereFocusController({ group, camera, meshes, reducedMoti
     activeCategory = '';
   }
 
+  function interruptRestore() {
+    if (phase !== 'restoring') return false;
+    animation = null;
+    phase = 'idle';
+    selectedMesh = null;
+    activeCategory = '';
+    return true;
+  }
+
   function updateAnimation(now) {
     if (!animation) return;
     const progress = THREE.MathUtils.clamp((now - animation.startedAt) / animation.duration, 0, 1);
@@ -144,6 +153,7 @@ export function createSphereFocusController({ group, camera, meshes, reducedMoti
   return {
     focus,
     restore,
+    interruptRestore,
     reset,
     update,
     isIdle: () => phase === 'idle',
