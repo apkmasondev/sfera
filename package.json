@@ -1,0 +1,11 @@
+{
+  "name": "sfera-wiedzy-3d",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "manifest": "node generate-manifest.js",
+    "content": "node generate-content.js",
+    "build": "node generate-manifest.js && node generate-content.js",
+    "start": "node dev-server.js"
+  }
+}

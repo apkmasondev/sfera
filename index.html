@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data:; connect-src 'self' https://cdn.jsdelivr.net; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="theme-color" content="#07110f" />
+    <meta name="description" content="Interaktywna sfera wiedzy 3D — obracaj kolekcję obrazów i odkrywaj ciekawostki z nauki, historii, kultury i sztuki." />
+    <meta name="robots" content="index, follow" />
+    <title>Sfera wiedzy — interaktywna biblioteka ciekawostek 3D</title>
+
+    <meta property="og:locale" content="pl_PL" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://apkmasondev.github.io/sfera/" />
+    <meta property="og:title" content="Sfera wiedzy — interaktywna biblioteka 3D" />
+    <meta property="og:description" content="Obracaj sferę obrazów i odkrywaj krótkie ciekawostki z wielu dziedzin wiedzy." />
+    <meta property="og:image" content="https://apkmasondev.github.io/sfera/assets/og-preview.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Sfera wiedzy złożona z obrazów na ciemnozielonym tle" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sfera wiedzy — interaktywna biblioteka 3D" />
+    <meta name="twitter:description" content="Obracaj sferę obrazów i odkrywaj krótkie ciekawostki z wielu dziedzin wiedzy." />
+    <meta name="twitter:image" content="https://apkmasondev.github.io/sfera/assets/og-preview.png" />
+    <meta name="twitter:image:alt" content="Sfera wiedzy złożona z obrazów na ciemnozielonym tle" />
+
+    <link rel="icon" href="assets/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="canonical" href="https://apkmasondev.github.io/sfera/" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="app" aria-label="Interaktywna sfera obrazów">
+      <canvas id="scene" role="img" aria-label="Obracana sfera obrazów">Interaktywna, obracana sfera obrazów z ciekawostkami.</canvas>
+
+      <header class="hero">
+        <a class="brand" href="#" aria-label="Sfera wiedzy — strona główna">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>SFERA</span>
+        </a>
+        <p class="eyebrow">INTERAKTYWNA BIBLIOTEKA</p>
+        <h1>Wiedza nie ma<br /><em>jednego kierunku.</em></h1>
+        <p class="intro">Obróć sferę i odkrywaj obrazy. Każdy z nich otwiera osobną perspektywę.</p>
+      </header>
+
+      <aside class="status" aria-live="polite">
+        <span class="status-dot"></span>
+        <span id="image-count">Ładowanie kolekcji…</span>
+      </aside>
+
+      <div class="hint" id="interaction-hint">
+        <span class="mouse-icon" aria-hidden="true"></span>
+        <span><b>Przeciągnij</b>, aby obrócić<br /><b>Przewiń</b>, aby przybliżyć</span>
+      </div>
+
+      <button class="reset-button" id="reset-view" type="button" aria-label="Przywróć widok początkowy">
+        <span aria-hidden="true">↺</span> Resetuj widok
+      </button>
+
+      <div class="loading" id="loading" role="status">
+        <div class="loading-orbit"><span></span></div>
+        <p>Budujemy sferę</p>
+        <div class="progress-track"><i id="progress-bar"></i></div>
+        <small id="progress-label">0%</small>
+      </div>
+
+      <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="fact-title" aria-describedby="fact-text" hidden>
+        <article class="fact-card">
+          <button class="lightbox-close" type="button" aria-label="Zamknij kartę">×</button>
+          <div class="fact-media">
+            <img id="lightbox-image" alt="" loading="lazy" decoding="async" />
+            <span class="fact-media-label">Odkrycie ze sfery</span>
+          </div>
+          <div class="fact-content">
+            <p class="fact-category" id="fact-category">Ciekawostka</p>
+            <h2 id="fact-title">Odkryj więcej</h2>
+            <p class="fact-summary" id="fact-summary"></p>
+            <span class="fact-rule" aria-hidden="true"></span>
+            <p class="fact-text" id="fact-text"></p>
+            <p class="fact-filename" id="lightbox-caption"></p>
+          </div>
+        </article>
+      </div>
+    </main>
+    <noscript>Ta strona wymaga włączonego JavaScriptu.</noscript>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

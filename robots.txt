@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://apkmasondev.github.io/sfera/sitemap.xml
