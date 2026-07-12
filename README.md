@@ -64,6 +64,7 @@ Nie należy otwierać `index.html` bezpośrednio przez `file://`, ponieważ prze
 ├── index.html                 # struktura strony i metadane SEO
 ├── style.css                  # interfejs, karta i responsywność
 ├── main.js                    # scena Three.js i interakcje
+├── sphere-focus.js            # kinowe skupienie i wyróżnianie kategorii
 ├── vendor/three/              # lokalny, przypięty build Three.js wraz z licencją
 ├── content-store.js           # wczytywanie i dopasowywanie ciekawostek
 ├── content-source.json        # jedno źródło wszystkich oczyszczonych rekordów

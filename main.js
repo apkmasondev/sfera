@@ -1,5 +1,6 @@
 import * as THREE from './vendor/three/three.module.min.js';
 import { getContentForImage, loadContent } from './content-store.js';
+import { createSphereFocusController } from './sphere-focus.js';
 
 // Najważniejsze parametry — zmień je tutaj, aby dopasować wygląd i zachowanie.
 const SPHERE_RADIUS = 4.15;
@@ -44,6 +45,7 @@ let lastInteraction = performance.now();
 let pinchDistance = 0;
 let closeCardTimer = null;
 let previouslyFocusedElement = null;
+let focusController = null;
 
 const raycaster = new THREE.Raycaster();
 const pointerNdc = new THREE.Vector2(2, 2);
@@ -68,6 +70,12 @@ async function init() {
   countLabel.textContent = `${paths.length} obrazów w kolekcji`;
 
   createImagePlaces(paths);
+  focusController = createSphereFocusController({
+    group: sphereGroup,
+    camera,
+    meshes: imageMeshes,
+    reducedMotion: reducedMotionQuery
+  });
   animate();
   await loadTextures(paths);
   loading.classList.add('is-done');
@@ -121,7 +129,12 @@ function createImagePlaces(paths) {
     const position = fibonacciPoint(index, paths.length, SPHERE_RADIUS);
     mesh.position.copy(position);
     mesh.lookAt(position.clone().multiplyScalar(2));
-    mesh.userData = { path, index, loaded: false };
+    mesh.userData = {
+      path,
+      index,
+      loaded: false,
+      category: getContentForImage(path)?.category || ''
+    };
     sphereGroup.add(mesh);
     return mesh;
   });
@@ -205,7 +218,7 @@ function markInteraction() {
 }
 
 function onPointerDown(event) {
-  if (lightbox.hidden === false) return;
+  if (lightbox.hidden === false || !focusController?.isIdle()) return;
   pointerDown = true;
   pointerMoved = false;
   lastPointer = { x: event.clientX, y: event.clientY };
@@ -238,7 +251,7 @@ function onPointerUp(event) {
   pointerDown = false;
   canvas.classList.remove('is-dragging');
   if (!pointerMoved) {
-    if (hoveredMesh?.userData.loaded) onImageClick(hoveredMesh.userData);
+    if (hoveredMesh?.userData.loaded) onImageClick(hoveredMesh);
     else pickImage(event.clientX, event.clientY);
   }
 }
@@ -282,12 +295,26 @@ function raycastAt(x, y) {
 
 function pickImage(x, y) {
   const mesh = raycastAt(x, y);
-  if (mesh?.userData.loaded) onImageClick(mesh.userData);
+  if (mesh?.userData.loaded) onImageClick(mesh);
 }
 
-// Punkt rozszerzenia: tutaj można podmienić lightbox na link lub własną akcję.
-function onImageClick(imageData) {
+function clearHoveredMesh() {
+  if (hoveredMesh) hoveredMesh.userData.hovered = false;
+  hoveredMesh = null;
+  canvas.classList.remove('is-hovering');
+}
+
+function onImageClick(mesh) {
+  const imageData = mesh.userData;
   const fact = getContentForImage(imageData.path);
+  previouslyFocusedElement = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+  velocity = { x: 0, y: 0 };
+  clearHoveredMesh();
+
+  focusController.focus(mesh, fact?.category, () => openFactCard(imageData, fact));
+}
+
+function openFactCard(imageData, fact) {
   const fallbackTitle = humanizeFilename(imageData.path);
   lightboxImage.src = imageData.path;
   lightboxImage.alt = fact?.title || fallbackTitle;
@@ -296,7 +323,6 @@ function onImageClick(imageData) {
   factTitle.textContent = fact?.title || fallbackTitle;
   factSummary.textContent = fact?.summary || 'Ten obraz nie ma jeszcze przypisanej ciekawostki.';
   factText.textContent = fact?.text || 'Zajrzyj tu ponownie — kolekcja jest stale rozwijana o nowe historie i odkrycia.';
-  previouslyFocusedElement = document.activeElement instanceof HTMLElement ? document.activeElement : null;
   clearTimeout(closeCardTimer);
   lightbox.hidden = false;
   requestAnimationFrame(() => requestAnimationFrame(() => lightbox.classList.add('is-open')));
@@ -311,6 +337,7 @@ function humanizeFilename(path) {
 function closeLightbox() {
   if (lightbox.hidden) return;
   lightbox.classList.remove('is-open');
+  focusController?.restore();
   clearTimeout(closeCardTimer);
   closeCardTimer = setTimeout(() => {
     lightbox.hidden = true;
@@ -322,10 +349,14 @@ function closeLightbox() {
 }
 
 function onKeyDown(event) {
-  if (event.key === 'Escape' && !lightbox.hidden) closeLightbox();
+  if (event.key !== 'Escape') return;
+  if (!lightbox.hidden) closeLightbox();
+  else if (focusController?.isActive()) focusController.restore();
 }
 
 function resetView() {
+  focusController?.reset();
+  clearHoveredMesh();
   sphereGroup.rotation.set(-0.08, -0.35, 0.04);
   camera.position.z = getInitialCameraDistance();
   velocity = { x: 0, y: 0 };
@@ -341,7 +372,7 @@ function onResize() {
 }
 
 function updateHover() {
-  if (pointerDown || !lightbox.hidden) return;
+  if (pointerDown || !lightbox.hidden || !focusController?.isIdle()) return;
   raycaster.setFromCamera(pointerNdc, camera);
   const actual = raycaster.intersectObjects(imageMeshes, false)[0]?.object ?? null;
 
@@ -358,7 +389,7 @@ function animate(now = performance.now()) {
   const delta = Math.min((now - lastFrameTime) / 1000, 0.04);
   lastFrameTime = now;
 
-  if (!pointerDown && lightbox.hidden) {
+  if (!pointerDown && lightbox.hidden && focusController?.isIdle()) {
     sphereGroup.rotation.x += velocity.x;
     sphereGroup.rotation.y += velocity.y;
     velocity.x *= Math.pow(0.91, delta * 60);
@@ -370,11 +401,7 @@ function animate(now = performance.now()) {
   }
 
   updateHover();
-  for (const mesh of imageMeshes) {
-    const target = mesh.userData.hovered ? 1.3 : 1;
-    mesh.scale.setScalar(THREE.MathUtils.lerp(mesh.scale.x, target, 0.16));
-    if (mesh.userData.loaded) mesh.material.opacity = THREE.MathUtils.lerp(mesh.material.opacity, mesh.userData.hovered ? 1 : 0.9, 0.12);
-  }
+  focusController?.update(now, hoveredMesh);
 
   renderer.render(scene, camera);
 }

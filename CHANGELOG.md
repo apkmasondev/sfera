@@ -6,6 +6,7 @@ W tym pliku dokumentowane są istotne zmiany projektu. Format jest oparty na [Ke
 
 ### Zmieniono
 
+- dodano kinowe ustawianie klikniętego obrazu przed kamerą, wyróżnianie jego kategorii oraz płynne przywracanie sfery po zamknięciu karty;
 - przeprowadzono pełny audyt redakcyjno-faktograficzny 175 ciekawostek, usuwając nielogiczne sformułowania, popularne mity, nieuzasadnione rekordy i oczywiste nieścisłości;
 - scalono `content-base.json` i `content-additions.json` w jedno źródło `content-source.json`;
 - uproszczono generator treści bez utraty walidacji zgodności z obrazami.
