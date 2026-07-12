@@ -3,8 +3,8 @@
     "image": "anatomia_91.webp",
     "category": "Ciało Człowieka",
     "title": "Najsilniejszy mięsień",
-    "summary": "Mały, ale niezwykle silny mięsień twarzowy.",
-    "text": "Żwacz to najsilniejszy mięsień w ludzkim ciele. Ten parzysty narząd twarzowy potrafi wygenerować nacisk rzędu 90 kilogramów na centymetr kwadratowy, co pozwala mu miażdżyć wyjątkowo twarde pokarmy."
+    "summary": "Jeden z mięśni zdolnych wytworzyć bardzo dużą siłę zgryzu.",
+    "text": "Nie istnieje jeden obiektywny sposób wskazania najsilniejszego mięśnia, ponieważ można porównywać siłę, wytrzymałość lub pracę względem masy. Żwacz należy jednak do mięśni zdolnych wytworzyć bardzo dużą siłę podczas zaciskania szczęk."
   },
   "anatomia_92.webp": {
     "image": "anatomia_92.webp",
@@ -17,8 +17,8 @@
     "image": "anatomia_93.webp",
     "category": "Ciało Człowieka",
     "title": "Kwas żołądkowy",
-    "summary": "Ten kwasowy płyn całkowicie rozpuściłby żyletkę.",
-    "text": "Ludzki żołądek magazynuje kwas solny. Jego naturalny współczynnik pH wynosi od 1,5 do 3,5. Płyn ten jest na tyle silny, że z powodzeniem potrafiłby strawić wewnątrz stalową żyletkę."
+    "summary": "Bardzo kwaśny płyn wspomagający trawienie pokarmu.",
+    "text": "Sok żołądkowy zawiera kwas solny i zwykle ma bardzo niskie pH, co pomaga trawić pokarm oraz ograniczać rozwój drobnoustrojów. Ścianę żołądka chroni warstwa śluzu; popularne twierdzenie, że kwas żołądkowy z łatwością rozpuszcza stalową żyletkę, jest przesadą."
   },
   "anatomia_94.webp": {
     "image": "anatomia_94.webp",
@@ -45,8 +45,8 @@
     "image": "anatomia_97.webp",
     "category": "Ciało Człowieka",
     "title": "Odcisk języka",
-    "summary": "Posiada absolutnie unikatowy dla ciebie wzór.",
-    "text": "Podobnie jak na opuszce palca, ludzki język wykazuje unikalny kształt i rozmieszczenie brodawek smakowych. Jego morfologia fizyczna mogłaby służyć jako wiarygodna biometria do technicznej weryfikacji tożsamości człowieka."
+    "summary": "Cecha badana jako potencjalny sposób identyfikacji biometrycznej.",
+    "text": "Kształt i powierzchnia języka różnią się między ludźmi, dlatego są badane jako potencjalna cecha biometryczna. Metoda ta nie jest jednak tak dobrze potwierdzona ani tak powszechnie stosowana jak identyfikacja na podstawie linii papilarnych."
   },
   "architektura_121.webp": {
     "image": "architektura_121.webp",
@@ -60,28 +60,28 @@
     "category": "Architektura",
     "title": "Starożytny beton rzymski",
     "summary": "Sekretny starożytny materiał budowlany wielkiego imperium.",
-    "text": "Starożytni Rzymianie mieszali wapno z wulkaniczną pucolaną. Ten klasyczny beton twardniał naturalnie pod wodą, co pozwoliło im 2000 lat temu fizycznie wybudować rzymskie, inżynieryjne konstrukcje przetrwałe w miastach do dzisiaj."
+    "text": "Starożytni Rzymianie łączyli wapno z pucolaną, czyli materiałem bogatym w popiół wulkaniczny. Powstające spoiwo mogło twardnieć także pod wodą, dzięki czemu rzymskie porty, kopuły i inne konstrukcje przetrwały przez wiele stuleci."
   },
   "architektura_123.webp": {
     "image": "architektura_123.webp",
     "category": "Architektura",
     "title": "Burdż Chalifa",
     "summary": "Najwyższy drapacz chmur na naszej planecie.",
-    "text": "Ten wieżowiec w Dubaju mierzy 828 metrów wysokości. Jego trójwarstwową konstrukcję zaprojektowano tak, aby rozbijała na zewnątrz podmuchy wiatru i strukturalnie minimalizowała fizyczny napór aerodynamiczny na tych konkretnych wysokościach."
+    "text": "Burdż Chalifa w Dubaju ma 828 metrów wysokości. Jego trójramienny, stopniowo zwężający się kształt ogranicza powstawanie regularnych wirów powietrza i zmniejsza obciążenia wywoływane przez wiatr."
   },
   "architektura_124.webp": {
     "image": "architektura_124.webp",
     "category": "Architektura",
     "title": "Kanał Panamski",
     "summary": "Wielka przeprawa łącząca dwa ziemskie oceany.",
-    "text": "Ten 82-kilometrowy kanał skrócił w transporcie czas podróży morskich. Statki transportowe są tu podnoszone na wysokość 26 metrów za pomocą mechanicznego systemu śluz, by pokonać przez wodę cały lądowy kontynent."
+    "text": "Kanał Panamski skraca drogę morską między Atlantykiem a Pacyfikiem. System śluz podnosi statki do poziomu sztucznego jeziora Gatún, położonego około 26 metrów nad poziomem morza, a następnie opuszcza je po drugiej stronie przesmyku."
   },
   "architektura_125.webp": {
     "image": "architektura_125.webp",
     "category": "Architektura",
     "title": "Most Golden Gate",
     "summary": "Słynny wiszący pomost nad amerykańską zatoką.",
-    "text": "Wiszący most w San Francisco posiada fizyczną długość 2737 metrów. Jego elastyczna konstrukcja strukturalnie zabezpiecza stalowe przęsła przed wiatrami oraz lądową aktywnością sejsmiczną notowaną regularnie wokół amerykańskiego, zachodniego wybrzeża."
+    "text": "Most Golden Gate ma około 2,7 kilometra długości i łączy San Francisco z hrabstwem Marin. Jego konstrukcja została zaprojektowana tak, by pracować pod wpływem wiatru, a późniejsze modernizacje zwiększyły odporność mostu na trzęsienia ziemi."
   },
   "architektura_126.webp": {
     "image": "architektura_126.webp",
@@ -102,7 +102,7 @@
     "category": "Biologia",
     "title": "Cząsteczka DNA",
     "summary": "Nośnik naszej pełnej informacji genetycznej.",
-    "text": "W 1953 roku James Watson i Francis Crick opisali strukturę podwójnej helisy. Badania z użyciem promieniowania rentgenowskiego udowodniły, że kwas deoksyrybonukleinowy przechowuje 3 miliardy liter ludzkiego kodu genetycznego."
+    "text": "W 1953 roku James Watson i Francis Crick przedstawili model podwójnej helisy DNA, wykorzystując również dane rentgenograficzne uzyskane przez Rosalind Franklin i Maurice’a Wilkinsa. Ludzki genom zawiera około 3 miliardów par zasad zapisujących informację genetyczną."
   },
   "biologia_12.webp": {
     "image": "biologia_12.webp",
@@ -116,7 +116,7 @@
     "category": "Biologia",
     "title": "Fotosynteza",
     "summary": "Proces zamieniający światło w pożywienie.",
-    "text": "Liście z chlorofilem pochłaniają kwanty światła słonecznego, by z wody i dwutlenku węgla wyprodukować glukozę. W tym wydajnym procesie fotosyntezy, generują niemal 100 procent życiodajnego tlenu na Ziemi."
+    "text": "Podczas fotosyntezy organizmy wykorzystują energię światła do wytwarzania związków organicznych z wody i dwutlenku węgla, uwalniając przy tym tlen. Znaczną część globalnej produkcji tlenu zapewniają nie tylko rośliny lądowe, lecz także glony i sinice żyjące w oceanach."
   },
   "biologia_14.webp": {
     "image": "biologia_14.webp",
@@ -130,7 +130,7 @@
     "category": "Biologia",
     "title": "Teoria ewolucji Darwina",
     "summary": "Środowisko naturalne kształtuje nowe gatunki.",
-    "text": "W 1859 roku Karol Darwin opublikował dzieło, w którym wykazał, że dobór naturalny i drobne mutacje na przestrzeni 4 miliardów lat ukształtowały około 8 milionów współcześnie żyjących ziemskich gatunków."
+    "text": "W 1859 roku Karol Darwin opublikował dzieło „O powstawaniu gatunków”, przedstawiając dobór naturalny jako mechanizm zmian ewolucyjnych. Rolę mutacji i genów wyjaśniły dopiero późniejsze odkrycia, które połączyły teorię ewolucji z genetyką."
   },
   "biologia_16.webp": {
     "image": "biologia_16.webp",
@@ -179,14 +179,14 @@
     "category": "Chemia",
     "title": "Anomalia gęstości wody",
     "summary": "Nietypowe i zaskakujące zachowanie zamarzającej cieczy.",
-    "text": "Przy zamarzaniu woda jako ciecz powiększa objętość o 9 procent, stając się objętościowo lżejsza. Ta obserwowalna zjawiskowo anomalia chroni jeziora przed zimowym przemarznięciem do dna, biologicznie zabezpieczając podwodne środowiska naturalne."
+    "text": "Woda zwiększa objętość podczas zamarzania, dlatego lód ma mniejszą gęstość i unosi się na powierzchni. Powstająca warstwa lodu ogranicza utratę ciepła, dzięki czemu głębsza woda w jeziorze może pozostać ciekła także zimą."
   },
   "chemia_146.webp": {
     "image": "chemia_146.webp",
     "category": "Chemia",
     "title": "Dlaczego cebula wyciska łzy?",
     "summary": "Chemiczny mechanizm obronny krojonego popularnego warzywa.",
-    "text": "Uszkodzenie komórek rośliny przykładowej cebuli uwalnia chemiczną syntezę biologicznych enzymów oraz kwasów. Tworzą one gazowy tlenek tiopropanalu, który przy kontakcie z wilgocią ludzkiego oka produkuje chemiczny kwas siarkowy wywołujący łzawienie."
+    "text": "Krojenie cebuli uszkadza jej komórki i uruchamia reakcje enzymatyczne prowadzące do powstania lotnego S-tlenku propanotialu. Związek dociera do oczu i podrażnia zakończenia nerwowe, co pobudza gruczoły łzowe do produkcji łez."
   },
   "chemia_147.webp": {
     "image": "chemia_147.webp",
@@ -234,8 +234,8 @@
     "image": "eco_6.webp",
     "category": "Ekonomia i Finanse",
     "title": "Tulipanomania",
-    "summary": "Słynna historyczna bańka na holenderskiej giełdzie.",
-    "text": "W 1637 roku na giełdzie w Holandii pojedyncza, lądowa cebulka tulipana kosztowała równowartość miejskiej kamienicy w Amsterdamie. Giełdowo była to pierwsza udokumentowana na rynku bańka spekulacyjna w historii nowożytnej Europy."
+    "summary": "Gwałtowny wzrost i spadek cen kontraktów na rzadkie tulipany.",
+    "text": "W latach trzydziestych XVII wieku ceny kontraktów na niektóre rzadkie odmiany tulipanów w Niderlandach gwałtownie rosły, a następnie spadły. Skala zjawiska i opowieści o cebulkach wartych tyle co kamienice są dziś przedmiotem sporów historyków."
   },
   "eco_7.webp": {
     "image": "eco_7.webp",
@@ -263,14 +263,14 @@
     "category": "Fizyka",
     "title": "Teoria Względności",
     "summary": "Słynny fizyczny wzór na równoważność masy.",
-    "text": "W 1905 roku Albert Einstein opublikował równanie E=mc². Wykazał on, że im szybciej porusza się obiekt, zbliżając się do prędkości światła, tym wolniej płynie dla niego czas."
+    "text": "W 1905 roku Albert Einstein opublikował szczególną teorię względności. Wynikają z niej między innymi dylatacja czasu dla szybko poruszających się obserwatorów oraz równoważność masy i energii zapisana wzorem E=mc²."
   },
   "fact_fiz_64.webp": {
     "image": "fact_fiz_64.webp",
     "category": "Fizyka",
     "title": "Mechanika kwantowa",
     "summary": "Zaskakujący mikroświat niewidzialnych cząstek elementarnych.",
-    "text": "W skali subatomowej elektrony i fotony mogą przebywać w wielu stanach jednocześnie, co opisuje superpozycja. Cząstki potrafią także wejść w splątanie, oddziałując na siebie na odległość milionów kilometrów."
+    "text": "Obiekty kwantowe mogą znajdować się w superpozycji stanów, dopóki pomiar nie da określonego wyniku. Splątane cząstki wykazują silne korelacje nawet przy dużej odległości, ale zjawisko to nie umożliwia przesyłania informacji szybciej od światła."
   },
   "fact_fiz_65.webp": {
     "image": "fact_fiz_65.webp",
@@ -375,7 +375,7 @@
     "category": "Historia Polski",
     "title": "1791 – Konstytucja 3 maja",
     "summary": "Pierwsza europejska nowoczesna ustawa zasadnicza.",
-    "text": "Uchwalona pod presją obcych wojsk pierwsza ustawa zasadnicza znosiła w Rzeczypospolitej \"liberum veto\". Obradujący w Warszawie Sejm Czteroletni formalnie powołał nowoczesny trójpodział władzy, powiększając przy tym stutysięczną, polską armię."
+    "text": "Konstytucja uchwalona 3 maja 1791 roku była próbą reformy osłabionej Rzeczypospolitej. Ograniczała wady ustroju szlacheckiego, znosiła liberum veto, wzmacniała władzę wykonawczą i wprowadzała monarchię konstytucyjną opartą na podziale władz."
   },
   "historia_polski_6.webp": {
     "image": "historia_polski_6.webp",
@@ -438,7 +438,7 @@
     "category": "Historia Świata",
     "title": "1989 – Upadek Muru",
     "summary": "Obalenie betonowej granicy brutalnie dzielącej Europę.",
-    "text": "W 1989 roku tłumy Niemców wyburzyły mur ważący tysiące ton zbrojonego żelbetonu. Wydarzenie to stanowiło symboliczny, europejski akt końca wojennej zimnej wojny oraz radzieckiego i ideologicznego systemu bloku państwowego komunizmu."
+    "text": "9 listopada 1989 roku, po ogłoszeniu nowych zasad podróżowania, mieszkańcy Berlina wymusili otwarcie przejść granicznych między wschodnią i zachodnią częścią miasta. Wydarzenie stało się symbolem upadku podziału Europy; systematyczną rozbiórkę muru przeprowadzono głównie w 1990 roku."
   },
   "inzynieria_131.webp": {
     "image": "inzynieria_131.webp",
@@ -543,7 +543,7 @@
     "category": "Kino i film",
     "title": "Pokaz kinematografu",
     "summary": "Pierwszy historyczny i przełomowy pokaz filmowy.",
-    "text": "28 grudnia 1895 roku wynalazcy bracia Lumière zaprezentowali w Paryżu swój 5-kilogramowy kinematograf. Trwający 50 sekund niemy materiał z nadjeżdżającym pociągiem wywołał panikę wśród pierwszych widzów."
+    "text": "28 grudnia 1895 roku bracia Lumière zorganizowali w Paryżu jeden z pierwszych płatnych publicznych pokazów kinematografu, prezentując program krótkich filmów. Opowieść, że widzowie w panice uciekali przed filmowym pociągiem, jest popularną, lecz kwestionowaną legendą."
   },
   "kino_159.webp": {
     "image": "kino_159.webp",
@@ -696,15 +696,15 @@
     "image": "kulinaria_166.webp",
     "category": "Kulinaria i Jedzenie",
     "title": "Kłamstwo Francuskich Frytek",
-    "summary": "Słynne smażone przekąski wynaleźli wiejscy Belgowie.",
-    "text": "Gdy zima z 1680 roku mocno zamroziła rzeki, wieśniacy w pewnym belgijskim miasteczku utracili połów. Z konieczności zdobycia pożywienia usmażyli w 200-stopniowym tłuszczu dziesiątki kilogramów drobno pokrojonych ziemniaków."
+    "summary": "Przekąska, o której pochodzenie spierają się Belgia i Francja.",
+    "text": "Dokładne pochodzenie frytek pozostaje sporne: zarówno Belgia, jak i Francja wskazują własne tradycje ich przygotowywania. Popularna belgijska opowieść o mieszkańcach doliny Mozy smażących ziemniaki podczas zamarznięcia rzeki nie ma mocnego potwierdzenia w źródłach z epoki."
   },
   "kulinaria_167.webp": {
     "image": "kulinaria_167.webp",
     "category": "Kulinaria i Jedzenie",
     "title": "Miód Nigdy Się Nie Psuje",
-    "summary": "Złocisty produkt pszczeli nie ulegający zepsuciu.",
-    "text": "Pszczoły tworzą pokarm posiadający kwasowe pH około 3,9 oraz niezwykle niską zawartość wody, uniemożliwiającą jego zepsucie. Archeolodzy znaleźli na dnie 3000-letnich egipskich grobowców całkowicie jadalne słoje z tym przysmakiem."
+    "summary": "Produkt wyjątkowo trwały dzięki małej zawartości wody i kwaśnemu środowisku.",
+    "text": "Niska zawartość wody, kwaśne środowisko i związki wytwarzane przez pszczoły sprawiają, że prawidłowo przechowywany miód jest bardzo odporny na rozwój drobnoustrojów. Może krystalizować lub fermentować po zawilgoceniu, dlatego określenie „nigdy się nie psuje” jest uproszczeniem."
   },
   "kulinaria_168.webp": {
     "image": "kulinaria_168.webp",
@@ -717,8 +717,8 @@
     "image": "kulinaria_169.webp",
     "category": "Kulinaria i Jedzenie",
     "title": "Królewska Pomarańczowa Marchew",
-    "summary": "Słynne pomarańczowe warzywo pierwotnie było fioletowe.",
-    "text": "Dawne fioletowe korzenie odeszły do lamusa. W połowie XVII wieku niderlandzcy hodowcy systematycznie skrzyżowali zmutowane odmiany, w kolejnych dekadach uzyskując pomarańczowy kolor na cześć panującej wówczas dynastii Orańskiej."
+    "summary": "Uprawne odmiany marchwi występowały dawniej w wielu kolorach.",
+    "text": "Wczesne uprawne odmiany marchwi miały różne kolory, między innymi fioletowy, żółty i biały. Pomarańczowe odmiany upowszechniły się w Europie w okresie nowożytnym, lecz popularna opowieść, że wyhodowano je specjalnie na cześć dynastii Orańskiej, nie jest dobrze udokumentowana."
   },
   "kulinaria_170.webp": {
     "image": "kulinaria_170.webp",
@@ -934,22 +934,22 @@
     "image": "muzyka_151.webp",
     "category": "Muzyka",
     "title": "Najstarsza piosenka świata",
-    "summary": "Odnaleziony najstarszy historyczny zapis muzyczny ludzkości.",
-    "text": "Odkryty w latach 50. XX wieku Hymn z Ugarit liczy historycznie 3400 lat. Ta wczesna sumeryjska pieśń została trwale utrwalona archaicznym, odciśniętym pismem klinowym na twardych i glinianych historycznych tabliczkach z Syrii."
+    "summary": "Jeden z najstarszych zachowanych zapisów melodii.",
+    "text": "Tabliczki z Ugarit w dzisiejszej Syrii zawierają zapis hymnów sprzed około 3400 lat. Najlepiej zachowany Hymn hurycki nr 6 zapisano pismem klinowym wraz ze wskazówkami muzycznymi; utwór pochodzi z kultury huryckiej, a nie sumeryjskiej."
   },
   "muzyka_152.webp": {
     "image": "muzyka_152.webp",
     "category": "Muzyka",
     "title": "Theremin",
     "summary": "Muzyczny instrument grający całkowicie bez dotyku.",
-    "text": "Zbudowany w 1920 roku przez wynalazcę Lwa Termena muzyczny instrument to dwie metalowe anteny. Zmieniająca się odległość dłoni muzyka fizycznie zakłóca pole dźwięku sterowane obwodem generującym sygnały w polu elektromagnetycznym."
+    "text": "Theremin, skonstruowany przez Lwa Termena około 1920 roku, pozwala grać bez dotykania instrumentu. Ruch jednej dłoni w pobliżu anteny steruje wysokością dźwięku, a ruch drugiej jego głośnością, wpływając na pracę obwodów elektronicznych."
   },
   "muzyka_153.webp": {
     "image": "muzyka_153.webp",
     "category": "Muzyka",
     "title": "Gęsia skórka od muzyki",
     "summary": "Zjawisko fizjologicznych ciarek podczas słuchania utworów.",
-    "text": "Równe 50 procent populacji doświadcza fizjologicznych ciarek podczas słuchania muzyki. Ten badany naukowo 3-sekundowy impuls akustyczny uwalnia w konkretnych rejonach naszego ludzkiego mózgu biologiczną dawkę neurochemicznej dopaminy pobudzając wewnętrzny układ nerwowy."
+    "text": "Silne emocje wywołane muzyką mogą powodować dreszcze nazywane frisson. Badania łączą to z aktywnością układu nagrody i uwalnianiem dopaminy, jednak częstość oraz intensywność reakcji znacznie różnią się między ludźmi."
   },
   "muzyka_154.webp": {
     "image": "muzyka_154.webp",
@@ -963,7 +963,7 @@
     "category": "Muzyka",
     "title": "Synestezja – kolory dźwięku",
     "summary": "Neurologiczny fenomen dosłownego widzenia brzmiących dźwięków.",
-    "text": "Statystycznie 4 procent żyjącej populacji potrafi wizualnie widzieć generowane w środowisku brzmiące dźwięki muzyki. W badanych na skanach mózgach tych rozpoznanych synestetyków nerwy narządu wzroku krzyżują się fizjologicznie ze zmysłem ludzkiego słuchu."
+    "text": "Synestezja sprawia, że pobudzenie jednego zmysłu może automatycznie wywoływać dodatkowe wrażenie, na przykład skojarzenie dźwięku z kolorem. Nie oznacza to dosłownego skrzyżowania nerwów wzroku i słuchu, a jej postacie oraz częstość występowania są zróżnicowane."
   },
   "muzyka_156.webp": {
     "image": "muzyka_156.webp",
@@ -1005,28 +1005,28 @@
     "category": "Psychologia",
     "title": "Efekt Dunninga-Krugera",
     "summary": "Złudna pewność siebie wynikająca z niewiedzy.",
-    "text": "Zbadany w 1999 roku błąd poznawczy ujawnia, że 80 procent statystycznych kierowców ocenia swoje umiejętności drogowe powyżej średniej. Z drugiej strony 20 procent ekspertów psychologicznie dotyka ograniczający medyczny syndrom oszusta."
+    "text": "Efekt Dunninga-Krugera opisuje sytuację, w której osoby o niewielkich umiejętnościach mogą mieć trudność z trafną oceną własnych błędów. Nie oznacza on, że każdy początkujący jest przesadnie pewny siebie, i nie jest przeciwieństwem syndromu oszusta."
   },
   "psy_5.webp": {
     "image": "psy_5.webp",
     "category": "Psychologia",
     "title": "Siła Placebo",
     "summary": "Podświadomość umysłu autentycznie wspomagająca proces leczenia.",
-    "text": "Podanie medycznej pigułki z węglowodanowego cukru zamiast leczniczej morfiny modyfikuje ludzki umysł. Badane 30 procent chorych pacjentów raportuje kliniczne osłabienie bólu, aktywując w mózgu biologiczne, neurologiczne i odczuwane procesy fizjologiczne."
+    "text": "Efekt placebo może zmieniać odczuwanie niektórych objawów, zwłaszcza bólu, poprzez oczekiwania pacjenta i reakcje układu nerwowego. Nie jest jednak uniwersalnym lekarstwem ani dowodem, że sama wiara usuwa przyczynę choroby."
   },
   "psy_6.webp": {
     "image": "psy_6.webp",
     "category": "Psychologia",
     "title": "Efekt aureoli",
     "summary": "Błędne ocenianie charakteru na podstawie wyglądu.",
-    "text": "Naukowo udowodniono, że w ułamku 50 milisekund biologiczny ludzki mózg przypisuje estetycznym ludziom wyższy i sprawdzany poziom inteligencji na rekrutacji o pracę, podświadomie, psychologicznie uogólniając wizualne i powierzchowne cechy."
+    "text": "Efekt aureoli polega na przenoszeniu ogólnego pozytywnego wrażenia na ocenę innych cech człowieka. Przykładowo atrakcyjny wygląd lub pewny sposób mówienia może sprawić, że bez wystarczających podstaw przypiszemy komuś większą inteligencję albo kompetencje."
   },
   "psy_7.webp": {
     "image": "psy_7.webp",
     "category": "Psychologia",
     "title": "Dysonans poznawczy",
     "summary": "Wewnętrzny konflikt prowadzący do racjonalizowania błędów.",
-    "text": "W badaniu laboratoryjnym z 1959 roku przeprowadzonym przez Leona Festingera badane osoby zaniżały ocenę. Posiadacze stawki 1 dolara tworzyli umysłowe, poznawcze racjonalizacje w głowie, by psychologicznie uzasadnić głośne okłamanie drugiego człowieka."
+    "text": "W eksperymencie Festingera i Carlsmitha z 1959 roku uczestnicy otrzymywali 1 albo 20 dolarów za przekonywanie kolejnej osoby, że nudne zadanie było ciekawe. Osoby słabiej wynagrodzone częściej zmieniały własną ocenę zadania, co wyjaśniono potrzebą zmniejszenia dysonansu poznawczego."
   },
   "sport_71.webp": {
     "image": "sport_71.webp",
@@ -1061,7 +1061,7 @@
     "category": "Sport",
     "title": "Historia maratonu",
     "summary": "Bieg upamiętniający historyczne poświęcenie greckiego posłańca.",
-    "text": "Legenda głosi, że w 490 r. p.n.e. żołnierz Fidipides przebiegł dystans 42 kilometrów i 195 metrów z Maratonu do Aten obwieszczając wygraną, po czym padł martwy."
+    "text": "Legenda głosi, że po bitwie pod Maratonem posłaniec pobiegł do Aten, ogłosił zwycięstwo i zmarł z wyczerpania. Współczesny dystans 42,195 kilometra nie pochodzi jednak z tej opowieści — ustalono go na podstawie trasy olimpijskiego maratonu w Londynie w 1908 roku."
   },
   "sport_76.webp": {
     "image": "sport_76.webp",
@@ -1089,7 +1089,7 @@
     "category": "Sztuka",
     "title": "Impresjonizm",
     "summary": "Pionierski kierunek malowania obrazów w plenerze.",
-    "text": "Powstały w 1874 roku w Paryżu nowy kierunek odrzucił malarstwo w pracowniach. Claude Monet użył dynamicznych ruchów pędzla malując w plenerze, co na stałe zdefiniowało na płótnach impresją świetlną."
+    "text": "Impresjonizm rozwinął się we Francji w drugiej połowie XIX wieku, a jego nazwa pochodzi od obrazu Claude’a Moneta „Impresja, wschód słońca”. Artyści malowali często w plenerze, używając swobodnych pociągnięć pędzla, by uchwycić zmienne światło i chwilowe wrażenie."
   },
   "sztuka_103.webp": {
     "image": "sztuka_103.webp",
@@ -1124,28 +1124,28 @@
     "category": "Sztuka",
     "title": "Pop-art i Andy Warhol",
     "summary": "Amerykański konsumpcjonizm zamieniony w prowokacyjną sztukę.",
-    "text": "W latach 60. artysta Andy Warhol podbił artystyczny świat ekspresji i nowojorskich galerii sztuki, sprzedając swój 32-częściowy mechaniczny sitodruk puszek zupy Campbella za duże i zadowalające pieniądze."
+    "text": "W 1962 roku Andy Warhol wystawił serię 32 obrazów przedstawiających różne odmiany zupy Campbell’s. Powtarzając motyw produktu codziennego użytku, zwrócił uwagę na reklamę, masową konsumpcję i granicę między sztuką a kulturą popularną."
   },
   "tech_81.webp": {
     "image": "tech_81.webp",
     "category": "Technologia",
     "title": "Powstanie Internetu (ARPANET)",
     "summary": "Wojskowa sieć komunikacyjna łącząca pierwsze komputery.",
-    "text": "W 1969 roku jednostki wojskowe wysłały wiadomość pomiędzy 2 komputerami. Ten pionierski system transmitujący podzielone pakiety danych stał się fundamentem dzisiejszego światłowodowego i globalnego internetu."
+    "text": "W 1969 roku w finansowanej przez amerykańską agencję ARPA sieci połączono pierwsze ośrodki akademickie. Podczas próby przesłania słowa „LOGIN” z UCLA do Stanford Research Institute system zawiesił się po literach „LO”, ale eksperyment zapoczątkował rozwój sieci pakietowych."
   },
   "tech_82.webp": {
     "image": "tech_82.webp",
     "category": "Technologia",
     "title": "Pierwszy komputer ENIAC",
     "summary": "Pierwszy elektroniczny system obliczeniowy amerykańskiej armii.",
-    "text": "W 1945 roku ten komputer składał się z 18 tysięcy lamp elektronowych i ważył 27 ton. Jego historyczna moc obliczeniowa 5000 operacji sekundowo stanowi dziś promil wydajności kalkulatora."
+    "text": "ENIAC, ukończony w latach czterdziestych XX wieku, zawierał około 18 tysięcy lamp elektronowych i ważył ponad 27 ton. Potrafił wykonywać około 5 tysięcy dodawań na sekundę, co było przełomem, choć współczesne urządzenia liczą nieporównywalnie szybciej."
   },
   "tech_83.webp": {
     "image": "tech_83.webp",
     "category": "Technologia",
     "title": "Odkrycie tranzystora",
     "summary": "Miniaturowy fizyczny przełącznik napędzający erę cyfrową.",
-    "text": "W 1947 roku inżynierowie wyeliminowali lampy próżniowe na rzecz tranzystorów, odrzucając wykorzystanie w nich zjawiska próżni. Był to fundament współczesnej gałęzi mikroelektronicznej branży oraz produkcji dzisiejszych układów scalonych."
+    "text": "W 1947 roku w Bell Labs zademonstrowano pierwszy działający tranzystor. Ten półprzewodnikowy element mógł wzmacniać i przełączać sygnały, a z czasem umożliwił zastępowanie dużych lamp elektronowych oraz rozwój układów scalonych."
   },
   "tech_84.webp": {
     "image": "tech_84.webp",
@@ -1159,7 +1159,7 @@
     "category": "Technologia",
     "title": "Sztuczna Inteligencja",
     "summary": "Algorytmy obliczeniowe badające i naśladujące człowieka.",
-    "text": "W 1950 roku Alan Turing wymyślił swój test Turinga oceniający komputery. Dzisiaj sztuczne sieci neuronowe zawierające miliardy obliczeniowych parametrów z powodzeniem naśladują wydajność ludzkiego mózgu."
+    "text": "W 1950 roku Alan Turing zaproponował „grę w naśladownictwo” jako sposób rozmowy o inteligencji maszyn. Współczesne systemy uczą się wzorców z danych i potrafią świetnie wykonywać wybrane zadania, ale nie działają ani nie rozumują dokładnie tak jak ludzki mózg."
   },
   "tech_86.webp": {
     "image": "tech_86.webp",
@@ -1173,14 +1173,14 @@
     "category": "Technologia",
     "title": "Kryptografia asymetryczna",
     "summary": "Matematyczny algorytm chroniący współczesne cyfrowe transakcje.",
-    "text": "Zastosowany po raz pierwszy w 1977 roku Algorytm RSA implementuje 2048-bitowe internetowe szyfrowanie przelewów i wiadomości cyfrowych, w praktyce zapobiegając cyberprzestępstwom i włamaniom na serwery bankowe."
+    "text": "Algorytm RSA, opisany w 1977 roku, wykorzystuje parę kluczy: publiczny i prywatny. Może służyć do szyfrowania lub podpisów cyfrowych i jest jednym z fundamentów bezpiecznej komunikacji, lecz sam nie zapobiega wszystkim cyberatakom."
   },
   "zwierzeta_111.webp": {
     "image": "zwierzeta_111.webp",
     "category": "Zwierzęta",
     "title": "Płetwal błękitny",
     "summary": "Morski ssak znacznie większy od dinozaurów.",
-    "text": "Osiągając masę 150 ton i 30 metrów długości płetwale biją rozmiarami ewolucyjne rekordy. Serce pompujące litry krwi waży 180 kilogramów, biologicznie napędzając tego morskiego, pływającego ssaka z głębin."
+    "text": "Płetwal błękitny może osiągać około 30 metrów długości i masę przekraczającą 150 ton, co czyni go największym znanym zwierzęciem w historii Ziemi. Jego ogromne serce i układ krążenia są przystosowane do zasilania ciała podczas długich wędrówek oceanicznych."
   },
   "zwierzeta_112.webp": {
     "image": "zwierzeta_112.webp",
@@ -1194,7 +1194,7 @@
     "category": "Zwierzęta",
     "title": "Echolokacja u nietoperzy",
     "summary": "Latające ssaki świetnie opanowujące biologiczną echolokację.",
-    "text": "Latając w ciemności nietoperze wykorzystują sonar biologiczny nazywany echolokacją. Te ssaki wypuszczają w locie 100-kilohercowe ultradźwięki, potrafiące odbić się w powietrzu od latającej, fizycznej i niewielkiej 2-milimetrowej ofiary."
+    "text": "Wiele nietoperzy orientuje się i poluje za pomocą echolokacji. Emitują krótkie dźwięki o wysokiej częstotliwości, a na podstawie powracającego echa oceniają odległość, kierunek i ruch niewielkich owadów."
   },
   "zwierzeta_114.webp": {
     "image": "zwierzeta_114.webp",
@@ -1208,20 +1208,20 @@
     "category": "Zwierzęta",
     "title": "Kolory kameleonów",
     "summary": "Prawdziwy cel niesamowitej kolorowej transformacji gadów.",
-    "text": "Te gady nie udają zielonych liści! Poprzez skurcze modyfikują nanokryształy skóry w 20 sekund, biologicznie dostosowując temperaturę lub odstraszając samców, gdy zwierzę komunikuje się emocjonalnie z resztą stada."
+    "text": "Kameleony zmieniają barwę głównie podczas komunikacji, reakcji na stres i regulowania temperatury, a nie tylko dla kamuflażu. U części gatunków odpowiada za to zmiana ułożenia nanokryształów w wyspecjalizowanych komórkach skóry."
   },
   "zwierzeta_116.webp": {
     "image": "zwierzeta_116.webp",
     "category": "Zwierzęta",
     "title": "Pamięć słoni",
     "summary": "Pamięć emocjonalna największych roślinożernych ssaków lądowych.",
-    "text": "Afrykańskie słonie wykazują się troską, wdzięcznością oraz biologiczną umiejętnością przeżywania zwierzęcej żałoby. Te emocje zawdzięczają swojemu silnie i dobrze rozwiniętemu narządowi w mózgu, znanemu w weterynaryjnej anatomii jako hipokamp."
+    "text": "Słonie mają bardzo dobrą pamięć przestrzenną i społeczną, pomagającą rozpoznawać osobniki oraz odnajdywać wodę na rozległym terenie. Obserwowano u nich także zainteresowanie szczątkami zmarłych słoni, choć ludzkie określenia emocji należy stosować ostrożnie."
   },
   "zwierzeta_117.webp": {
     "image": "zwierzeta_117.webp",
     "category": "Zwierzęta",
     "title": "Niesporczaki",
     "summary": "Mikroskopijne i wyjątkowo odporne bezkręgowce wodne.",
-    "text": "Znane niesporczaki to mikroskopijne bezkręgowce. Zapadać potrafią w letargiczny stan kryptobiozy, przetrzymując fizyczny pobyt w kosmicznej próżni, zamrożenie, a także silne, wysokie dla innych gatunków promieniowanie."
+    "text": "Niesporczaki to mikroskopijne bezkręgowce, z których część potrafi wejść w stan kryptobiozy przy skrajnym wysuszeniu. W tym stanie niektóre gatunki znoszą mróz, próżnię i dawki promieniowania zabójcze dla wielu innych zwierząt, choć nie są niezniszczalne."
   }
 }

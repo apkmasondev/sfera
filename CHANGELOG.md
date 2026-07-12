@@ -6,6 +6,7 @@ W tym pliku dokumentowane są istotne zmiany projektu. Format jest oparty na [Ke
 
 ### Zmieniono
 
+- przeprowadzono redakcję 42 opisów ciekawostek, usuwając nielogiczne sformułowania, popularne mity i oczywiste nieścisłości faktograficzne;
 - scalono `content-base.json` i `content-additions.json` w jedno źródło `content-source.json`;
 - uproszczono generator treści bez utraty walidacji zgodności z obrazami.
 - zmniejszono tekstury sfery do 256×256 bez obniżania jakości obrazów w kartach;
