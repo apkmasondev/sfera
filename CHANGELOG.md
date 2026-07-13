@@ -6,6 +6,7 @@ W tym pliku dokumentowane są istotne zmiany projektu. Format jest oparty na [Ke
 
 ### Zmieniono
 
+- zmieniono etykietę przycisku losowania z „Losuj ciekawostkę” na „Losowy obraz”;
 - poprawiono czytelność mobilnych elementów sterujących przez subtelny panel z rozmyciem tła, mocniejszy kontrast opisów i obsługę bezpiecznego obszaru ekranu;
 - dodano 7 zweryfikowanych ciekawostek i obrazów w kategorii „Kultura i Tradycje Świata”, zwiększając kolekcję do 210 pozycji;
 - dodano 14 zweryfikowanych ciekawostek i obrazów w kategoriach „Motoryzacja” oraz „Lata siedemdziesiąte”, zwiększając kolekcję do 203 pozycji;
