@@ -57,13 +57,15 @@
         <span><b>Przeciągnij</b>, aby obrócić<br /><b>Przewiń</b>, aby przybliżyć</span>
       </div>
 
-      <button class="random-button" id="random-fact" type="button" disabled>
-        <span aria-hidden="true">✦</span> Losuj ciekawostkę
-      </button>
+      <div class="view-controls" aria-label="Sterowanie widokiem">
+        <button class="random-button" id="random-fact" type="button" disabled>
+          <span aria-hidden="true">✦</span> Losuj ciekawostkę
+        </button>
 
-      <button class="reset-button" id="reset-view" type="button" aria-label="Przywróć widok początkowy">
-        <span aria-hidden="true">↺</span> Resetuj widok
-      </button>
+        <button class="reset-button" id="reset-view" type="button" aria-label="Przywróć widok początkowy">
+          <span aria-hidden="true">↺</span> Resetuj widok
+        </button>
+      </div>
 
       <div class="loading" id="loading" role="status">
         <div class="loading-orbit"><span></span></div>

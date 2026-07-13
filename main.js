@@ -92,7 +92,7 @@ async function init() {
 
   const manifest = await response.json();
   const paths = manifest.images.slice(0, IMAGE_COUNT);
-  countLabel.textContent = `${paths.length} obrazów w kolekcji`;
+  countLabel.textContent = `${paths.length} ciekawostek`;
 
   createImagePlaces(paths);
   focusController = createSphereFocusController({
