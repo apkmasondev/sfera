@@ -342,6 +342,55 @@
     "summary": "Oceaniczny prąd ocieplający europejski klimat.",
     "text": "Golfsztrom jest częścią systemu prądów przenoszących ciepłą wodę z rejonu tropikalnego ku północnemu Atlantykowi. Wpływa na klimat Europy Zachodniej, ale jej łagodne zimy są wynikiem także cyrkulacji atmosferycznej, położenia geograficznego i innych procesów oceanicznych."
   },
+  "gry_wideo_1.webp": {
+    "image": "gry_wideo_1.webp",
+    "category": "Historia gier wideo",
+    "title": "Pac-Man opuszcza salon gier",
+    "summary": "Prosta gra labiryntowa zmieniła bohatera gry w ikonę popkultury.",
+    "text": "Namco wydało Pac-Mana w 1980 roku. Czytelne zasady, charakterystyczne duchy i rozpoznawalny bohater odróżniały grę od wielu ówczesnych strzelanek kosmicznych. Pac-Man stał się światowym przebojem automatów oraz jedną z pierwszych postaci gier szeroko obecną w zabawkach, telewizji i innych mediach."
+  },
+  "gry_wideo_2.webp": {
+    "image": "gry_wideo_2.webp",
+    "category": "Historia gier wideo",
+    "title": "Krach rynku konsol w Ameryce",
+    "summary": "Nadmiar sprzętu i słabych gier zachwiał północnoamerykańską branżą.",
+    "text": "W latach 1982–1985 gwałtownie skurczył się przede wszystkim północnoamerykański rynek domowych konsol. Przyczyniły się do tego nadprodukcja, zalew nierównych jakościowo gier, duża liczba systemów i konkurencja komputerów domowych. Atari rzeczywiście zakopało w 1983 roku zapasy kartridży w Nowym Meksyku; wykopaliska z 2014 roku potwierdziły obecność wśród nich gry „E.T.”."
+  },
+  "gry_wideo_3.webp": {
+    "image": "gry_wideo_3.webp",
+    "category": "Historia gier wideo",
+    "title": "Powrót konsol dzięki NES",
+    "summary": "Nintendo pomogło odbudować zaufanie do domowych gier w Stanach Zjednoczonych.",
+    "text": "Nintendo wprowadziło konsolę NES na rynek amerykański w 1985 roku. Jej sukces pokazał, że po krachu nadal istnieje popyt na domowe gry, a system licencjonowania i kontrola katalogu miały ograniczać zalew przypadkowych produkcji. „Super Mario Bros.” z tego samego roku stało się jednym z najważniejszych tytułów platformy."
+  },
+  "gry_wideo_4.webp": {
+    "image": "gry_wideo_4.webp",
+    "category": "Historia gier wideo",
+    "title": "Narodziny nowoczesnych strzelanek FPP",
+    "summary": "Wolfenstein 3D i Doom spopularyzowały szybką akcję z perspektywy bohatera.",
+    "text": "„Wolfenstein 3D” z 1992 roku pomógł ukształtować popularność strzelanek pierwszoosobowych, a „Doom” z 1993 roku rozwinął tę formułę o bardziej złożone poziomy, rozgrywkę sieciową i łatwe tworzenie modyfikacji. Obie gry dawały silne wrażenie przestrzeni 3D, choć ich światy nie były jeszcze pełnym trójwymiarowym środowiskiem w dzisiejszym znaczeniu."
+  },
+  "gry_wideo_5.webp": {
+    "image": "gry_wideo_5.webp",
+    "category": "Historia gier wideo",
+    "title": "Tetris z radzieckiego laboratorium",
+    "summary": "Prosta układanka z siedmiu kształtów stała się światowym fenomenem.",
+    "text": "Aleksiej Pażytnow stworzył Tetrisa w 1984 roku podczas pracy jako programista w Moskwie, w ówczesnym Związku Radzieckim. Gra wykorzystuje siedem figur złożonych z czterech kwadratów, a jej zasady można szybko zrozumieć mimo rosnącego poziomu trudności. W 1989 roku Tetris był dołączany do Game Boya, co mocno zwiększyło popularność obu produktów."
+  },
+  "gry_wideo_6.webp": {
+    "image": "gry_wideo_6.webp",
+    "category": "Historia gier wideo",
+    "title": "Game Boy: granie w kieszeni",
+    "summary": "Przenośna konsola z wymiennymi grami stała się światowym przebojem.",
+    "text": "Nintendo wprowadziło Game Boya w Japonii w 1989 roku. Nie była to pierwsza przenośna gra elektroniczna, ale połączenie wymiennych kartridży, długiego czasu pracy na bateriach i bogatego katalogu uczyniło konsolę wyjątkowo popularną. Dołączany do wielu zestawów Tetris pokazywał, że urządzenie może przyciągać odbiorców w różnym wieku."
+  },
+  "gry_wideo_7.webp": {
+    "image": "gry_wideo_7.webp",
+    "category": "Historia gier wideo",
+    "title": "Złota era salonów gier",
+    "summary": "Automaty tworzyły publiczne miejsca spotkań i rywalizacji graczy.",
+    "text": "Za złotą erę salonów gier zwykle uznaje się okres od końca lat siedemdziesiątych do połowy lat osiemdziesiątych. Automaty oferowały efektowną oprawę i gry, których długo nie dało się wiernie odtworzyć w domu. Salony skupiały graczy wokół rekordów punktowych, wspólnego oglądania rozgrywek i bezpośredniej rywalizacji."
+  },
   "historia_polski_1.webp": {
     "image": "historia_polski_1.webp",
     "category": "Historia Polski",
@@ -734,6 +783,153 @@
     "summary": "Najdroższy kofeinowy napar pozyskiwany z odchodów.",
     "text": "Kopi luwak produkuje się z ziaren kawowca wydalonych przez łaskuny, w których przewodzie pokarmowym miąższ owocu ulega trawieniu i fermentacji. Wysoka cena doprowadziła do hodowli zwierząt w klatkach oraz problemów z fałszowaniem produktu, dlatego jego pochodzenie ma znaczenie etyczne."
   },
+  "kultura_1.webp": {
+    "image": "kultura_1.webp",
+    "category": "Kultura i Tradycje Świata",
+    "title": "Samuraje i droga wojownika",
+    "summary": "Japońska warstwa wojowników łączyła sztuki walki z polityką, nauką i kulturą.",
+    "text": "Samuraje stanowili wojskową elitę Japonii przez wiele stuleci, ale ich rola zmieniała się wraz z epoką. Nie istniał jeden niezmienny kodeks obowiązujący wszystkich wojowników. W okresie Edo idea bushidō — „drogi wojownika” — została wyraźniej sformalizowana wokół lojalności i honoru, a od samurajów ceniono również wykształcenie oraz znajomość sztuk."
+  },
+  "kultura_2.webp": {
+    "image": "kultura_2.webp",
+    "category": "Kultura i Tradycje Świata",
+    "title": "Día de Muertos: spotkanie pokoleń",
+    "summary": "Meksykańskie święto łączy pamięć o bliskich z kwiatami, światłem i ofiarami.",
+    "text": "Día de Muertos odbywa się od końca października do początku listopada i upamiętnia czasowy powrót zmarłych krewnych do świata żywych. Rodziny przygotowują ofrendas z fotografiami, świecami, kwiatami, papierowymi dekoracjami i ulubionymi potrawami bliskich. Tradycja splata wierzenia przedhiszpańskie z katolickimi obchodami Wszystkich Świętych i Zaduszek."
+  },
+  "kultura_3.webp": {
+    "image": "kultura_3.webp",
+    "category": "Kultura i Tradycje Świata",
+    "title": "Majowie: czas zapisany w kamieniu",
+    "summary": "Pismo, matematyka i obserwacje nieba tworzyły złożone systemy mierzenia czasu.",
+    "text": "Dawne państwa Majów rozwijały się w różnych częściach Mezoameryki, budując miasta z monumentalnymi świątyniami i pałacami. Majowie posługiwali się pismem hieroglificznym, systemem liczbowym wykorzystującym zero oraz kilkoma powiązanymi kalendarzami, między innymi Haab, Tzolk’in i Długą Rachubą. Ich potomkowie nadal żyją w Meksyku i Ameryce Środkowej, zachowując własne języki i tradycje."
+  },
+  "kultura_4.webp": {
+    "image": "kultura_4.webp",
+    "category": "Kultura i Tradycje Świata",
+    "title": "Samba opowiada historię Rio",
+    "summary": "Karnawał łączy widowiskowe parady szkół samby z setkami ulicznych bloków.",
+    "text": "Karnawał w Rio de Janeiro nie ogranicza się do jednej parady. W Sambodromie szkoły samby prezentują oceniane widowiska oparte na wybranym enredo — temacie opowiadanym przez muzykę, taniec, kostiumy i alegoryczne platformy. Równolegle w różnych dzielnicach miasta odbywają się pochody blocos, dzięki którym ważną częścią święta pozostaje spontaniczny karnawał uliczny."
+  },
+  "kultura_5.webp": {
+    "image": "kultura_5.webp",
+    "category": "Kultura i Tradycje Świata",
+    "title": "Skoki w rytmie pieśni",
+    "summary": "Taniec młodych wojowników jest jednym z elementów bogatej kultury Masajów.",
+    "text": "Masajowie są nilocką społecznością zamieszkującą głównie Kenię i północną Tanzanię, tradycyjnie silnie związaną z pasterstwem oraz systemem grup wiekowych. Podczas charakterystycznego tańca młodzi wojownicy, nazywani moranami, kolejno wykonują pionowe skoki w rytmie śpiewu grupy, demonstrując siłę i wytrzymałość. Taniec stanowi część szerszego świata obrzędów, wiedzy i relacji społecznych."
+  },
+  "kultura_6.webp": {
+    "image": "kultura_6.webp",
+    "category": "Kultura i Tradycje Świata",
+    "title": "Holi: wiosna w kolorach",
+    "summary": "Hinduskie święto łączy nadejście wiosny z opowieściami o dobru, miłości i odnowie.",
+    "text": "Holi jest obchodzone w Indiach i wielu społecznościach diaspory, choć zwyczaje różnią się między regionami. W wigilię święta rozpalane jest ognisko Holika Dahan, nawiązujące do opowieści o Prahladzie i zwycięstwie dobra nad złem. Następnego dnia uczestnicy wielu obchodów posypują się barwnym proszkiem i polewają wodą; z festiwalem łączone są również opowieści o Krysznie i Radhzie."
+  },
+  "kultura_7.webp": {
+    "image": "kultura_7.webp",
+    "category": "Kultura i Tradycje Świata",
+    "title": "Haka: gdy przemawia całe ciało",
+    "summary": "Maoryska sztuka wykonawcza wyraża tożsamość, emocje i pamięć wspólnoty.",
+    "text": "Haka nie jest wyłącznie tańcem wojennym. Istnieje wiele jej odmian wykonywanych przez kobiety i mężczyzn podczas powitań, uroczystości, pogrzebów, celebracji osiągnięć i innych ważnych wydarzeń. Słowa, rytmiczne tupanie, ruchy rąk oraz mimika wspólnie przekazują znaczenie utworu. Występy nowozelandzkich drużyn sportowych rozsławiły hakę, ale pozostaje ona przede wszystkim żywą częścią kultury Maorysów."
+  },
+  "lata_70_1.webp": {
+    "image": "lata_70_1.webp",
+    "category": "Lata siedemdziesiąte",
+    "title": "Disco opanowuje parkiety",
+    "summary": "Regularny rytm, rozbudowane aranżacje i kultura klubowa zdefiniowały epokę.",
+    "text": "Disco rozwijało się na początku lat siedemdziesiątych z muzyki tanecznej tworzonej między innymi w czarnoskórych i latynoskich społecznościach oraz nowojorskich klubach LGBTQ+. Charakterystyczny puls w metrum 4/4, partie smyczków, instrumentów dętych i syntezatorów sprzyjały tańcowi. Podświetlane parkiety, kule lustrzane i efektowne stroje stały się wizualnymi symbolami gatunku."
+  },
+  "lata_70_2.webp": {
+    "image": "lata_70_2.webp",
+    "category": "Lata siedemdziesiąte",
+    "title": "Wiadomość wysłana ku gwiazdom",
+    "summary": "Dwie sondy Voyager zabrały w daleką podróż dźwięki i obrazy Ziemi.",
+    "text": "NASA wystrzeliła Voyagera 2 w sierpniu, a Voyagera 1 we wrześniu 1977 roku. Sondy miały początkowo zbadać z bliska Jowisza i Saturna, a rozszerzona misja Voyagera 2 objęła również Urana i Neptuna. Oba statki niosą Złotą Płytę z obrazami, dźwiękami, muzyką i pozdrowieniami tworzącymi symboliczny portret Ziemi."
+  },
+  "lata_70_3.webp": {
+    "image": "lata_70_3.webp",
+    "category": "Lata siedemdziesiąte",
+    "title": "Gwiezdne wojny zmieniają widowisko",
+    "summary": "Film z 1977 roku połączył mitologiczną opowieść z przełomową oprawą.",
+    "text": "Pierwsze „Gwiezdne wojny” trafiły do kin w 1977 roku i niespodziewanie stały się ogromnym przebojem. Założone na potrzeby filmu studio Industrial Light & Magic budowało modele, systemy sterowania kamerą i efekty optyczne potrzebne do pokazania dynamicznych bitew kosmicznych. Sukces filmu podniósł oczekiwania wobec efektów wizualnych i kinowego widowiska."
+  },
+  "lata_70_4.webp": {
+    "image": "lata_70_4.webp",
+    "category": "Lata siedemdziesiąte",
+    "title": "Muzyka zapisywana na taśmie",
+    "summary": "Kaseta kompaktowa ułatwiła nagrywanie i układanie własnych zestawów utworów.",
+    "text": "Philips zaprezentował kasetę kompaktową już w 1963 roku, ale w latach siedemdziesiątych nośnik stał się niezwykle popularny. Magnetofony i czyste kasety pozwalały stosunkowo łatwo nagrywać audycje radiowe, kopiować muzykę oraz układać osobiste składanki. Mobilność formatu wzrosła jeszcze bardziej po pojawieniu się przenośnych odtwarzaczy pod koniec dekady."
+  },
+  "lata_70_5.webp": {
+    "image": "lata_70_5.webp",
+    "category": "Lata siedemdziesiąte",
+    "title": "Komputer trafia na biurko",
+    "summary": "Gotowe mikrokomputery otworzyły technologię na szersze grono użytkowników.",
+    "text": "W 1977 roku na rynek weszły Commodore PET, Apple II i TRS-80 — maszyny kierowane do znacznie szerszej grupy odbiorców niż wcześniejsze zestawy dla hobbystów. Widoczny na ilustracji PET 2001 łączył w jednej obudowie komputer, klawiaturę, monitor i magnetofon kasetowy. Takie urządzenia pomogły zapoczątkować rozwój rynku komputerów osobistych w domach, szkołach i małych firmach."
+  },
+  "lata_70_6.webp": {
+    "image": "lata_70_6.webp",
+    "category": "Lata siedemdziesiąte",
+    "title": "Gry zmieniają się wraz z kartridżem",
+    "summary": "Atari VCS spopularyzowało domową konsolę z wymienną biblioteką gier.",
+    "text": "Atari wprowadziło konsolę Video Computer System w 1977 roku; później model otrzymał nazwę Atari 2600. Nie była to pierwsza konsola korzystająca z wymiennych kartridży, ale stała się najpopularniejszym urządzeniem tego rodzaju swojej epoki. Jeden sprzęt mógł uruchamiać stale powiększającą się bibliotekę gier zamiast oferować tylko kilka programów wbudowanych na stałe."
+  },
+  "lata_70_7.webp": {
+    "image": "lata_70_7.webp",
+    "category": "Lata siedemdziesiąte",
+    "title": "Ekologia staje się sprawą publiczną",
+    "summary": "Masowe protesty i nowe prawo nadały ochronie środowiska polityczną siłę.",
+    "text": "W pierwszym Dniu Ziemi w kwietniu 1970 roku uczestniczyło w Stanach Zjednoczonych ponad 20 milionów osób. W tym samym roku utworzono amerykańską Agencję Ochrony Środowiska i przyjęto przełomowe przepisy Clean Air Act, a w 1972 roku szeroko znowelizowano prawo znane jako Clean Water Act. Były to ważne rezultaty rosnącej świadomości zanieczyszczenia powietrza, wody i gleby."
+  },
+  "lata_80_1.webp": {
+    "image": "lata_80_1.webp",
+    "category": "Lata osiemdziesiąte",
+    "title": "Walkman i muzyka w ruchu",
+    "summary": "Sony TPS-L2 otworzył rynek osobistych odtwarzaczy kasetowych.",
+    "text": "Sony wprowadziło model TPS-L2 1 lipca 1979 roku. Niewielki odtwarzacz bez funkcji nagrywania, sprzedawany z lekkimi słuchawkami, umożliwił słuchanie własnej muzyki poza domem i stał się jednym z symboli następnej dekady."
+  },
+  "lata_80_2.webp": {
+    "image": "lata_80_2.webp",
+    "category": "Lata osiemdziesiąte",
+    "title": "Światowy fenomen Kostki Rubika",
+    "summary": "Węgierska łamigłówka podbiła świat na początku lat osiemdziesiątych.",
+    "text": "Ernő Rubik zbudował pierwszy prototyp swojej przestrzennej łamigłówki w 1974 roku, początkowo wykorzystując ją do objaśniania zagadnień związanych z przestrzenią. Po międzynarodowej premierze w 1980 roku Kostka Rubika stała się światowym fenomenem i jednym z najbardziej rozpoznawalnych symboli dekady."
+  },
+  "lata_80_3.webp": {
+    "image": "lata_80_3.webp",
+    "category": "Lata osiemdziesiąte",
+    "title": "Aerobik trafia do domów",
+    "summary": "Kasety z ćwiczeniami połączyły modę fitness z rozwojem domowego wideo.",
+    "text": "Wydany w 1982 roku program „Jane Fonda’s Workout” stał się wielkim sukcesem rynku domowego wideo i pomógł upowszechnić ćwiczenia wykonywane przed telewizorem. Nie zapoczątkował aerobiku, ale przyczynił się do jego popularności, a barwne stroje, getry i opaski stały się wizualnym skrótem epoki."
+  },
+  "lata_80_4.webp": {
+    "image": "lata_80_4.webp",
+    "category": "Lata osiemdziesiąte",
+    "title": "VHS kontra Betamax",
+    "summary": "Dwa niezgodne formaty walczyły o rynek domowych nagrań wideo.",
+    "text": "Rywalizacja systemów Betamax firmy Sony i VHS opracowanego przez JVC rozpoczęła się w drugiej połowie lat siedemdziesiątych i trwała przez znaczną część kolejnej dekady. VHS zdobywał przewagę między innymi dzięki dłuższemu czasowi nagrywania oraz szerokiemu wsparciu producentów, aż stał się dominującym formatem rynku konsumenckiego."
+  },
+  "lata_80_5.webp": {
+    "image": "lata_80_5.webp",
+    "category": "Lata osiemdziesiąte",
+    "title": "Telefon zwany cegłą",
+    "summary": "Motorola DynaTAC 8000X zapowiadała erę mobilnej komunikacji.",
+    "text": "DynaTAC 8000X uzyskała amerykańską zgodę na sprzedaż w 1983 roku jako pierwszy komercyjny, ręczny telefon komórkowy. Urządzenie ważyło około 800 gramów, a akumulator zapewniał mniej więcej 30 minut rozmowy. Wysoka cena i pokaźne rozmiary czyniły z niego przede wszystkim symbol statusu."
+  },
+  "lata_80_6.webp": {
+    "image": "lata_80_6.webp",
+    "category": "Lata osiemdziesiąte",
+    "title": "Syntezatorowe brzmienie dekady",
+    "summary": "Elektroniczne instrumenty nadały muzyce pop nową paletę dźwięków.",
+    "text": "Syntezatory nie wyparły tradycyjnych instrumentów, ale stały się szczególnie wyrazistym elementem synth-popu, new wave i głównego nurtu muzyki lat osiemdziesiątych. Opublikowany w 1983 roku standard MIDI ułatwił komunikację między instrumentami różnych producentów, sekwencerami i komputerami."
+  },
+  "lata_80_7.webp": {
+    "image": "lata_80_7.webp",
+    "category": "Lata osiemdziesiąte",
+    "title": "Boombox wychodzi na ulicę",
+    "summary": "Przenośne radiomagnetofony wypełniły przestrzeń publiczną muzyką.",
+    "text": "Duże, zasilane bateriami radiomagnetofony pozwalały odtwarzać i nagrywać muzykę poza domem. W latach osiemdziesiątych boomboxy stały się mocno związane z kulturą hip-hopową i breakdance’em, zapewniając głośne nagłośnienie ulicznych spotkań, treningów tanecznych i improwizowanych występów."
+  },
   "lata90_1.webp": {
     "image": "lata90_1.webp",
     "category": "Lata dziewięćdziesiąte",
@@ -929,6 +1125,55 @@
     "title": "Excalibur",
     "summary": "Legendarny miecz prawowitego króla Brytów.",
     "text": "Excalibur był mieczem króla Artura w średniowiecznych legendach. W wielu wersjach otrzymał go od Pani Jeziora, a po śmierci króla broń została jej zwrócona; miecz wyciągnięty z kamienia bywa osobnym orężem, choć późniejsze opowieści często je utożsamiają."
+  },
+  "motoryzacja_1.webp": {
+    "image": "motoryzacja_1.webp",
+    "category": "Motoryzacja",
+    "title": "Model T i ruchoma linia montażowa",
+    "summary": "Ford połączył prosty samochód z coraz wydajniejszą produkcją masową.",
+    "text": "Ford wprowadził Model T w 1908 roku jako trwały i stosunkowo przystępny samochód dla szerokiego grona odbiorców. Nie powstawał jednak na ruchomej linii od pierwszego dnia: zintegrowaną linię montażową uruchomiono w zakładzie Highland Park w 1913 roku. Skrócenie czasu produkcji pozwalało Fordowi stopniowo obniżać cenę auta."
+  },
+  "motoryzacja_2.webp": {
+    "image": "motoryzacja_2.webp",
+    "category": "Motoryzacja",
+    "title": "Dlaczego zwyciężył silnik spalinowy",
+    "summary": "Na początku motoryzacji rywalizowały napędy parowe, elektryczne i benzynowe.",
+    "text": "Na przełomie XIX i XX wieku nie było oczywiste, jaki napęd zdominuje samochody. Pojazdy elektryczne były ciche i łatwe w obsłudze, a parowe potrafiły być szybkie, lecz miały własne ograniczenia. Silnik benzynowy zyskał przewagę dzięki większemu zasięgowi, elastyczności zastosowań oraz rozwojowi zapłonu, gaźników i elektrycznego rozrusznika."
+  },
+  "motoryzacja_3.webp": {
+    "image": "motoryzacja_3.webp",
+    "category": "Motoryzacja",
+    "title": "Narodziny muscle carów",
+    "summary": "Duże silniki w stosunkowo przystępnych autach stworzyły amerykańską legendę.",
+    "text": "Początek klasycznej ery muscle carów często łączy się z pakietem Pontiac GTO z roku modelowego 1964. Producenci zaczęli montować mocne silniki V8 w samochodach klasy średniej, tworząc modele nastawione na przyspieszenie. Ford Mustang, również debiutujący w 1964 roku, należał przede wszystkim do kategorii pony car, choć jego najmocniejsze odmiany zbliżały się charakterem do muscle carów."
+  },
+  "motoryzacja_4.webp": {
+    "image": "motoryzacja_4.webp",
+    "category": "Motoryzacja",
+    "title": "Formuła 1 jako laboratorium",
+    "summary": "Ekstremalne warunki wyścigu przyspieszają rozwój aerodynamiki, materiałów i napędów.",
+    "text": "Bolidy Formuły 1 są rozwijane pod ścisłe przepisy, a zespoły szukają przewagi w aerodynamice, lekkich kompozytach, sterowaniu i odzyskiwaniu energii. Rozwiązania nie trafiają do zwykłych aut wprost, ale wiedza oraz metody ich projektowania przenikają do przemysłu. Współczesne hybrydowe układy F1 odzyskują energię i magazynują ją w akumulatorze."
+  },
+  "motoryzacja_5.webp": {
+    "image": "motoryzacja_5.webp",
+    "category": "Motoryzacja",
+    "title": "Trzy punkty, które ratują życie",
+    "summary": "Prosty układ pasa biodrowego i ramieniowego stał się standardem bezpieczeństwa.",
+    "text": "Inżynier Volvo Nils Bohlin udoskonalił współczesny trzypunktowy pas bezpieczeństwa, wprowadzony jako wyposażenie standardowe wybranych modeli Volvo w 1959 roku. Konstrukcja przytrzymuje jednocześnie miednicę i górną część tułowia. Volvo bezpłatnie udostępniło patent innym producentom, dzięki czemu rozwiązanie mogło szybko się upowszechnić."
+  },
+  "motoryzacja_6.webp": {
+    "image": "motoryzacja_6.webp",
+    "category": "Motoryzacja",
+    "title": "Elektryfikacja wraca na drogi",
+    "summary": "Nowoczesne akumulatory ponownie uczyniły napęd elektryczny realną alternatywą.",
+    "text": "Samochody elektryczne konkurowały z parowymi i spalinowymi już na początku XX wieku, lecz ówczesne akumulatory ograniczały ich zasięg. Dzisiejsze auta bateryjne mogą przejeżdżać setki kilometrów i nie emitują spalin z rury wydechowej. Nie oznacza to całkowitego braku emisji: bilans całego cyklu życia zależy również od produkcji pojazdu, akumulatora i energii użytej do ładowania."
+  },
+  "motoryzacja_7.webp": {
+    "image": "motoryzacja_7.webp",
+    "category": "Motoryzacja",
+    "title": "Lekkość i aerodynamika supersamochodów",
+    "summary": "Najwyższe osiągi wymagają czegoś więcej niż tylko potężnego silnika.",
+    "text": "Supersamochody łączą dużą moc z niską masą, skutecznymi hamulcami i aerodynamiką dbającą o stabilność przy wysokich prędkościach. Włókno węglowe pozwala budować bardzo sztywne i lekkie struktury: zaprezentowany w 1992 roku McLaren F1 był pierwszym drogowym autem skonstruowanym wokół monokoku z tego materiału."
   },
   "muzyka_151.webp": {
     "image": "muzyka_151.webp",

@@ -57,6 +57,10 @@
         <span><b>Przeciągnij</b>, aby obrócić<br /><b>Przewiń</b>, aby przybliżyć</span>
       </div>
 
+      <button class="random-button" id="random-fact" type="button" disabled>
+        <span aria-hidden="true">✦</span> Losuj ciekawostkę
+      </button>
+
       <button class="reset-button" id="reset-view" type="button" aria-label="Przywróć widok początkowy">
         <span aria-hidden="true">↺</span> Resetuj widok
       </button>
@@ -81,7 +85,10 @@
             <p class="fact-summary" id="fact-summary"></p>
             <span class="fact-rule" aria-hidden="true"></span>
             <p class="fact-text" id="fact-text"></p>
-            <p class="fact-filename" id="lightbox-caption"></p>
+            <div class="fact-footer">
+              <p class="fact-filename" id="lightbox-caption"></p>
+              <button class="copy-link-button" id="copy-fact-link" type="button" aria-live="polite">Kopiuj link</button>
+            </div>
           </div>
         </article>
       </div>

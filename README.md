@@ -11,6 +11,7 @@ Wersja publiczna: [apkmasondev.github.io/sfera](https://apkmasondev.github.io/sf
 - równomierne rozmieszczenie obrazów algorytmem Fibonacci sphere;
 - obracanie myszą i dotykiem, bezwładność, zoom oraz automatyczna rotacja;
 - interaktywne wyróżnienie obrazu i responsywna karta ciekawostki;
+- losowanie ciekawostek oraz bezpośrednie, możliwe do skopiowania linki `?fact=ID`;
 - zamykanie karty przyciskiem, klawiszem `Escape` lub kliknięciem tła;
 - automatycznie generowany manifest wszystkich plików WebP;
 - czysty, minimalny model danych i bezpieczny fallback dla brakującej treści;
@@ -134,6 +135,8 @@ Docelowy adres wdrożenia jest zapisany w `index.html`, `robots.txt` i `sitemap.
 ## Wdrożenie na GitHub Pages
 
 Projekt działa poprawnie jako witryna projektu pod ścieżką `/sfera/`, ponieważ zasoby aplikacji używają odnośników względnych.
+
+Każda ciekawostka ma bezpośredni adres oparty na nazwie obrazu bez rozszerzenia, np. `https://apkmasondev.github.io/sfera/?fact=memy_3`. Nieprawidłowe ID jest bezpiecznie usuwane z adresu, a aplikacja pozostaje w głównym widoku sfery.
 
 Przed publikacją:
 

@@ -6,6 +6,10 @@ W tym pliku dokumentowane są istotne zmiany projektu. Format jest oparty na [Ke
 
 ### Zmieniono
 
+- dodano 7 zweryfikowanych ciekawostek i obrazów w kategorii „Kultura i Tradycje Świata”, zwiększając kolekcję do 210 pozycji;
+- dodano 14 zweryfikowanych ciekawostek i obrazów w kategoriach „Motoryzacja” oraz „Lata siedemdziesiąte”, zwiększając kolekcję do 203 pozycji;
+- dodano 14 zweryfikowanych ciekawostek i obrazów w kategoriach „Lata osiemdziesiąte” oraz „Historia gier wideo”, zwiększając kolekcję do 189 pozycji;
+- dodano losowanie ciekawostek, kopiowanie bezpośrednich linków `?fact=ID` oraz obsługę nawigacji Wstecz/Dalej;
 - usunięto sporadyczny skok sfery po zamknięciu karty przez ujednolicenie obrotu na quaternionach i bezpieczne przejmowanie kończącej się animacji powrotu;
 - poprawiono wybieranie obrazów na ekranach dotykowych przez świeży raycast, większą tolerancję mikroruchu palca i rozdzielenie tapnięcia od gestów wielodotykowych;
 - dodano kinowe ustawianie klikniętego obrazu przed kamerą, wyróżnianie jego kategorii oraz płynne przywracanie sfery po zamknięciu karty;

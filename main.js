@@ -1,5 +1,13 @@
 import * as THREE from './vendor/three/three.module.min.js';
 import { getContentForImage, loadContent } from './content-store.js';
+import {
+  canCloseFactWithHistoryBack,
+  clearFactFromUrl,
+  getFactIdForImage,
+  hasFactParameterInUrl,
+  readFactIdFromUrl,
+  writeFactToUrl
+} from './fact-links.js';
 import { createSphereFocusController } from './sphere-focus.js';
 
 // Najważniejsze parametry — zmień je tutaj, aby dopasować wygląd i zachowanie.
@@ -23,6 +31,7 @@ const progressBar = document.querySelector('#progress-bar');
 const progressLabel = document.querySelector('#progress-label');
 const countLabel = document.querySelector('#image-count');
 const resetButton = document.querySelector('#reset-view');
+const randomButton = document.querySelector('#random-fact');
 const hint = document.querySelector('#interaction-hint');
 const lightbox = document.querySelector('#lightbox');
 const lightboxImage = document.querySelector('#lightbox-image');
@@ -31,6 +40,7 @@ const factCategory = document.querySelector('#fact-category');
 const factTitle = document.querySelector('#fact-title');
 const factSummary = document.querySelector('#fact-summary');
 const factText = document.querySelector('#fact-text');
+const copyLinkButton = document.querySelector('#copy-fact-link');
 
 let scene;
 let camera;
@@ -51,6 +61,12 @@ let closeCardTimer = null;
 let previouslyFocusedElement = null;
 let focusController = null;
 let spherePitch = INITIAL_SPHERE_ROTATION.x;
+let activeFactId = '';
+let lastRandomFactId = '';
+let pendingFactId = '';
+let copyFeedbackTimer = null;
+
+const defaultDocumentTitle = document.title;
 
 const raycaster = new THREE.Raycaster();
 const pointerNdc = new THREE.Vector2(2, 2);
@@ -88,6 +104,8 @@ async function init() {
   animate();
   await loadTextures(paths);
   loading.classList.add('is-done');
+  randomButton.disabled = false;
+  openInitialFactFromUrl();
 }
 
 function setupScene() {
@@ -219,9 +237,12 @@ function bindEvents() {
   canvas.addEventListener('touchcancel', onTouchEnd, { passive: true });
   window.addEventListener('resize', onResize);
   window.addEventListener('keydown', onKeyDown);
+  window.addEventListener('popstate', onHistoryChange);
   resetButton.addEventListener('click', resetView);
+  randomButton.addEventListener('click', openRandomFact);
+  copyLinkButton.addEventListener('click', copyCurrentFactLink);
   lightbox.addEventListener('click', (event) => {
-    if (event.target === lightbox || event.target.closest('.lightbox-close')) closeLightbox();
+    if (event.target === lightbox || event.target.closest('.lightbox-close')) requestCloseLightbox();
   });
 }
 
@@ -341,14 +362,21 @@ function clearHoveredMesh() {
   canvas.classList.remove('is-hovering');
 }
 
-function onImageClick(mesh) {
+function onImageClick(mesh, { updateUrl = true, canGoBack = true } = {}) {
   const imageData = mesh.userData;
   const fact = getContentForImage(imageData.path);
-  previouslyFocusedElement = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+  const factId = getFactIdForImage(imageData.path);
   velocity = { x: 0, y: 0 };
   clearHoveredMesh();
 
-  focusController.focus(mesh, fact?.category, () => openFactCard(imageData, fact));
+  const started = focusController.focus(mesh, fact?.category, () => openFactCard(imageData, fact));
+  if (!started) return false;
+
+  previouslyFocusedElement = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+  activeFactId = factId;
+  lastRandomFactId = factId;
+  if (updateUrl) writeFactToUrl(factId, { canGoBack });
+  return true;
 }
 
 function openFactCard(imageData, fact) {
@@ -360,6 +388,8 @@ function openFactCard(imageData, fact) {
   factTitle.textContent = fact?.title || fallbackTitle;
   factSummary.textContent = fact?.summary || 'Ten obraz nie ma jeszcze przypisanej ciekawostki.';
   factText.textContent = fact?.text || 'Zajrzyj tu ponownie — kolekcja jest stale rozwijana o nowe historie i odkrycia.';
+  document.title = `${fact?.title || fallbackTitle} | Sfera wiedzy`;
+  resetCopyLinkButton();
   clearTimeout(closeCardTimer);
   lightbox.hidden = false;
   requestAnimationFrame(() => requestAnimationFrame(() => lightbox.classList.add('is-open')));
@@ -371,34 +401,137 @@ function humanizeFilename(path) {
   return filename.replace(/[_-]+/g, ' ').replace(/\b\w/g, (letter) => letter.toUpperCase());
 }
 
+function requestCloseLightbox() {
+  if (canCloseFactWithHistoryBack(activeFactId)) {
+    window.history.back();
+    return;
+  }
+
+  clearFactFromUrl({ replace: true });
+  closeLightbox();
+}
+
 function closeLightbox() {
-  if (lightbox.hidden) return;
+  if (lightbox.hidden) {
+    if (focusController?.isActive()) focusController.restore();
+    activeFactId = '';
+    document.title = defaultDocumentTitle;
+    return;
+  }
+
   lightbox.classList.remove('is-open');
   focusController?.restore();
+  activeFactId = '';
+  document.title = defaultDocumentTitle;
+  clearTimeout(copyFeedbackTimer);
   clearTimeout(closeCardTimer);
   closeCardTimer = setTimeout(() => {
     lightbox.hidden = true;
     lightboxImage.removeAttribute('src');
     previouslyFocusedElement?.focus({ preventScroll: true });
     previouslyFocusedElement = null;
+    if (pendingFactId) {
+      const nextFactId = pendingFactId;
+      pendingFactId = '';
+      focusController?.interruptRestore();
+      openFactById(nextFactId, { updateUrl: false });
+    }
   }, 400);
   markInteraction();
 }
 
 function onKeyDown(event) {
   if (event.key !== 'Escape') return;
-  if (!lightbox.hidden) closeLightbox();
-  else if (focusController?.isActive()) focusController.restore();
+  if (!lightbox.hidden) requestCloseLightbox();
+  else if (focusController?.isActive()) {
+    clearFactFromUrl({ replace: true });
+    closeLightbox();
+  }
 }
 
 function resetView() {
   focusController?.reset();
   clearHoveredMesh();
+  if (activeFactId || hasFactParameterInUrl()) clearFactFromUrl({ replace: true });
+  activeFactId = '';
+  document.title = defaultDocumentTitle;
   sphereGroup.rotation.set(INITIAL_SPHERE_ROTATION.x, INITIAL_SPHERE_ROTATION.y, INITIAL_SPHERE_ROTATION.z);
   spherePitch = INITIAL_SPHERE_ROTATION.x;
   camera.position.z = getInitialCameraDistance();
   velocity = { x: 0, y: 0 };
   markInteraction();
+}
+
+function openInitialFactFromUrl() {
+  const factId = readFactIdFromUrl();
+  if (!factId) {
+    if (hasFactParameterInUrl()) clearFactFromUrl({ replace: true });
+    return;
+  }
+
+  writeFactToUrl(factId, { replace: true, canGoBack: false });
+  if (!openFactById(factId, { updateUrl: false })) clearFactFromUrl({ replace: true });
+}
+
+function openFactById(factId, options = {}) {
+  const mesh = imageMeshes.find((candidate) => getFactIdForImage(candidate.userData.path) === factId);
+  if (!mesh?.userData.loaded) return false;
+
+  focusController?.interruptRestore();
+  return onImageClick(mesh, options);
+}
+
+function openRandomFact() {
+  if (!lightbox.hidden) return;
+  focusController?.interruptRestore();
+  if (!focusController?.isIdle()) return;
+
+  const available = imageMeshes.filter((mesh) => mesh.userData.loaded && getContentForImage(mesh.userData.path));
+  const candidates = available.filter((mesh) => getFactIdForImage(mesh.userData.path) !== lastRandomFactId);
+  const pool = candidates.length ? candidates : available;
+  if (!pool.length) return;
+
+  const mesh = pool[Math.floor(Math.random() * pool.length)];
+  onImageClick(mesh);
+}
+
+function onHistoryChange() {
+  const factId = readFactIdFromUrl();
+
+  if (!factId) {
+    if (hasFactParameterInUrl()) clearFactFromUrl({ replace: true });
+    pendingFactId = '';
+    closeLightbox();
+    return;
+  }
+
+  if (factId === activeFactId) return;
+  if (!lightbox.hidden) {
+    pendingFactId = factId;
+    closeLightbox();
+    return;
+  }
+
+  if (!openFactById(factId, { updateUrl: false })) clearFactFromUrl({ replace: true });
+}
+
+async function copyCurrentFactLink() {
+  if (!activeFactId) return;
+
+  clearTimeout(copyFeedbackTimer);
+  try {
+    if (!navigator.clipboard?.writeText) throw new Error('Clipboard API unavailable');
+    await navigator.clipboard.writeText(window.location.href);
+    copyLinkButton.textContent = 'Skopiowano';
+  } catch {
+    copyLinkButton.textContent = 'Link jest w pasku adresu';
+  }
+
+  copyFeedbackTimer = setTimeout(resetCopyLinkButton, 2200);
+}
+
+function resetCopyLinkButton() {
+  copyLinkButton.textContent = 'Kopiuj link';
 }
 
 function onResize() {
