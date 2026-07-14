@@ -9,6 +9,7 @@ import {
   writeFactToUrl
 } from './fact-links.js';
 import { createSphereFocusController } from './sphere-focus.js';
+import { createImageTransitionController } from './image-transition.js';
 
 // Najważniejsze parametry — zmień je tutaj, aby dopasować wygląd i zachowanie.
 const SPHERE_RADIUS = 4.15;
@@ -34,6 +35,7 @@ const resetButton = document.querySelector('#reset-view');
 const randomButton = document.querySelector('#random-fact');
 const hint = document.querySelector('#interaction-hint');
 const lightbox = document.querySelector('#lightbox');
+const factMedia = document.querySelector('.fact-media');
 const lightboxImage = document.querySelector('#lightbox-image');
 const lightboxCaption = document.querySelector('#lightbox-caption');
 const factCategory = document.querySelector('#fact-category');
@@ -60,7 +62,11 @@ let multiTouchGesture = false;
 let closeCardTimer = null;
 let previouslyFocusedElement = null;
 let focusController = null;
+let imageTransitionController = null;
 let spherePitch = INITIAL_SPHERE_ROTATION.x;
+let activeFactMesh = null;
+let cardTransitionId = 0;
+let cardClosing = false;
 let activeFactId = '';
 let lastRandomFactId = '';
 let pendingFactId = '';
@@ -99,6 +105,10 @@ async function init() {
     group: sphereGroup,
     camera,
     meshes: imageMeshes,
+    reducedMotion: reducedMotionQuery
+  });
+  imageTransitionController = createImageTransitionController({
+    camera,
     reducedMotion: reducedMotionQuery
   });
   animate();
@@ -369,7 +379,7 @@ function onImageClick(mesh, { updateUrl = true, canGoBack = true } = {}) {
   velocity = { x: 0, y: 0 };
   clearHoveredMesh();
 
-  const started = focusController.focus(mesh, fact?.category, () => openFactCard(imageData, fact));
+  const started = focusController.focus(mesh, fact?.category, () => openFactCard(mesh, imageData, fact));
   if (!started) return false;
 
   previouslyFocusedElement = document.activeElement instanceof HTMLElement ? document.activeElement : null;
@@ -379,7 +389,9 @@ function onImageClick(mesh, { updateUrl = true, canGoBack = true } = {}) {
   return true;
 }
 
-function openFactCard(imageData, fact) {
+async function openFactCard(mesh, imageData, fact) {
+  const transitionId = ++cardTransitionId;
+  cardClosing = false;
   const fallbackTitle = humanizeFilename(imageData.path);
   lightboxImage.src = imageData.path;
   lightboxImage.alt = fact?.title || fallbackTitle;
@@ -392,7 +404,29 @@ function openFactCard(imageData, fact) {
   resetCopyLinkButton();
   clearTimeout(closeCardTimer);
   lightbox.hidden = false;
-  requestAnimationFrame(() => requestAnimationFrame(() => lightbox.classList.add('is-open')));
+  activeFactMesh = mesh;
+  lightbox.classList.add('is-shared-opening');
+
+  await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+  if (transitionId !== cardTransitionId || lightbox.hidden) return;
+
+  const sourceRect = imageTransitionController?.getMeshScreenRect(mesh);
+  const canAnimate = Boolean(sourceRect && imageTransitionController);
+  if (canAnimate) mesh.userData.transitionHidden = true;
+  lightbox.classList.add('is-open');
+
+  if (canAnimate) {
+    const animated = await imageTransitionController.open({
+      src: imageData.path,
+      alt: lightboxImage.alt,
+      from: () => sourceRect,
+      to: () => factMedia.getBoundingClientRect()
+    });
+    if (!animated && transitionId === cardTransitionId) mesh.userData.transitionHidden = false;
+  }
+
+  if (transitionId !== cardTransitionId || lightbox.hidden) return;
+  lightbox.classList.remove('is-shared-opening');
   lightbox.querySelector('.lightbox-close').focus({ preventScroll: true });
 }
 
@@ -418,16 +452,50 @@ function closeLightbox() {
     document.title = defaultDocumentTitle;
     return;
   }
+  if (cardClosing) return;
 
+  cardClosing = true;
+  const transitionId = ++cardTransitionId;
+  const closingMesh = activeFactMesh;
+  const imagePath = lightboxImage.currentSrc || lightboxImage.src;
+  const imageAlt = lightboxImage.alt;
+  const canAnimate = Boolean(
+    closingMesh
+    && imagePath
+    && imageTransitionController?.getMeshScreenRect(closingMesh)
+  );
+
+  imageTransitionController?.cancel();
+  lightbox.classList.remove('is-shared-opening');
+  lightbox.classList.toggle('is-shared-closing', canAnimate);
   lightbox.classList.remove('is-open');
   focusController?.restore();
   activeFactId = '';
   document.title = defaultDocumentTitle;
   clearTimeout(copyFeedbackTimer);
   clearTimeout(closeCardTimer);
-  closeCardTimer = setTimeout(() => {
+  const closeAnimation = canAnimate
+    ? imageTransitionController.close({
+        src: imagePath,
+        alt: imageAlt,
+        from: () => factMedia.getBoundingClientRect(),
+        to: () => imageTransitionController.getMeshScreenRect(closingMesh),
+        onProgress: (progress) => {
+          if (progress >= 0.62) closingMesh.userData.transitionHidden = false;
+        }
+      })
+    : new Promise((resolve) => {
+        closeCardTimer = setTimeout(resolve, 400);
+      });
+
+  closeAnimation.then(() => {
+    if (transitionId !== cardTransitionId) return;
+    if (closingMesh) closingMesh.userData.transitionHidden = false;
+    lightbox.classList.remove('is-shared-closing');
     lightbox.hidden = true;
     lightboxImage.removeAttribute('src');
+    activeFactMesh = null;
+    cardClosing = false;
     previouslyFocusedElement?.focus({ preventScroll: true });
     previouslyFocusedElement = null;
     if (pendingFactId) {
@@ -436,7 +504,7 @@ function closeLightbox() {
       focusController?.interruptRestore();
       openFactById(nextFactId, { updateUrl: false });
     }
-  }, 400);
+  });
   markInteraction();
 }
 

@@ -27,19 +27,32 @@ export function createSphereFocusController({ group, camera, meshes, reducedMoti
   const currentDirection = new THREE.Vector3();
   const targetDirection = new THREE.Vector3();
   const groupWorldPosition = new THREE.Vector3();
+  const localUp = new THREE.Vector3(0, 1, 0);
+  const localNormal = new THREE.Vector3(0, 0, 1);
+  const meshUp = new THREE.Vector3();
+  const cameraUp = new THREE.Vector3();
+  const upCross = new THREE.Vector3();
+  const cameraWorldQuaternion = new THREE.Quaternion();
+  const meshReturnQuaternion = new THREE.Quaternion();
+  const meshTargetQuaternion = new THREE.Quaternion();
+  const rollQuaternion = new THREE.Quaternion();
 
   function finishAnimation() {
     if (!animation) return;
     group.quaternion.copy(animation.to);
+    if (animation.mesh && animation.meshTo) animation.mesh.quaternion.copy(animation.meshTo);
     const onComplete = animation.onComplete;
     animation = null;
     onComplete?.();
   }
 
-  function startAnimation(to, duration, onComplete) {
+  function startAnimation(to, duration, onComplete, meshTo = null) {
     animation = {
       from: group.quaternion.clone(),
       to: to.clone(),
+      mesh: selectedMesh,
+      meshFrom: selectedMesh && meshTo ? selectedMesh.quaternion.clone() : null,
+      meshTo: meshTo?.clone() || null,
       startedAt: performance.now(),
       duration,
       onComplete
@@ -62,10 +75,24 @@ export function createSphereFocusController({ group, camera, meshes, reducedMoti
     rotationDelta.setFromUnitVectors(currentDirection, targetDirection);
     targetQuaternion.copy(rotationDelta).multiply(group.quaternion).normalize();
 
+    meshReturnQuaternion.copy(mesh.quaternion);
+    meshUp.copy(localUp).applyQuaternion(mesh.quaternion).applyQuaternion(targetQuaternion);
+    meshUp.addScaledVector(targetDirection, -meshUp.dot(targetDirection)).normalize();
+    camera.getWorldQuaternion(cameraWorldQuaternion);
+    cameraUp.copy(camera.up).applyQuaternion(cameraWorldQuaternion);
+    cameraUp.addScaledVector(targetDirection, -cameraUp.dot(targetDirection)).normalize();
+
+    const rollAngle = Math.atan2(
+      targetDirection.dot(upCross.crossVectors(meshUp, cameraUp)),
+      meshUp.dot(cameraUp)
+    );
+    rollQuaternion.setFromAxisAngle(localNormal, rollAngle);
+    meshTargetQuaternion.copy(meshReturnQuaternion).multiply(rollQuaternion).normalize();
+
     startAnimation(targetQuaternion, FOCUS_DURATION, () => {
       phase = 'focused';
       onComplete?.();
-    });
+    }, meshTargetQuaternion);
     return true;
   }
 
@@ -78,11 +105,12 @@ export function createSphereFocusController({ group, camera, meshes, reducedMoti
       selectedMesh = null;
       activeCategory = '';
       onComplete?.();
-    });
+    }, meshReturnQuaternion);
     return true;
   }
 
   function reset() {
+    if (selectedMesh) selectedMesh.quaternion.copy(meshReturnQuaternion);
     animation = null;
     phase = 'idle';
     selectedMesh = null;
@@ -91,6 +119,7 @@ export function createSphereFocusController({ group, camera, meshes, reducedMoti
 
   function interruptRestore() {
     if (phase !== 'restoring') return false;
+    if (selectedMesh) selectedMesh.quaternion.copy(meshReturnQuaternion);
     animation = null;
     phase = 'idle';
     selectedMesh = null;
@@ -102,6 +131,9 @@ export function createSphereFocusController({ group, camera, meshes, reducedMoti
     if (!animation) return;
     const progress = THREE.MathUtils.clamp((now - animation.startedAt) / animation.duration, 0, 1);
     group.quaternion.slerpQuaternions(animation.from, animation.to, easeInOutCubic(progress));
+    if (animation.mesh && animation.meshFrom && animation.meshTo) {
+      animation.mesh.quaternion.slerpQuaternions(animation.meshFrom, animation.meshTo, easeInOutCubic(progress));
+    }
     if (progress >= 1) finishAnimation();
   }
 
@@ -137,6 +169,8 @@ export function createSphereFocusController({ group, camera, meshes, reducedMoti
         targetScale = 1.3;
         targetOpacity = 1;
       }
+
+      if (mesh.userData.transitionHidden) targetOpacity = 0;
 
       mesh.scale.setScalar(THREE.MathUtils.lerp(mesh.scale.x, targetScale, smoothing));
       mesh.material.opacity = THREE.MathUtils.lerp(mesh.material.opacity, targetOpacity, smoothing);

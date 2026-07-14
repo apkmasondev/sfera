@@ -318,6 +318,21 @@ h1 em { color: var(--acid); font-weight: 400; }
 }
 
 .lightbox.is-open .fact-media img { transform: scale(1); }
+.lightbox.is-shared-opening .fact-media img,
+.lightbox.is-shared-closing .fact-media img { opacity: 0; }
+
+.shared-image-transition {
+  position: fixed;
+  z-index: 30;
+  display: block;
+  max-width: none;
+  margin: 0;
+  pointer-events: none;
+  object-fit: cover;
+  contain: layout paint style;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, .42), 0 0 34px rgba(184, 255, 90, .08);
+  will-change: left, top, width, height, border-radius, opacity;
+}
 .fact-media-label {
   position: absolute;
   z-index: 1;
@@ -482,5 +497,6 @@ h1 em { color: var(--acid); font-weight: 400; }
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .shared-image-transition { display: none; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; }
 }

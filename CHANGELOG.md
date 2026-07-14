@@ -6,6 +6,8 @@ W tym pliku dokumentowane są istotne zmiany projektu. Format jest oparty na [Ke
 
 ### Zmieniono
 
+- dodano płynne przejście klikniętego obrazu ze sfery do karty i jego animowany powrót, z obsługą urządzeń mobilnych oraz preferencji ograniczonego ruchu;
+- zsynchronizowano prostowanie klikniętego obrazu z kinowym ustawianiem sfery, usuwając nagły obrót przed przejściem do karty;
 - poprawiono mobilne karty z dłuższymi opisami przez wydzielenie przewijanej sekcji treści i obsługę dynamicznej wysokości ekranu;
 - dodano 14 zweryfikowanych ciekawostek i obrazów w kategoriach „Literatura i Książki” oraz „Ciekawostki Korporacyjne”, zwiększając kolekcję do 238 pozycji w 34 kategoriach;
 - dodano 14 zweryfikowanych ciekawostek i obrazów w kategoriach „Lata sześćdziesiąte” oraz „Lata dwutysięczne”, zwiększając kolekcję do 224 pozycji;
