@@ -2,10 +2,11 @@
 
 W tym pliku dokumentowane są istotne zmiany projektu. Format jest oparty na [Keep a Changelog](https://keepachangelog.com/pl/1.1.0/), a numeracja wersji na [Semantic Versioning](https://semver.org/lang/pl/).
 
-## [Unreleased]
+## [2.0.0]
 
 ### Zmieniono
 
+- zastąpiono powtórzoną ciekawostkę o Game Boyu wpisem o Sega Game Gear wraz z nową grafiką i miniaturą;
 - zoptymalizowano ładowanie sfery przez miniatury 256×256, priorytet zasobów widocznych na pierwszym planie i wcześniejsze udostępnienie interfejsu; ujednolicono też parametry animacji oraz ograniczono zbędne aktualizacje i renderowanie sceny pod otwartą kartą;
 - dodano płynne przejście klikniętego obrazu ze sfery do karty i jego animowany powrót, z obsługą urządzeń mobilnych oraz preferencji ograniczonego ruchu;
 - zsynchronizowano prostowanie klikniętego obrazu z kinowym ustawianiem sfery, usuwając nagły obrót przed przejściem do karty;
