@@ -142,7 +142,7 @@ function getInitialCameraDistance() {
 
 // Złota spirala zapewnia równomierne rozłożenie punktów bez zagęszczenia na biegunach.
 function fibonacciPoint(index, total, radius) {
-  const y = 1 - (index / Math.max(total - 1, 1)) * 2;
+  const y = 1 - (2 * (index + 0.5)) / Math.max(total, 1);
   const radial = Math.sqrt(Math.max(0, 1 - y * y));
   const angle = index * Math.PI * (3 - Math.sqrt(5));
   return new THREE.Vector3(Math.cos(angle) * radial, y, Math.sin(angle) * radial).multiplyScalar(radius);

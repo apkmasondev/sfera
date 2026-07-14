@@ -6,6 +6,9 @@ W tym pliku dokumentowane są istotne zmiany projektu. Format jest oparty na [Ke
 
 ### Zmieniono
 
+- poprawiono mobilne karty z dłuższymi opisami przez wydzielenie przewijanej sekcji treści i obsługę dynamicznej wysokości ekranu;
+- dodano 14 zweryfikowanych ciekawostek i obrazów w kategoriach „Literatura i Książki” oraz „Ciekawostki Korporacyjne”, zwiększając kolekcję do 238 pozycji w 34 kategoriach;
+- dodano 14 zweryfikowanych ciekawostek i obrazów w kategoriach „Lata sześćdziesiąte” oraz „Lata dwutysięczne”, zwiększając kolekcję do 224 pozycji;
 - zmieniono etykietę przycisku losowania z „Losuj ciekawostkę” na „Losowy obraz”;
 - poprawiono czytelność mobilnych elementów sterujących przez subtelny panel z rozmyciem tła, mocniejszy kontrast opisów i obsługę bezpiecznego obszaru ekranu;
 - dodano 7 zweryfikowanych ciekawostek i obrazów w kategorii „Kultura i Tradycje Świata”, zwiększając kolekcję do 210 pozycji;

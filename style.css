@@ -378,9 +378,31 @@ h1 em { color: var(--acid); font-weight: 400; }
 
 @media (max-width: 760px) {
   .lightbox { padding: 12px; align-items: center; }
-  .fact-card { grid-template-columns: 1fr; width: 100%; max-height: calc(100vh - 24px); border-radius: 17px; }
-  .fact-media { min-height: 0; height: min(36vh, 280px); }
-  .fact-content { padding: 27px 25px 32px; }
+  .fact-card {
+    grid-template-columns: 1fr;
+    grid-template-rows: min(36vh, 280px) minmax(0, 1fr);
+    width: 100%;
+    height: calc(100vh - 24px);
+    max-height: calc(100vh - 24px);
+    border-radius: 17px;
+  }
+  .fact-media { min-height: 0; height: 100%; }
+  .fact-content {
+    align-self: stretch;
+    min-height: 0;
+    max-height: none;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    padding: 27px 25px 32px;
+  }
+  @supports (height: 100dvh) {
+    .fact-card {
+      grid-template-rows: min(36dvh, 280px) minmax(0, 1fr);
+      height: calc(100dvh - 24px - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
+      max-height: calc(100dvh - 24px - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
+    }
+  }
   .fact-content h2 { font-size: clamp(31px, 10vw, 44px); }
   .fact-summary { margin-top: 14px; font-size: 15px; }
   .fact-rule { margin: 21px 0; }

@@ -111,10 +111,12 @@ $g.DrawString('S F E R A', $brandFont, $inkBrush, 105, 56)
 $g.DrawString('INTERAKTYWNA BIBLIOTEKA WIEDZY', $eyebrowFont, $acidBrush, 66, 168)
 $g.DrawString('Wiedza nie ma', $titleFont, $inkBrush, 60, 204)
 $g.DrawString('jednego kierunku.', $accentFont, $acidBrush, 58, 276)
-$g.DrawString('Obracaj sferę, odkrywaj obrazy i poznawaj', $bodyFont, $mutedBrush, 67, 406)
+$subtitle = 'Obracaj sfer' + [char]0x0119 + ', odkrywaj obrazy i poznawaj'
+$g.DrawString($subtitle, $bodyFont, $mutedBrush, 67, 406)
 $g.DrawString('ciekawostki z wielu dziedzin.', $bodyFont, $mutedBrush, 67, 437)
 $g.FillRectangle($acidBrush, 67, 500, 54, 2)
-$g.DrawString("$imageCount OBRAZÓW  •  $imageCount HISTORII", $eyebrowFont, $mutedBrush, 67, 524)
+$stats = "$imageCount OBRAZ" + [char]0x00D3 + "W  " + [char]0x2022 + "  $imageCount HISTORII"
+$g.DrawString($stats, $eyebrowFont, $mutedBrush, 67, 524)
 
 $og.Save((Join-Path $assets 'og-preview.png'), [System.Drawing.Imaging.ImageFormat]::Png)
 
