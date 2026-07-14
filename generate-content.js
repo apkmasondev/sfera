@@ -22,7 +22,7 @@ async function main() {
   }
 
   const manifest = JSON.parse(await readFile(join(ROOT, 'manifest.json'), 'utf8'));
-  const imageNames = new Set(manifest.images.map((path) => path.split('/').pop().toLowerCase()));
+  const imageNames = new Set(manifest.items.map(({ image }) => image.split('/').pop().toLowerCase()));
   const missingContent = [...imageNames].filter((filename) => !content[filename]);
   const orphanContent = Object.keys(content).filter((filename) => !imageNames.has(filename));
   if (missingContent.length) throw new Error(`Obrazy bez ciekawostek: ${missingContent.join(', ')}`);

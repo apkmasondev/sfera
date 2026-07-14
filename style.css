@@ -4,6 +4,11 @@
   --muted: #a5aaa2;
   --acid: #b8ff5a;
   --bg: #07110f;
+  --motion-fast: .2s;
+  --motion-overlay: .38s;
+  --motion-card: .48s;
+  --ease-standard: cubic-bezier(.65, 0, .35, 1);
+  --ease-emphasized: cubic-bezier(.2, .9, .25, 1.08);
 }
 
 * { box-sizing: border-box; }
@@ -211,7 +216,7 @@ h1 em { color: var(--acid); font-weight: 400; }
   letter-spacing: .14em;
   text-transform: uppercase;
   cursor: pointer;
-  transition: color .2s, border-color .2s;
+  transition: color var(--motion-fast) ease, border-color var(--motion-fast) ease;
 }
 
 .random-button { bottom: calc(clamp(24px, 6vh, 64px) + 39px); }
@@ -238,7 +243,7 @@ h1 em { color: var(--acid); font-weight: 400; }
 .loading-orbit { width: 50px; height: 50px; border: 1px solid #294033; border-radius: 50%; animation: spin 2s linear infinite; }
 .loading-orbit span { display: block; width: 7px; height: 7px; margin: -3px auto 0; border-radius: 50%; background: var(--acid); box-shadow: 0 0 12px var(--acid); }
 .progress-track { width: 150px; height: 1px; background: #28332e; }
-.progress-track i { display: block; width: 0; height: 100%; background: var(--acid); transition: width .2s ease; }
+.progress-track i { display: block; width: 0; height: 100%; background: var(--acid); transition: width var(--motion-fast) ease; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 .lightbox[hidden] { display: none; }
@@ -253,7 +258,10 @@ h1 em { color: var(--acid); font-weight: 400; }
   -webkit-backdrop-filter: blur(0);
   backdrop-filter: blur(0);
   opacity: 0;
-  transition: opacity .38s ease, background .38s ease, backdrop-filter .38s ease;
+  transition:
+    opacity var(--motion-overlay) var(--ease-standard),
+    background var(--motion-overlay) var(--ease-standard),
+    backdrop-filter var(--motion-overlay) var(--ease-standard);
 }
 
 .lightbox.is-open {
@@ -269,7 +277,6 @@ h1 em { color: var(--acid); font-weight: 400; }
   grid-template-columns: minmax(280px, 1.02fr) minmax(320px, .98fr);
   width: min(1060px, 92vw);
   height: min(720px, 88vh);
-  max-height: min(720px, 88vh);
   overflow: hidden;
   border: 1px solid rgba(202, 255, 133, .18);
   border-radius: 22px;
@@ -278,7 +285,10 @@ h1 em { color: var(--acid); font-weight: 400; }
   transform: translateY(32px) scale(.9);
   filter: blur(9px);
   opacity: 0;
-  transition: transform .48s cubic-bezier(.2, .9, .25, 1.15), filter .42s ease, opacity .32s ease;
+  transition:
+    transform var(--motion-card) var(--ease-emphasized),
+    filter var(--motion-overlay) var(--ease-standard),
+    opacity var(--motion-overlay) var(--ease-standard);
 }
 
 .fact-card::after {
@@ -388,9 +398,9 @@ h1 em { color: var(--acid); font-weight: 400; }
 .fact-text { margin: 0; color: #9fa9a1; font-size: 13px; line-height: 1.78; }
 .fact-footer { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-top: 34px; }
 .fact-filename { margin: 0; color: #59655e; font-size: 8px; letter-spacing: .15em; text-transform: uppercase; }
-.copy-link-button { padding: 7px 0; border: 0; border-bottom: 1px solid rgba(184,255,90,.28); background: transparent; color: #7f8a83; font: inherit; font-size: 8px; letter-spacing: .13em; text-transform: uppercase; white-space: nowrap; cursor: pointer; transition: color .2s, border-color .2s; }
+.copy-link-button { padding: 7px 0; border: 0; border-bottom: 1px solid rgba(184,255,90,.28); background: transparent; color: #7f8a83; font: inherit; font-size: 8px; letter-spacing: .13em; text-transform: uppercase; white-space: nowrap; cursor: pointer; transition: color var(--motion-fast) ease, border-color var(--motion-fast) ease; }
 .copy-link-button:hover { color: var(--acid); border-color: var(--acid); }
-.lightbox-close { position: absolute; z-index: 4; top: 18px; right: 18px; width: 42px; height: 42px; border: 1px solid rgba(230,240,231,.35); border-radius: 50%; background: rgba(3,10,7,.42); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); color: white; font-size: 27px; font-weight: 200; line-height: 1; cursor: pointer; transition: transform .2s ease, color .2s, border-color .2s; }
+.lightbox-close { position: absolute; z-index: 4; top: 18px; right: 18px; width: 42px; height: 42px; border: 1px solid rgba(230,240,231,.35); border-radius: 50%; background: rgba(3,10,7,.42); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); color: white; font-size: 27px; font-weight: 200; line-height: 1; cursor: pointer; transition: transform var(--motion-fast) ease, color var(--motion-fast) ease, border-color var(--motion-fast) ease; }
 .lightbox-close:hover { border-color: var(--acid); color: var(--acid); transform: rotate(8deg) scale(1.06); }
 
 @media (max-width: 760px) {

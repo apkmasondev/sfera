@@ -10,6 +10,7 @@ import {
 } from './fact-links.js';
 import { createSphereFocusController } from './sphere-focus.js';
 import { createImageTransitionController } from './image-transition.js';
+import { MOTION } from './motion.js';
 
 // Najważniejsze parametry — zmień je tutaj, aby dopasować wygląd i zachowanie.
 const SPHERE_RADIUS = 4.15;
@@ -24,7 +25,7 @@ const MIN_CAMERA_DISTANCE = 7;
 const MAX_CAMERA_DISTANCE = 15;
 const LOAD_CONCURRENCY = 10;
 const TEXTURE_MAX_SIZE = 256;
-const INITIAL_REVEAL_RATIO = 0.2;
+const INITIAL_REVEAL_RATIO = 0.12;
 const POINTER_MOVE_THRESHOLD = { mouse: 5, pen: 8, touch: 12 };
 const INITIAL_SPHERE_ROTATION = { x: -0.08, y: -0.35, z: 0.04 };
 
@@ -99,10 +100,10 @@ async function init() {
   if (!response.ok) throw new Error('Nie znaleziono manifest.json. Uruchom: node generate-manifest.js');
 
   const manifest = await response.json();
-  const paths = manifest.images.slice(0, IMAGE_COUNT);
-  countLabel.textContent = `${paths.length} ciekawostek`;
+  const items = manifest.items.slice(0, IMAGE_COUNT);
+  countLabel.textContent = `${items.length} ciekawostek`;
 
-  createImagePlaces(paths);
+  createImagePlaces(items);
   focusController = createSphereFocusController({
     group: sphereGroup,
     camera,
@@ -114,10 +115,22 @@ async function init() {
     reducedMotion: reducedMotionQuery
   });
   animate();
-  await loadTextures(paths);
-  loading.classList.add('is-done');
-  randomButton.disabled = false;
-  openInitialFactFromUrl();
+
+  let initialReadyHandled = false;
+  const handleInitialReady = () => {
+    if (initialReadyHandled) return;
+    initialReadyHandled = true;
+    loading.classList.add('is-done');
+    randomButton.disabled = false;
+    openInitialFactFromUrl();
+  };
+
+  loadTextures(items, handleInitialReady)
+    .then(handleInitialReady)
+    .catch((error) => {
+      console.error(error);
+      handleInitialReady();
+    });
 }
 
 function setupScene() {
@@ -160,20 +173,21 @@ function fibonacciPoint(index, total, radius) {
   return new THREE.Vector3(Math.cos(angle) * radial, y, Math.sin(angle) * radial).multiplyScalar(radius);
 }
 
-function createImagePlaces(paths) {
+function createImagePlaces(items) {
   const geometry = new THREE.PlaneGeometry(IMAGE_SIZE, IMAGE_SIZE * IMAGE_HEIGHT_RATIO);
   const placeholder = new THREE.MeshBasicMaterial({ color: 0x20372e, transparent: true, opacity: 0.36, side: THREE.DoubleSide });
 
-  imageMeshes = paths.map((path, index) => {
+  imageMeshes = items.map((item, index) => {
     const mesh = new THREE.Mesh(geometry, placeholder.clone());
-    const position = fibonacciPoint(index, paths.length, SPHERE_RADIUS);
+    const position = fibonacciPoint(index, items.length, SPHERE_RADIUS);
     mesh.position.copy(position);
     mesh.lookAt(position.clone().multiplyScalar(2));
     mesh.userData = {
-      path,
+      path: item.image,
+      thumbnail: item.thumbnail,
       index,
       loaded: false,
-      category: getContentForImage(path)?.category || ''
+      category: getContentForImage(item.image)?.category || ''
     };
     sphereGroup.add(mesh);
     return mesh;
@@ -181,35 +195,59 @@ function createImagePlaces(paths) {
   placeholder.dispose();
 }
 
-async function loadTextures(paths) {
+async function loadTextures(items, onInitialReady) {
   const textureLoader = new THREE.TextureLoader();
+  const queue = createTextureLoadQueue(items);
   let loaded = 0;
   let cursor = 0;
-  const revealAfter = Math.max(1, Math.ceil(paths.length * INITIAL_REVEAL_RATIO));
+  let initialReady = false;
+  const revealAfter = Math.max(1, Math.ceil(items.length * INITIAL_REVEAL_RATIO));
 
   const worker = async () => {
-    while (cursor < paths.length) {
-      const index = cursor++;
+    while (cursor < queue.length) {
+      const task = queue[cursor++];
       try {
-        const sourceTexture = await textureLoader.loadAsync(paths[index]);
+        const sourceTexture = await textureLoader.loadAsync(task.thumbnail);
         const texture = createSphereTexture(sourceTexture);
-        const mesh = imageMeshes[index];
+        const mesh = imageMeshes[task.index];
         mesh.material.dispose();
         mesh.material = new THREE.MeshBasicMaterial({ map: texture, transparent: true, opacity: 0.92, side: THREE.DoubleSide });
         mesh.userData.loaded = true;
       } catch (error) {
-        console.warn(`Nie udało się wczytać: ${paths[index]}`, error);
+        console.warn(`Nie udało się wczytać: ${task.thumbnail}`, error);
       }
 
       loaded += 1;
-      const percent = Math.round((loaded / paths.length) * 100);
+      const percent = Math.round((loaded / items.length) * 100);
       progressBar.style.width = `${percent}%`;
       progressLabel.textContent = `${percent}%`;
-      if (loaded >= revealAfter) loading.classList.add('is-done');
+      if (!initialReady && loaded >= revealAfter) {
+        initialReady = true;
+        onInitialReady?.();
+      }
     }
   };
 
-  await Promise.all(Array.from({ length: Math.min(LOAD_CONCURRENCY, paths.length) }, worker));
+  await Promise.all(Array.from({ length: Math.min(LOAD_CONCURRENCY, items.length) }, worker));
+}
+
+function createTextureLoadQueue(items) {
+  const directFactId = readFactIdFromUrl();
+  const worldPosition = new THREE.Vector3();
+  sphereGroup.updateWorldMatrix(true, true);
+  camera.updateWorldMatrix(true, false);
+
+  return items
+    .map((item, index) => {
+      imageMeshes[index].getWorldPosition(worldPosition);
+      return {
+        index,
+        thumbnail: item.thumbnail,
+        direct: getFactIdForImage(item.image) === directFactId,
+        distance: worldPosition.distanceToSquared(camera.position)
+      };
+    })
+    .sort((a, b) => Number(b.direct) - Number(a.direct) || a.distance - b.distance);
 }
 
 function createSphereTexture(sourceTexture) {
@@ -398,8 +436,9 @@ function onImageClick(mesh, { updateUrl = true, canGoBack = true } = {}) {
   const factId = getFactIdForImage(imageData.path);
   velocity = { x: 0, y: 0 };
   clearHoveredMesh();
+  const fullImageReady = preloadImage(imageData.path);
 
-  const started = focusController.focus(mesh, fact?.category, () => openFactCard(mesh, imageData, fact));
+  const started = focusController.focus(mesh, fact?.category, () => openFactCard(mesh, imageData, fact, fullImageReady));
   if (!started) return false;
 
   previouslyFocusedElement = document.activeElement instanceof HTMLElement ? document.activeElement : null;
@@ -409,7 +448,7 @@ function onImageClick(mesh, { updateUrl = true, canGoBack = true } = {}) {
   return true;
 }
 
-async function openFactCard(mesh, imageData, fact) {
+async function openFactCard(mesh, imageData, fact, imageReady = Promise.resolve()) {
   const transitionId = ++cardTransitionId;
   cardClosing = false;
   const fallbackTitle = humanizeFilename(imageData.path);
@@ -423,6 +462,8 @@ async function openFactCard(mesh, imageData, fact) {
   document.title = `${fact?.title || fallbackTitle} | Sfera wiedzy`;
   resetCopyLinkButton();
   clearTimeout(closeCardTimer);
+  await imageReady;
+  if (transitionId !== cardTransitionId || !focusController?.isActive()) return;
   lightbox.hidden = false;
   activeFactMesh = mesh;
   lightbox.classList.add('is-shared-opening');
@@ -432,13 +473,15 @@ async function openFactCard(mesh, imageData, fact) {
 
   const sourceRect = imageTransitionController?.getMeshScreenRect(mesh);
   const canAnimate = Boolean(sourceRect && imageTransitionController);
-  if (canAnimate) mesh.userData.transitionHidden = true;
+  if (canAnimate) {
+    mesh.userData.transitionHidden = true;
+    focusController?.invalidateStyles();
+  }
   lightbox.classList.add('is-open');
 
   if (canAnimate) {
     const animated = await imageTransitionController.open({
       src: imageData.path,
-      alt: lightboxImage.alt,
       from: () => sourceRect,
       to: () => factMedia.getBoundingClientRect()
     });
@@ -448,6 +491,18 @@ async function openFactCard(mesh, imageData, fact) {
   if (transitionId !== cardTransitionId || lightbox.hidden) return;
   lightbox.classList.remove('is-shared-opening');
   lightbox.querySelector('.lightbox-close').focus({ preventScroll: true });
+}
+
+function preloadImage(path) {
+  const image = new Image();
+  image.decoding = 'async';
+  image.src = path;
+
+  if (typeof image.decode === 'function') return image.decode().catch(() => undefined);
+  return new Promise((resolve) => {
+    image.addEventListener('load', resolve, { once: true });
+    image.addEventListener('error', resolve, { once: true });
+  });
 }
 
 function humanizeFilename(path) {
@@ -467,6 +522,7 @@ function requestCloseLightbox() {
 
 function closeLightbox() {
   if (lightbox.hidden) {
+    cardTransitionId += 1;
     if (focusController?.isActive()) focusController.restore();
     activeFactId = '';
     document.title = defaultDocumentTitle;
@@ -478,12 +534,12 @@ function closeLightbox() {
   const transitionId = ++cardTransitionId;
   const closingMesh = activeFactMesh;
   const imagePath = lightboxImage.currentSrc || lightboxImage.src;
-  const imageAlt = lightboxImage.alt;
   const canAnimate = Boolean(
     closingMesh
     && imagePath
     && imageTransitionController?.getMeshScreenRect(closingMesh)
   );
+  if (canAnimate) closingMesh.userData.transitionOpacity = 0;
 
   imageTransitionController?.cancel();
   lightbox.classList.remove('is-shared-opening');
@@ -497,20 +553,25 @@ function closeLightbox() {
   const closeAnimation = canAnimate
     ? imageTransitionController.close({
         src: imagePath,
-        alt: imageAlt,
         from: () => factMedia.getBoundingClientRect(),
         to: () => imageTransitionController.getMeshScreenRect(closingMesh),
-        onProgress: (progress) => {
-          if (progress >= 0.62) closingMesh.userData.transitionHidden = false;
+        onHandoff: (handoffProgress) => {
+          closingMesh.userData.transitionHidden = handoffProgress === 0;
+          closingMesh.userData.transitionOpacity = handoffProgress * 0.9;
         }
       })
     : new Promise((resolve) => {
-        closeCardTimer = setTimeout(resolve, 400);
+        closeCardTimer = setTimeout(resolve, MOTION.overlayDuration + 40);
       });
 
   closeAnimation.then(() => {
     if (transitionId !== cardTransitionId) return;
-    if (closingMesh) closingMesh.userData.transitionHidden = false;
+    if (closingMesh) {
+      closingMesh.userData.transitionHidden = false;
+      delete closingMesh.userData.transitionOpacity;
+      closingMesh.material.opacity = 0.9;
+      closingMesh.scale.setScalar(1);
+    }
     lightbox.classList.remove('is-shared-closing');
     lightbox.hidden = true;
     lightboxImage.removeAttribute('src');
@@ -659,9 +720,8 @@ function animate(now = performance.now()) {
   }
 
   updateHover();
-  focusController?.update(now, hoveredMesh);
-
-  renderer.render(scene, camera);
+  const sceneChanged = focusController?.update(now, hoveredMesh, delta) ?? false;
+  if (lightbox.hidden || sceneChanged) renderer.render(scene, camera);
 }
 
 function rotateSphere(pitchDelta, yawDelta) {

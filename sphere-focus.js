@@ -1,7 +1,5 @@
 import * as THREE from './vendor/three/three.module.min.js';
-
-const FOCUS_DURATION = 620;
-const RESTORE_DURATION = 520;
+import { easeInOutCubic, MOTION } from './motion.js';
 
 const COLORS = {
   normal: new THREE.Color(0xffffff),
@@ -9,17 +7,13 @@ const COLORS = {
   dimmed: new THREE.Color(0x718078)
 };
 
-function easeInOutCubic(value) {
-  return value < 0.5
-    ? 4 * value * value * value
-    : 1 - Math.pow(-2 * value + 2, 3) / 2;
-}
-
 export function createSphereFocusController({ group, camera, meshes, reducedMotion }) {
   let phase = 'idle';
   let selectedMesh = null;
   let activeCategory = '';
   let animation = null;
+  let stylesDirty = false;
+  let previousHoveredMesh = null;
 
   const returnQuaternion = new THREE.Quaternion();
   const targetQuaternion = new THREE.Quaternion();
@@ -41,6 +35,7 @@ export function createSphereFocusController({ group, camera, meshes, reducedMoti
     if (!animation) return;
     group.quaternion.copy(animation.to);
     if (animation.mesh && animation.meshTo) animation.mesh.quaternion.copy(animation.meshTo);
+    if (phase === 'restoring' && animation.mesh) animation.mesh.scale.setScalar(1);
     const onComplete = animation.onComplete;
     animation = null;
     onComplete?.();
@@ -65,6 +60,7 @@ export function createSphereFocusController({ group, camera, meshes, reducedMoti
     if (phase !== 'idle' || !mesh) return false;
 
     phase = 'focusing';
+    stylesDirty = true;
     selectedMesh = mesh;
     activeCategory = category || '';
     returnQuaternion.copy(group.quaternion);
@@ -89,7 +85,7 @@ export function createSphereFocusController({ group, camera, meshes, reducedMoti
     rollQuaternion.setFromAxisAngle(localNormal, rollAngle);
     meshTargetQuaternion.copy(meshReturnQuaternion).multiply(rollQuaternion).normalize();
 
-    startAnimation(targetQuaternion, FOCUS_DURATION, () => {
+    startAnimation(targetQuaternion, MOTION.focusDuration, () => {
       phase = 'focused';
       onComplete?.();
     }, meshTargetQuaternion);
@@ -100,7 +96,8 @@ export function createSphereFocusController({ group, camera, meshes, reducedMoti
     if (phase === 'idle' || phase === 'restoring') return false;
 
     phase = 'restoring';
-    startAnimation(returnQuaternion, RESTORE_DURATION, () => {
+    stylesDirty = true;
+    startAnimation(returnQuaternion, MOTION.returnDuration, () => {
       phase = 'idle';
       selectedMesh = null;
       activeCategory = '';
@@ -115,6 +112,7 @@ export function createSphereFocusController({ group, camera, meshes, reducedMoti
     phase = 'idle';
     selectedMesh = null;
     activeCategory = '';
+    stylesDirty = true;
   }
 
   function interruptRestore() {
@@ -124,22 +122,33 @@ export function createSphereFocusController({ group, camera, meshes, reducedMoti
     phase = 'idle';
     selectedMesh = null;
     activeCategory = '';
+    stylesDirty = true;
     return true;
   }
 
   function updateAnimation(now) {
-    if (!animation) return;
+    if (!animation) return false;
     const progress = THREE.MathUtils.clamp((now - animation.startedAt) / animation.duration, 0, 1);
     group.quaternion.slerpQuaternions(animation.from, animation.to, easeInOutCubic(progress));
     if (animation.mesh && animation.meshFrom && animation.meshTo) {
       animation.mesh.quaternion.slerpQuaternions(animation.meshFrom, animation.meshTo, easeInOutCubic(progress));
     }
     if (progress >= 1) finishAnimation();
+    return true;
   }
 
-  function updateMeshStyles(hoveredMesh) {
+  function updateMeshStyles(hoveredMesh, delta) {
+    if (hoveredMesh !== previousHoveredMesh) {
+      previousHoveredMesh = hoveredMesh;
+      stylesDirty = true;
+    }
+
+    const phaseAnimating = phase === 'focusing' || phase === 'restoring';
+    if (!stylesDirty && !phaseAnimating) return false;
+
     const focusActive = phase !== 'idle';
-    const smoothing = reducedMotion.matches ? 1 : 0.14;
+    const smoothing = reducedMotion.matches ? 1 : 1 - Math.exp(-MOTION.styleResponse * delta);
+    let unsettled = false;
 
     for (const mesh of meshes) {
       if (!mesh.userData.loaded) continue;
@@ -154,8 +163,8 @@ export function createSphereFocusController({ group, camera, meshes, reducedMoti
 
       if (focusActive) {
         if (isSelected) {
-          targetScale = 1.5;
-          targetOpacity = 1;
+          targetScale = phase === 'restoring' ? 1 : 1.5;
+          targetOpacity = phase === 'restoring' ? 0.9 : 1;
         } else if (isCategory) {
           targetScale = 1.12;
           targetOpacity = 0.98;
@@ -172,22 +181,43 @@ export function createSphereFocusController({ group, camera, meshes, reducedMoti
 
       if (mesh.userData.transitionHidden) targetOpacity = 0;
 
-      mesh.scale.setScalar(THREE.MathUtils.lerp(mesh.scale.x, targetScale, smoothing));
-      mesh.material.opacity = THREE.MathUtils.lerp(mesh.material.opacity, targetOpacity, smoothing);
+      const nextScale = THREE.MathUtils.lerp(mesh.scale.x, targetScale, smoothing);
+      mesh.scale.setScalar(Math.abs(nextScale - targetScale) < 0.001 ? targetScale : nextScale);
+      const transitionOpacity = mesh.userData.transitionOpacity;
+      const nextOpacity = Number.isFinite(transitionOpacity)
+        ? THREE.MathUtils.clamp(transitionOpacity, 0, 1)
+        : THREE.MathUtils.lerp(mesh.material.opacity, targetOpacity, smoothing);
+      mesh.material.opacity = Math.abs(nextOpacity - targetOpacity) < 0.001 ? targetOpacity : nextOpacity;
       mesh.material.color.lerp(targetColor, smoothing);
+      if (
+        Math.abs(mesh.material.color.r - targetColor.r) < 0.001
+        && Math.abs(mesh.material.color.g - targetColor.g) < 0.001
+        && Math.abs(mesh.material.color.b - targetColor.b) < 0.001
+      ) {
+        mesh.material.color.copy(targetColor);
+      }
       mesh.renderOrder = isSelected ? 2 : isCategory ? 1 : 0;
+
+      unsettled ||= mesh.scale.x !== targetScale
+        || mesh.material.opacity !== targetOpacity
+        || !mesh.material.color.equals(targetColor);
     }
+
+    stylesDirty = phaseAnimating || unsettled;
+    return true;
   }
 
-  function update(now, hoveredMesh) {
-    updateAnimation(now);
-    updateMeshStyles(hoveredMesh);
+  function update(now, hoveredMesh, delta) {
+    const animationChanged = updateAnimation(now);
+    const stylesChanged = updateMeshStyles(hoveredMesh, delta);
+    return animationChanged || stylesChanged;
   }
 
   return {
     focus,
     restore,
     interruptRestore,
+    invalidateStyles: () => { stylesDirty = true; },
     reset,
     update,
     isIdle: () => phase === 'idle',

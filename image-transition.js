@@ -1,16 +1,9 @@
 import * as THREE from './vendor/three/three.module.min.js';
+import { easeInOutCubic, MOTION } from './motion.js';
 
-const OPEN_DURATION = 640;
-const CLOSE_DURATION = 560;
 const SOURCE_RADIUS = 4;
 
 const corners = Array.from({ length: 4 }, () => new THREE.Vector3());
-
-function easeInOutCubic(value) {
-  return value < 0.5
-    ? 4 * value * value * value
-    : 1 - Math.pow(-2 * value + 2, 3) / 2;
-}
 
 function isUsableRect(rect) {
   return rect
@@ -90,7 +83,7 @@ export function createImageTransitionController({ camera, reducedMotion }) {
     activeAnimation = null;
   }
 
-  function animate({ src, alt, from, to, direction, onProgress }) {
+  function animate({ src, from, to, direction, onHandoff }) {
     cancel();
     if (reducedMotion.matches) return Promise.resolve(false);
 
@@ -99,14 +92,14 @@ export function createImageTransitionController({ camera, reducedMotion }) {
     if (!isUsableRect(initialRect) || !isUsableRect(initialTarget)) return Promise.resolve(false);
 
     const element = document.createElement('img');
-    element.className = `shared-image-transition is-${direction}`;
+    element.className = 'shared-image-transition';
     element.src = src;
-    element.alt = alt;
+    element.alt = '';
     element.setAttribute('aria-hidden', 'true');
     applyRect(element, initialRect, direction === 'opening' ? SOURCE_RADIUS : 0);
     document.body.append(element);
 
-    const duration = direction === 'opening' ? OPEN_DURATION : CLOSE_DURATION;
+    const duration = direction === 'opening' ? MOTION.imageOpenDuration : MOTION.returnDuration;
     const startedAt = performance.now();
 
     return new Promise((resolve) => {
@@ -117,7 +110,14 @@ export function createImageTransitionController({ camera, reducedMotion }) {
 
         const rawProgress = THREE.MathUtils.clamp((now - startedAt) / duration, 0, 1);
         const progress = easeInOutCubic(rawProgress);
-        onProgress?.(rawProgress);
+        const handoffProgress = direction === 'closing'
+          ? easeInOutCubic(THREE.MathUtils.clamp(
+              (rawProgress - MOTION.closeBlendStart) / (1 - MOTION.closeBlendStart),
+              0,
+              1
+            ))
+          : 0;
+        onHandoff?.(handoffProgress);
         const currentTarget = to();
         const targetRect = isUsableRect(currentTarget) ? copyRect(currentTarget) : initialTarget;
         const currentRect = interpolateRect(initialRect, targetRect, progress);
@@ -128,7 +128,7 @@ export function createImageTransitionController({ camera, reducedMotion }) {
         );
 
         applyRect(element, currentRect, radius);
-        element.style.opacity = `${direction === 'opening' ? 1 : 1 - progress * 0.08}`;
+        element.style.opacity = `${direction === 'opening' ? 1 : 1 - handoffProgress}`;
 
         if (rawProgress < 1) {
           activeAnimation.frameId = requestAnimationFrame(update);

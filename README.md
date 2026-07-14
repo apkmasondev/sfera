@@ -52,7 +52,7 @@ Nie należy otwierać `index.html` bezpośrednio przez `file://`, ponieważ prze
 | Polecenie | Działanie |
 | --- | --- |
 | `npm start` | Uruchamia lekki lokalny serwer na porcie 4173. |
-| `npm run manifest` | Skanuje rekurencyjnie `images/` i tworzy `manifest.json`. |
+| `npm run manifest` | Weryfikuje obrazy i miniatury, a następnie tworzy `manifest.json`. |
 | `npm run content` | Scala dane bazowe i dodatki do `content.json`. |
 | `npm run build` | Generuje kolejno manifest i kompletny plik treści. |
 
@@ -61,12 +61,14 @@ Nie należy otwierać `index.html` bezpośrednio przez `file://`, ponieważ prze
 ```text
 .
 ├── assets/                    # favicony, Open Graph i generator zasobów marki
-├── images/facts/              # obrazy ciekawostek WebP
+├── images/facts/              # pełne obrazy ciekawostek WebP (karty)
+├── images/thumbs/             # lekkie miniatury 256×256 używane przez sferę
 ├── index.html                 # struktura strony i metadane SEO
 ├── style.css                  # interfejs, karta i responsywność
 ├── main.js                    # scena Three.js i interakcje
 ├── sphere-focus.js            # kinowe skupienie i wyróżnianie kategorii
 ├── image-transition.js        # przejście obrazu między sferą i kartą
+├── motion.js                  # wspólne czasy i easing animacji JS
 ├── vendor/three/              # lokalny, przypięty build Three.js wraz z licencją
 ├── content-store.js           # wczytywanie i dopasowywanie ciekawostek
 ├── content-source.json        # jedno źródło wszystkich oczyszczonych rekordów
@@ -87,7 +89,7 @@ Aplikacja używa lokalnej, przypiętej wersji `0.185.1`, dzięki czemu podczas d
 
 ## Dodawanie kolejnych ciekawostek
 
-1. Dodaj obraz WebP do `images/facts/`. Nazwa musi być unikalna i zgodna ze schematem `kategoria_numer.webp`, np. `astronomia_8.webp`.
+1. Dodaj pełny obraz WebP 512×512 do `images/facts/` oraz jego miniaturę WebP 256×256 o tej samej nazwie do `images/thumbs/`. Nazwa musi być unikalna i zgodna ze schematem `kategoria_numer.webp`, np. `astronomia_8.webp`.
 2. Dodaj rekord do `content-source.json`. Kluczem jest dokładna nazwa obrazu zapisana małymi literami.
 3. Uruchom `npm run build`.
 4. Sprawdź stronę lokalnie przez `npm start`.
