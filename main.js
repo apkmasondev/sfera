@@ -14,6 +14,8 @@ import { createImageTransitionController } from './image-transition.js';
 // Najważniejsze parametry — zmień je tutaj, aby dopasować wygląd i zachowanie.
 const SPHERE_RADIUS = 4.15;
 const IMAGE_SIZE = 0.72;
+const IMAGE_HEIGHT_RATIO = 0.72;
+const IMAGE_ASPECT_RATIO = 1 / IMAGE_HEIGHT_RATIO;
 const IMAGE_COUNT = Infinity; // np. 100 ogranicza liczbę obrazów; Infinity pokazuje wszystkie
 const AUTO_ROTATE_SPEED = 0.00045;
 const AUTO_ROTATE_DELAY = 3000;
@@ -159,7 +161,7 @@ function fibonacciPoint(index, total, radius) {
 }
 
 function createImagePlaces(paths) {
-  const geometry = new THREE.PlaneGeometry(IMAGE_SIZE, IMAGE_SIZE * 0.72);
+  const geometry = new THREE.PlaneGeometry(IMAGE_SIZE, IMAGE_SIZE * IMAGE_HEIGHT_RATIO);
   const placeholder = new THREE.MeshBasicMaterial({ color: 0x20372e, transparent: true, opacity: 0.36, side: THREE.DoubleSide });
 
   imageMeshes = paths.map((path, index) => {
@@ -212,13 +214,16 @@ async function loadTextures(paths) {
 
 function createSphereTexture(sourceTexture) {
   const image = sourceTexture.image;
-  const scale = Math.min(1, TEXTURE_MAX_SIZE / Math.max(image.naturalWidth, image.naturalHeight));
+  const sourceWidth = image.naturalWidth || image.width;
+  const sourceHeight = image.naturalHeight || image.height;
+  const sourceAspectRatio = sourceWidth / sourceHeight;
+  const scale = Math.min(1, TEXTURE_MAX_SIZE / Math.max(sourceWidth, sourceHeight));
   let texture = sourceTexture;
 
   if (scale < 1) {
     const canvasTexture = document.createElement('canvas');
-    canvasTexture.width = Math.max(1, Math.round(image.naturalWidth * scale));
-    canvasTexture.height = Math.max(1, Math.round(image.naturalHeight * scale));
+    canvasTexture.width = Math.max(1, Math.round(sourceWidth * scale));
+    canvasTexture.height = Math.max(1, Math.round(sourceHeight * scale));
     const context = canvasTexture.getContext('2d', { alpha: false });
     if (context) {
       context.drawImage(image, 0, 0, canvasTexture.width, canvasTexture.height);
@@ -231,8 +236,23 @@ function createSphereTexture(sourceTexture) {
   texture.generateMipmaps = false;
   texture.minFilter = THREE.LinearFilter;
   texture.magFilter = THREE.LinearFilter;
+  applyTextureCover(texture, sourceAspectRatio, IMAGE_ASPECT_RATIO);
   texture.needsUpdate = true;
   return texture;
+}
+
+function applyTextureCover(texture, sourceAspectRatio, targetAspectRatio) {
+  texture.repeat.set(1, 1);
+  texture.offset.set(0, 0);
+
+  if (sourceAspectRatio > targetAspectRatio) {
+    texture.repeat.x = targetAspectRatio / sourceAspectRatio;
+    texture.offset.x = (1 - texture.repeat.x) / 2;
+    return;
+  }
+
+  texture.repeat.y = sourceAspectRatio / targetAspectRatio;
+  texture.offset.y = (1 - texture.repeat.y) / 2;
 }
 
 function bindEvents() {

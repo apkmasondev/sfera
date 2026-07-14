@@ -268,6 +268,7 @@ h1 em { color: var(--acid); font-weight: 400; }
   display: grid;
   grid-template-columns: minmax(280px, 1.02fr) minmax(320px, .98fr);
   width: min(1060px, 92vw);
+  height: min(720px, 88vh);
   max-height: min(720px, 88vh);
   overflow: hidden;
   border: 1px solid rgba(202, 255, 133, .18);
@@ -295,7 +296,7 @@ h1 em { color: var(--acid); font-weight: 400; }
 
 .fact-media {
   position: relative;
-  min-height: 490px;
+  min-height: 0;
   overflow: hidden;
   background: #0b1713;
 }
@@ -353,7 +354,8 @@ h1 em { color: var(--acid); font-weight: 400; }
 
 .fact-content {
   align-self: center;
-  max-height: 88vh;
+  min-height: 0;
+  max-height: 100%;
   overflow-y: auto;
   padding: clamp(38px, 6vw, 72px);
   scrollbar-width: thin;
