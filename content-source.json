@@ -4,7 +4,7 @@
     "category": "Ciało Człowieka",
     "title": "Siła mięśnia żwacza",
     "summary": "Jeden z mięśni zdolnych wytworzyć bardzo dużą siłę zgryzu.",
-    "text": "Trudno wskazać jeden najsilniejszy mięsień, ponieważ siłę można mierzyć na kilka sposobów. Żwacz wyróżnia się jednak ogromną siłą zaciskania szczęk, dzięki której możemy rozgryzać i miażdżyć twarde pokarmy."
+    "text": "Trudno wskazać jeden najsilniejszy mięsień, ponieważ siłę można mierzyć na kilka sposobów. Żwacz przebiega od łuku jarzmowego do żuchwy i wyróżnia się ogromną siłą zaciskania szczęk, dzięki której możemy rozgryzać i miażdżyć twarde pokarmy."
   },
   "anatomia_92.webp": {
     "image": "anatomia_92.webp",
@@ -23,7 +23,7 @@
   "anatomia_94.webp": {
     "image": "anatomia_94.webp",
     "category": "Ciało Człowieka",
-    "title": "Ilość kości w ciele",
+    "title": "Liczba kości w ciele",
     "summary": "Wiele elementów dziecięcego szkieletu zrasta się podczas rozwoju.",
     "text": "Szkielet noworodka składa się z większej liczby oddzielnych elementów niż szkielet osoby dorosłej. W czasie wzrostu część z nich zrasta się, między innymi w czaszce, kręgosłupie i miednicy; u dorosłego najczęściej wyróżnia się 206 kości, choć liczba może nieznacznie się różnić."
   },
@@ -67,7 +67,7 @@
     "category": "Architektura",
     "title": "Burdż Chalifa",
     "summary": "Najwyższy drapacz chmur na naszej planecie.",
-    "text": "Burdż Chalifa w Dubaju ma 828 metrów wysokości. Jego trójramienny, stopniowo zwężający się kształt ogranicza powstawanie regularnych wirów powietrza i zmniejsza obciążenia wywoływane przez wiatr."
+    "text": "Burdż Chalifa w Dubaju ma 828 metrów wysokości. Jego trójramienny, stopniowo zwężający się kształt oraz kolejne uskoki zaburzają regularne wiry powietrza. Dzięki temu wiatr nie obciąża całej konstrukcji w jednakowy sposób."
   },
   "architektura_124.webp": {
     "image": "architektura_124.webp",
@@ -263,7 +263,7 @@
     "category": "Fizyka",
     "title": "Teoria względności",
     "summary": "Teoria łącząca czas, przestrzeń, ruch, masę i energię.",
-    "text": "W 1905 roku Albert Einstein opublikował szczególną teorię względności. Wynikają z niej między innymi dylatacja czasu dla szybko poruszających się obserwatorów oraz równoważność masy i energii zapisana wzorem E=mc²."
+    "text": "W 1905 roku Albert Einstein opublikował szczególną teorię względności. Wynikają z niej między innymi dylatacja czasu dla szybko poruszających się obserwatorów oraz równoważność masy i energii zapisana wzorem E=mc². Teoria pokazuje też, że pomiary czasu i długości zależą od względnego ruchu obserwatorów."
   },
   "fact_fiz_64.webp": {
     "image": "fact_fiz_64.webp",
@@ -326,7 +326,7 @@
     "category": "Geografia",
     "title": "Wielka Rafa Koralowa",
     "summary": "Największy na świecie system raf koralowych.",
-    "text": "Wielka Rafa Koralowa rozciąga się wzdłuż północno-wschodniego wybrzeża Australii na ponad 2300 kilometrów. Nie jest pojedynczą rafą, lecz systemem tysięcy raf i wysp budowanych przez niezliczone kolonie koralowców."
+    "text": "Wielka Rafa Koralowa rozciąga się wzdłuż północno-wschodniego wybrzeża Australii na ponad 2300 kilometrów. Nie jest pojedynczą rafą, lecz systemem tysięcy raf i wysp budowanych przez niezliczone kolonie koralowców. Rozległy obszar obejmuje wiele połączonych ze sobą siedlisk morskich."
   },
   "geografia_26.webp": {
     "image": "geografia_26.webp",
@@ -346,7 +346,7 @@
     "image": "historia_polski_1.webp",
     "category": "Historia Polski",
     "title": "966 – Chrzest Polski",
-    "summary": "Historyczna decyzja władcy plemienia Polan.",
+    "summary": "Historyczna decyzja władcy państwa Piastów.",
     "text": "W 966 roku Mieszko I przyjął chrzest, prawdopodobnie pod wpływem małżeństwa z czeską księżniczką Dobrawą. Dokładna data i miejsce ceremonii nie są znane, ale wydarzenie zapoczątkowało chrystianizację państwa Piastów i włączyło je w krąg kultury łacińskiej."
   },
   "historia_polski_2.webp": {
@@ -388,7 +388,7 @@
     "image": "historia_polski_7.webp",
     "category": "Historia Polski",
     "title": "1918 – Niepodległość Polski",
-    "summary": "Zakończenie długich 123 lat niewoli.",
+    "summary": "Symboliczny koniec 123 lat zaborów.",
     "text": "11 listopada 1918 roku Rada Regencyjna przekazała Józefowi Piłsudskiemu władzę nad wojskiem. Odzyskiwanie niepodległości było dłuższym procesem zachodzącym w różnych częściach ziem polskich, ale ta data stała się jego najważniejszym symbolem i świętem państwowym."
   },
   "historia_swiata_1.webp": {
@@ -466,7 +466,7 @@
     "category": "Inżynieria",
     "title": "Eurotunel pod La Manche",
     "summary": "Długi podwodny tunel łączący europejskie narody.",
-    "text": "Eurotunel, otwarty w 1994 roku, ma około 50 kilometrów długości, z czego blisko 38 kilometrów przebiega pod dnem kanału La Manche. Tworzą go dwa tunele kolejowe oraz położony między nimi tunel serwisowy."
+    "text": "Eurotunel, otwarty w 1994 roku, ma około 50 kilometrów długości, z czego blisko 38 kilometrów przebiega pod dnem kanału La Manche. Tworzą go dwa tunele kolejowe oraz położony między nimi tunel serwisowy, połączony z głównymi trasami regularnymi przejściami."
   },
   "inzynieria_135.webp": {
     "image": "inzynieria_135.webp",
@@ -858,7 +858,7 @@
     "category": "Klasyka internetu",
     "title": "Trollface",
     "summary": "Symbol bezlitosnego internetowego trollowania.",
-    "text": "Prosty czarno-biały rysunek stworzony w programie MS Paint w 2008 roku przez Carlosa Ramireza. Ta uśmiechnięta twarz stała się uniwersalnym symbolem satysfakcji z udanego, internetowego trollowania."
+    "text": "Prosty czarno-biały rysunek stworzył w programie MS Paint Carlos Ramirez w 2008 roku. Charakterystyczna uśmiechnięta twarz szybko trafiła do internetowych komiksów i stała się symbolem trollowania: celowego prowokowania innych użytkowników w celu wywołania reakcji."
   },
   "memy_5.webp": {
     "image": "memy_5.webp",
@@ -886,14 +886,14 @@
     "category": "Mitologia i Legendy",
     "title": "Minotaur",
     "summary": "Uwięziona w labiryncie bycza bestia.",
-    "text": "W mitologii greckiej Minotaur był istotą o ludzkim ciele i głowie byka, zamkniętą w labiryncie na Krecie. Tezeusz zabił potwora i odnalazł drogę powrotną dzięki nici podarowanej mu przez Ariadnę."
+    "text": "W mitologii greckiej Minotaur był istotą o ludzkim ciele i głowie byka, zamkniętą w labiryncie zbudowanym na Krecie przez Dedala. Tezeusz zabił potwora, a drogę do wyjścia odnalazł dzięki nici, którą przed wejściem podarowała mu Ariadna."
   },
   "mitologia_2.webp": {
     "image": "mitologia_2.webp",
     "category": "Mitologia i Legendy",
     "title": "Kraken",
     "summary": "Morski potwór ze skandynawskich opowieści.",
-    "text": "Kraken wywodzi się ze skandynawskich opowieści o ogromnym stworzeniu morskim, które mogło być brane za wyspę i zagrażać statkom. Późniejsza kultura popularna nadała mu wygląd olbrzymiej kałamarnicy lub ośmiornicy."
+    "text": "Kraken wywodzi się ze skandynawskich opowieści o ogromnym stworzeniu morskim, które mogło być brane za wyspę i zagrażać statkom. Dawne przekazy nie nadawały mu jednego ustalonego wyglądu; późniejsza kultura popularna utrwaliła obraz olbrzymiej kałamarnicy lub ośmiornicy."
   },
   "mitologia_3.webp": {
     "image": "mitologia_3.webp",
@@ -1194,7 +1194,7 @@
     "category": "Zwierzęta",
     "title": "Echolokacja u nietoperzy",
     "summary": "Orientowanie się w ciemności za pomocą dźwięku i echa.",
-    "text": "Wiele nietoperzy orientuje się i poluje za pomocą echolokacji. Emitują krótkie dźwięki o wysokiej częstotliwości, a na podstawie powracającego echa oceniają odległość, kierunek i ruch niewielkich owadów."
+    "text": "Wiele nietoperzy orientuje się i poluje za pomocą echolokacji. Emitują krótkie dźwięki o wysokiej częstotliwości, a z powracającego echa odczytują odległość, kierunek i ruch owadów. Dzięki temu mogą skutecznie polować nawet w niemal całkowitej ciemności."
   },
   "zwierzeta_114.webp": {
     "image": "zwierzeta_114.webp",
@@ -1467,7 +1467,7 @@
     "category": "Kultura i Tradycje Świata",
     "title": "Haka: gdy przemawia całe ciało",
     "summary": "Maoryska sztuka wykonawcza wyraża tożsamość, emocje i pamięć wspólnoty.",
-    "text": "Haka nie jest wyłącznie tańcem wojennym. Istnieje wiele jej odmian wykonywanych przez kobiety i mężczyzn podczas powitań, uroczystości, pogrzebów, celebracji osiągnięć i innych ważnych wydarzeń. Słowa, rytmiczne tupanie, ruchy rąk oraz mimika wspólnie przekazują znaczenie utworu. Występy nowozelandzkich drużyn sportowych rozsławiły hakę, ale pozostaje ona przede wszystkim żywą częścią kultury Maorysów."
+    "text": "Haka nie jest wyłącznie tańcem wojennym. Jej odmiany wykonują kobiety i mężczyźni podczas powitań, uroczystości, pogrzebów, celebracji osiągnięć i innych ważnych wydarzeń. Słowa, tupanie, ruchy rąk oraz mimika wspólnie przekazują znaczenie utworu. Nowozelandzkie drużyny sportowe rozsławiły hakę, ale pozostaje ona przede wszystkim żywą częścią kultury Maorysów."
   },
   "lata_60_1.webp": {
     "image": "lata_60_1.webp",
@@ -1481,21 +1481,21 @@
     "category": "Lata sześćdziesiąte",
     "title": "Brytyjska inwazja",
     "summary": "Sukces Beatlesów otworzył amerykański rynek dla całej fali brytyjskich zespołów.",
-    "text": "W lutym 1964 roku występ The Beatles w programie Eda Sullivana obejrzały dziesiątki milionów Amerykanów. Beatlemania pomogła rozpocząć tak zwaną brytyjską inwazję, podczas której popularność w USA zdobyli również The Rolling Stones, The Animals i The Kinks. W drugiej połowie dekady Beatlesi wykorzystywali studio nagraniowe jako twórcze narzędzie, eksperymentując z montażem taśmy, efektami i nietypowym instrumentarium."
+    "text": "W lutym 1964 roku występ The Beatles w programie Eda Sullivana obejrzały dziesiątki milionów Amerykanów. Beatlemania pomogła rozpocząć brytyjską inwazję, podczas której popularność w USA zdobyli także The Rolling Stones, The Animals i The Kinks. Później Beatlesi wykorzystywali studio jako twórcze narzędzie, eksperymentując z montażem taśmy, efektami i nietypowymi instrumentami."
   },
   "lata_60_3.webp": {
     "image": "lata_60_3.webp",
     "category": "Lata sześćdziesiąte",
     "title": "Trzynaście dni na krawędzi",
     "summary": "Kryzys kubański z 1962 roku był najgroźniejszą konfrontacją nuklearną zimnej wojny.",
-    "text": "W październiku 1962 roku odkrycie radzieckich wyrzutni rakiet na Kubie doprowadziło do trwającego trzynaście dni kryzysu między Stanami Zjednoczonymi a ZSRR. Świat znalazł się wyjątkowo blisko wojny nuklearnej, zanim osiągnięto porozumienie. W tym samym roku premierę miał „Doktor No”, pierwszy kinowy film o Jamesie Bondzie — seria rozwijała się w kulturze silnie naznaczonej szpiegostwem i napięciami zimnej wojny."
+    "text": "W październiku 1962 roku odkrycie radzieckich wyrzutni na Kubie doprowadziło do trzynastodniowego kryzysu między USA a ZSRR. Świat znalazł się wyjątkowo blisko wojny nuklearnej, zanim osiągnięto porozumienie. W tym samym roku premierę miał „Doktor No”, pierwszy kinowy film o Jamesie Bondzie — seria rozwijała się w kulturze naznaczonej szpiegostwem i napięciami zimnej wojny."
   },
   "lata_60_4.webp": {
     "image": "lata_60_4.webp",
     "category": "Lata sześćdziesiąte",
     "title": "Mini z ulic Londynu",
     "summary": "Krótka spódnica stała się symbolem młodzieżowej mody i Swinging London.",
-    "text": "Mary Quant odegrała kluczową rolę w popularyzacji minispódniczki, ale nie można bezspornie przypisać jej wynalezienia jednej osobie. Krótsze fasony pojawiały się stopniowo na ulicach i wybiegach, między innymi w projektach André Courrèges’a. Około 1966 roku mini stała się międzynarodowym znakiem londyńskiej mody młodzieżowej oraz przemian obyczajowych, choć jej znaczenie dla emancypacji kobiet pozostawało przedmiotem dyskusji."
+    "text": "Mary Quant pomogła spopularyzować minispódniczkę, lecz jej wynalezienia nie można bezspornie przypisać jednej osobie. Krótsze fasony pojawiały się stopniowo na ulicach i wybiegach, także w projektach André Courrèges’a. Około 1966 roku mini stała się symbolem londyńskiej mody młodzieżowej i przemian obyczajowych, choć jej rola w emancypacji kobiet pozostaje dyskutowana."
   },
   "lata_60_5.webp": {
     "image": "lata_60_5.webp",
@@ -1516,14 +1516,14 @@
     "category": "Lata sześćdziesiąte",
     "title": "Mam marzenie",
     "summary": "Przemówienie Martina Luthera Kinga stało się trwałym symbolem walki o prawa obywatelskie.",
-    "text": "28 sierpnia 1963 roku ponad 250 tysięcy osób uczestniczyło w Marszu na Waszyngton na rzecz pracy i wolności. Przed Mauzoleum Lincolna Martin Luther King wygłosił przemówienie znane jako „I Have a Dream”. Marsz nie zakończył segregacji samodzielnie, ale zwiększył społeczne poparcie dla zmian, po których uchwalono ustawę o prawach obywatelskich z 1964 roku i ustawę o prawach wyborczych z 1965 roku."
+    "text": "28 sierpnia 1963 roku ponad 250 tysięcy osób uczestniczyło w Marszu na Waszyngton na rzecz pracy i wolności. Przed Pomnikiem Lincolna Martin Luther King wygłosił przemówienie „I Have a Dream”. Marsz nie zakończył segregacji, ale zwiększył poparcie dla zmian prowadzących do ustaw o prawach obywatelskich z 1964 roku i prawach wyborczych z 1965 roku."
   },
   "lata_2000_1.webp": {
     "image": "lata_2000_1.webp",
     "category": "Lata dwutysięczne",
     "title": "Wielka pluskwa milenijna",
     "summary": "Problem Y2K był realnym ryzykiem, a spokojna zmiana daty wynikała także z lat przygotowań.",
-    "text": "W wielu starszych programach rok zapisywano dwiema cyframi, dlatego po przejściu z 1999 na 2000 system mógł odczytać „00” jako rok 1900. Banki, administracje i przedsiębiorstwa przez lata wyszukiwały oraz poprawiały podatny kod, a potem testowały kluczową infrastrukturę. Ponieważ poważnych zakłóceń było niewiele, Y2K bywa dziś przedstawiany jako fałszywy alarm, choć właśnie szeroko zakrojone przygotowania ograniczyły jego skutki."
+    "text": "W wielu starszych programach rok zapisywano dwiema cyframi, więc po przejściu z 1999 na 2000 „00” mogło zostać odczytane jako 1900. Banki, urzędy i przedsiębiorstwa przez lata poprawiały podatny kod oraz testowały infrastrukturę. Y2K bywa dziś przedstawiany jako fałszywy alarm, ale niewielka liczba poważnych awarii była w dużej mierze skutkiem tych przygotowań."
   },
   "lata_2000_2.webp": {
     "image": "lata_2000_2.webp",
@@ -1537,7 +1537,7 @@
     "category": "Lata dwutysięczne",
     "title": "Tysiąc piosenek w kieszeni",
     "summary": "iPod połączył pojemny odtwarzacz, prostą obsługę i rozwijający się rynek legalnych plików muzycznych.",
-    "text": "Pierwszy iPod, zaprezentowany przez Apple w październiku 2001 roku, miał dysk o pojemności 5 GB i był reklamowany hasłem „tysiąc piosenek w kieszeni”. Początkowo współpracował tylko z komputerami Mac, lecz kolejne wersje docierały do coraz szerszej publiczności. Uruchomiony w 2003 roku iTunes Music Store ułatwił legalny zakup pojedynczych utworów, przyspieszając przejście od płyt do cyfrowej dystrybucji, choć fizyczne nośniki nie zniknęły."
+    "text": "Pierwszy iPod, pokazany przez Apple w październiku 2001 roku, miał dysk 5 GB i był reklamowany hasłem „tysiąc piosenek w kieszeni”. Początkowo współpracował tylko z komputerami Mac, lecz kolejne wersje zdobywały szerszą publiczność. Uruchomiony w 2003 roku iTunes Music Store ułatwił legalny zakup pojedynczych utworów i przyspieszył rozwój cyfrowej dystrybucji muzyki."
   },
   "lata_2000_4.webp": {
     "image": "lata_2000_4.webp",
@@ -1558,21 +1558,21 @@
     "category": "Lata dwutysięczne",
     "title": "Reality show wchodzi do salonów",
     "summary": "Programy oparte na obserwacji i rywalizacji uczestników stały się filarem telewizji masowej.",
-    "text": "Format „Big Brother” zadebiutował w Holandii w 1999 roku, lecz jego międzynarodowa ekspansja nastąpiła na początku kolejnej dekady. W 2001 roku brytyjski „Pop Idol” połączył konkurs talentów z głosowaniem publiczności i dał początek lokalnym wersjom formatu „Idol”. Reality show oferowały stacjom stosunkowo elastyczną produkcję, widzom poczucie uczestnictwa, a niektórym zawodnikom drogę do medialnej rozpoznawalności."
+    "text": "Format „Big Brother” zadebiutował w Holandii w 1999 roku, a na początku kolejnej dekady szybko rozprzestrzenił się na inne kraje. W 2001 roku brytyjski „Pop Idol” połączył konkurs talentów z głosowaniem publiczności i zapoczątkował lokalne wersje „Idola”. Reality show dawały widzom poczucie uczestnictwa, a części zawodników drogę do medialnej rozpoznawalności."
   },
   "lata_2000_7.webp": {
     "image": "lata_2000_7.webp",
     "category": "Lata dwutysięczne",
     "title": "Koniec dyskietek",
     "summary": "Pamięci USB przejęły rolę przenośnego magazynu, zaczynając od pojemności liczonych w megabajtach.",
-    "text": "Pierwsze komercyjne pamięci USB pojawiły się około 2000 roku i mieściły zaledwie kilka megabajtów danych — jeden z wczesnych modeli miał pojemność 8 MB. Były jednak małe, wielokrotnego użytku i nie wymagały osobnego napędu. Wraz ze spadkiem cen i wzrostem pojemności, a także rozwojem nagrywalnych płyt oraz przesyłania plików przez internet, pendrive’y pomogły wyprzeć dyskietki w ciągu dekady."
+    "text": "Pierwsze komercyjne pamięci USB pojawiły się około 2000 roku i mieściły zaledwie kilka megabajtów — jeden z wczesnych modeli oferował 8 MB. Były małe, wielokrotnego użytku i nie wymagały osobnego napędu. Wraz ze spadkiem cen, wzrostem pojemności oraz rozwojem nagrywalnych płyt i przesyłania plików przez internet pomogły wyprzeć dyskietki w ciągu dekady."
   },
   "lit_1.webp": {
     "image": "lit_1.webp",
     "category": "Literatura i Książki",
     "title": "Historia z deszczowego lata",
     "summary": "Osiemnastoletnia Mary Shelley zaczęła „Frankensteina” podczas konkursu na opowieść grozy.",
-    "text": "Latem 1816 roku Mary Godwin, późniejsza Mary Shelley, przebywała nad Jeziorem Genewskim z Percym Shelleyem, Lordem Byronem i Johnem Polidorim. Gdy Byron zaproponował uczestnikom napisanie historii o duchach, osiemnastoletnia Mary rozpoczęła opowieść, z której wyrósł „Frankenstein”. Powieść ukazała się anonimowo w 1818 roku i jest dziś często wymieniana wśród najwcześniejszych dzieł science fiction, ponieważ łączy gotycką grozę z pytaniami o naukę, odpowiedzialność i tworzenie życia."
+    "text": "Latem 1816 roku Mary Godwin, późniejsza Mary Shelley, przebywała nad Jeziorem Genewskim z Percym Shelleyem, Lordem Byronem i Johnem Polidorim. Po propozycji Byrona, by każdy napisał historię o duchach, Mary rozpoczęła opowieść, z której wyrósł „Frankenstein”. Powieść ukazała się anonimowo w 1818 roku i połączyła gotycką grozę z pytaniami o naukę, odpowiedzialność oraz tworzenie życia."
   },
   "lit_2.webp": {
     "image": "lit_2.webp",
@@ -1600,7 +1600,7 @@
     "category": "Literatura i Książki",
     "title": "Powrót z wodospadu",
     "summary": "Conan Doyle uśmiercił Holmesa, lecz po latach przywrócił detektywa do życia.",
-    "text": "Arthur Conan Doyle był zmęczony presją ciągłego pisania opowiadań o Sherlocku Holmesie i chciał poświęcić więcej czasu innym gatunkom. W „Ostatniej zagadce” z 1893 roku detektyw miał zginąć wraz z Moriartym przy wodospadzie Reichenbach. Po wielkim zainteresowaniu czytelników i bardzo korzystnej ofercie wydawniczej Holmes powrócił: najpierw w osadzonej wcześniej powieści „Pies Baskerville’ów”, a następnie naprawdę przeżył swój upadek w opowiadaniu z 1903 roku."
+    "text": "Arthur Conan Doyle był zmęczony presją ciągłego pisania o Sherlocku Holmesie i chciał zajmować się innymi gatunkami. W „Ostatniej zagadce” z 1893 roku detektyw miał zginąć wraz z Moriartym przy wodospadzie Reichenbach. Holmes wrócił najpierw w osadzonym wcześniej „Psie Baskerville’ów”, a następnie w opowiadaniu z 1903 roku wyjaśniono, że przeżył upadek."
   },
   "lit_6.webp": {
     "image": "lit_6.webp",
@@ -1621,48 +1621,48 @@
     "category": "Ciekawostki Korporacyjne",
     "title": "Google i liczba ze stu zerami",
     "summary": "Nazwa wyszukiwarki nawiązuje do googola, ale nie powstała przez błędnie wypisany czek.",
-    "text": "Pierwsza wyszukiwarka Larry’ego Page’a i Sergeya Brina nosiła nazwę BackRub. Później zastąpiono ją słowem Google — grą z terminem „googol”, oznaczającym jedynkę i sto zer, która miała kojarzyć się z ogromem porządkowanych informacji. Czek Andy’ego Bechtolsheima na 100 tysięcy dolarów został wystawiony na Google Inc. w sierpniu 1998 roku, gdy nazwa była już używana; popularna opowieść, że to inwestor stworzył ją literówką na czeku, odwraca kolejność wydarzeń."
+    "text": "Pierwsza wyszukiwarka Larry’ego Page’a i Sergeya Brina nazywała się BackRub. Później zastąpiło ją Google — gra z terminem „googol”, oznaczającym jedynkę i sto zer. Czek Andy’ego Bechtolsheima na 100 tysięcy dolarów wystawiono na Google Inc. w sierpniu 1998 roku, gdy nazwa była już używana. Opowieść, że inwestor stworzył ją przez literówkę na czeku, odwraca kolejność wydarzeń."
   },
   "korpo_2.webp": {
     "image": "korpo_2.webp",
     "category": "Ciekawostki Korporacyjne",
     "title": "Od papieru i kaloszy do sieci komórkowych",
     "summary": "Historia Nokii łączy papiernię, zakłady gumowe i producenta kabli.",
-    "text": "Korzenie Nokii sięgają papierni założonej w Finlandii w 1865 roku. Dzisiejsza linia korporacyjna powstała jednak z połączenia kilku przedsiębiorstw: Nokia Ab, Finnish Rubber Works oraz Finnish Cable Works, które w 1967 roku utworzyły Nokia Corporation. Nowa grupa produkowała między innymi papier, opony, gumowe obuwie, kable i elektronikę, zanim telekomunikacja stała się jej najważniejszą specjalizacją."
+    "text": "Korzenie Nokii sięgają papierni założonej w Finlandii w 1865 roku. Obecna linia korporacyjna powstała jednak z połączenia Nokia Ab, Finnish Rubber Works i Finnish Cable Works, które w 1967 roku utworzyły Nokia Corporation. Grupa produkowała papier, opony, gumowe obuwie, kable i elektronikę, zanim telekomunikacja stała się jej najważniejszą specjalizacją."
   },
   "korpo_3.webp": {
     "image": "korpo_3.webp",
     "category": "Ciekawostki Korporacyjne",
     "title": "Burger, franczyza i nieruchomości",
     "summary": "Czynsze i opłaty franczyzowe są ważną częścią modelu McDonald’s, ale nie jego jedynym biznesem.",
-    "text": "Około 95 procent restauracji McDonald’s prowadzą niezależni franczyzobiorcy lub licencjobiorcy. W klasycznym modelu franczyzy korporacja zwykle posiada albo długoterminowo wynajmuje grunt i budynek, a operator restauracji płaci czynsz oraz opłaty zależne od sprzedaży. Nie każdy lokal działa jednak tak samo — na części rynków licencjobiorcy sami finansują nieruchomości — dlatego określanie McDonald’s wyłącznie jako firmy nieruchomościowej jest chwytliwym uproszczeniem."
+    "text": "Około 95 procent restauracji McDonald’s prowadzą niezależni franczyzobiorcy lub licencjobiorcy. W typowym modelu korporacja posiada albo długoterminowo wynajmuje grunt i budynek, a operator płaci czynsz oraz opłaty zależne od sprzedaży. Rozwiązania różnią się jednak między rynkami, dlatego nazywanie McDonald’s wyłącznie firmą nieruchomościową jest chwytliwym uproszczeniem."
   },
   "korpo_4.webp": {
     "image": "korpo_4.webp",
     "category": "Ciekawostki Korporacyjne",
     "title": "Trzeci współzałożyciel Apple",
     "summary": "Ronald Wayne wycofał się z pierwotnej spółki po zaledwie dwunastu dniach.",
-    "text": "1 kwietnia 1976 roku Ronald Wayne sporządził umowę założycielską Apple Computer Company i otrzymał w niej 10-procentowy udział, podczas gdy Steve Jobs i Steve Wozniak mieli po 45 procent. Wayne wycofał się dwanaście dni później, obawiając się osobistej odpowiedzialności za długi spółki i nie widząc dla siebie właściwej roli. Historyczne relacje łączą jego odejście z wypłatą 800 dolarów, a później dodatkowych 1500 dolarów za rezygnację z dalszych roszczeń."
+    "text": "1 kwietnia 1976 roku Ronald Wayne sporządził umowę założycielską Apple Computer Company i otrzymał 10-procentowy udział; Steve Jobs i Steve Wozniak mieli po 45 procent. Dwanaście dni później Wayne wycofał się, obawiając się osobistej odpowiedzialności za długi spółki. Otrzymał 800 dolarów, a później kolejne 1500 dolarów za rezygnację z dalszych roszczeń."
   },
   "korpo_5.webp": {
     "image": "korpo_5.webp",
     "category": "Ciekawostki Korporacyjne",
     "title": "Główna trasa i ukryte skróty",
     "summary": "Sklepy IKEA prowadzą przez kolejne strefy, ale nie zamykają klientów w jednokierunkowym labiryncie.",
-    "text": "W wielu dużych sklepach IKEA główna trasa przechodzi przez zaaranżowane wnętrza, Market Hall i magazyn samoobsługowy. Taki układ pozwala pokazać produkty w kontekście oraz zachęca do obejrzenia całej oferty. Mapy sklepów wskazują jednak także skróty i szybsze drogi do wybranych działów. Nazywanie tej organizacji „efektem Gruena” jest nieprecyzyjne — termin ten opisuje szersze zjawisko dezorientacji w przestrzeniach handlowych, a nie oficjalną nazwę układu IKEA."
+    "text": "W wielu dużych sklepach IKEA główna trasa prowadzi przez zaaranżowane wnętrza, Market Hall i magazyn samoobsługowy. Pokazuje produkty w kontekście i zachęca do obejrzenia większej części oferty, ale mapy wskazują również skróty. Nazywanie tego układu „efektem Gruena” jest nieprecyzyjne, ponieważ termin opisuje szersze zjawisko dezorientacji w przestrzeniach handlowych."
   },
   "korpo_6.webp": {
     "image": "korpo_6.webp",
     "category": "Ciekawostki Korporacyjne",
     "title": "Currywurst z numerem części",
     "summary": "Firmowa kiełbasa Volkswagena ma własny numer katalogowy i sprzedaż liczoną w milionach sztuk.",
-    "text": "Volkswagen produkuje własną currywurst w Wolfsburgu od 1973 roku, a produkt otrzymał numer części 199 398 500 A. W 2024 roku sprzedano rekordowe około 8,5 miliona firmowych kiełbas — więcej niż samochodów osobowych marki Volkswagen, lecz nie więcej niż pojazdów wszystkich marek całej Grupy Volkswagen. Porównanie jest efektowne, ale dotyczy liczby sztuk produktów o zupełnie różnej cenie i skali."
+    "text": "Volkswagen produkuje własną currywurst w Wolfsburgu od 1973 roku; produkt ma numer części 199 398 500 A. W 2024 roku sprzedano około 8,5 miliona firmowych kiełbas — więcej niż samochodów osobowych marki Volkswagen, ale mniej niż pojazdów wszystkich marek Grupy Volkswagen. Porównanie jest efektowne, choć dotyczy produktów o zupełnie innej cenie i skali."
   },
   "korpo_7.webp": {
     "image": "korpo_7.webp",
     "category": "Ciekawostki Korporacyjne",
     "title": "Klej, który czekał na problem",
     "summary": "Post-it powstał dzięki połączeniu nietypowego kleju Spencera Silvera z pomysłem Arta Frya.",
-    "text": "W 1968 roku chemik 3M Spencer Silver opracował klej tworzący mikroskopijne kuleczki: przylegał do powierzchni, lecz pozwalał łatwo je rozdzielić. Silver przez lata przedstawiał wynalazek współpracownikom, szukając dla niego zastosowania. Art Fry wykorzystał go później do zakładek, które nie wypadały z jego śpiewnika i nie niszczyły stron. Po dalszych testach 3M wprowadziło karteczki Post-it na rynek amerykański w 1980 roku."
+    "text": "W 1968 roku chemik 3M Spencer Silver opracował klej, który przylegał do powierzchni, lecz pozwalał łatwo je rozdzielić. Przez lata szukał dla niego praktycznego zastosowania. Art Fry wykorzystał go później do zakładek niewypadających ze śpiewnika i nieniszczących stron. Po dalszych testach 3M wprowadziło karteczki Post-it na rynek amerykański w 1980 roku."
   }
 }

@@ -6,6 +6,11 @@ W tym pliku dokumentowane są istotne zmiany projektu. Format jest oparty na [Ke
 
 ### Zmieniono
 
+- wyrównano skrajne długości 27 opisów, skracając 18 najdłuższych i delikatnie rozwijając dziewięć najkrótszych bez zmiany ich znaczenia;
+- poprawiono ilustracje mięśnia żwacza, koronacji Bolesława Chrobrego i III rozbioru Polski oraz doprecyzowano trzy sformułowania w kategoriach „Ciało Człowieka” i „Historia Polski”;
+- zastąpiono ilustracje Harambe i Hide the Pain Harold autorskimi reinterpretacjami, które zachowują kontekst memów bez kopiowania konkretnych fotografii;
+- poprawiono ilustracje kwasu fluoroantymonowego i odcisku języka, zastępując niejednoznaczną aparaturę bezpiecznym naczyniem z PTFE oraz pokazując bezdotykowe obrazowanie biometryczne zdrowego języka;
+- poprawiono cztery ilustracje edukacyjne: III rozbiór Polski, Wielki Wybuch, bardzo długie polskie słowo i Układ Słoneczny; usunięto niejednoznaczności historyczne, błędną liczbę liter oraz mylące uproszczenia naukowe;
 - wygenerowano na nowo miniatury w formacie WebP dla 48 zaktualizowanych obrazów w celu zapewnienia spójności optymalizacji przestrzeni 3D;
 - zastąpiono powtórzoną ciekawostkę o Game Boyu wpisem o Sega Game Gear wraz z nową grafiką i miniaturą;
 - zoptymalizowano ładowanie sfery przez miniatury 256×256, priorytet zasobów widocznych na pierwszym planie i wcześniejsze udostępnienie interfejsu; ujednolicono też parametry animacji oraz ograniczono zbędne aktualizacje i renderowanie sceny pod otwartą kartą;
