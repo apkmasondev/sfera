@@ -6,7 +6,7 @@ W tym pliku dokumentowane są istotne zmiany projektu. Format jest oparty na [Ke
 
 ### Zmieniono
 
-- wygenerowano na nowo miniatury w formacie WebP dla 14 zaktualizowanych obrazów w celu zapewnienia spójności optymalizacji przestrzeni 3D;
+- wygenerowano na nowo miniatury w formacie WebP dla 35 zaktualizowanych obrazów w celu zapewnienia spójności optymalizacji przestrzeni 3D;
 - zastąpiono powtórzoną ciekawostkę o Game Boyu wpisem o Sega Game Gear wraz z nową grafiką i miniaturą;
 - zoptymalizowano ładowanie sfery przez miniatury 256×256, priorytet zasobów widocznych na pierwszym planie i wcześniejsze udostępnienie interfejsu; ujednolicono też parametry animacji oraz ograniczono zbędne aktualizacje i renderowanie sceny pod otwartą kartą;
 - dodano płynne przejście klikniętego obrazu ze sfery do karty i jego animowany powrót, z obsługą urządzeń mobilnych oraz preferencji ograniczonego ruchu;
