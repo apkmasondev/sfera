@@ -67,7 +67,7 @@
     "category": "Architektura",
     "title": "Burdż Chalifa",
     "summary": "Najwyższy drapacz chmur na naszej planecie.",
-    "text": "Burdż Chalifa w Dubaju ma 828 metrów wysokości. Jego trójramienny, stopniowo zwężający się kształt oraz kolejne uskoki zaburzają regularne wiry powietrza. Dzięki temu wiatr nie obciąża całej konstrukcji w jednakowy sposób."
+    "text": "Burdż Chalifa w Dubaju ma 828 metrów wysokości. Jego trójramienny, stopniowo zwężający się kształt oraz kolejne uskoki zaburzają regularne wiry powietrza. Zmieniają przekrój budynku wraz z wysokością, dzięki czemu wiatr nie obciąża całej konstrukcji jednakowo. Rozwiązanie to pomaga ograniczać kołysanie smukłego wieżowca."
   },
   "architektura_124.webp": {
     "image": "architektura_124.webp",
@@ -669,7 +669,7 @@
     "category": "Ciekawostki Korporacyjne",
     "title": "Główna trasa i ukryte skróty",
     "summary": "Sklepy IKEA prowadzą przez kolejne strefy, ale nie zamykają klientów w jednokierunkowym labiryncie.",
-    "text": "W wielu dużych sklepach IKEA główna trasa prowadzi przez zaaranżowane wnętrza, Market Hall i magazyn samoobsługowy. Pokazuje produkty w kontekście i zachęca do obejrzenia większej części oferty, ale mapy wskazują również skróty. Nazywanie tego układu „efektem Gruena” jest nieprecyzyjne, ponieważ termin opisuje szersze zjawisko dezorientacji w przestrzeniach handlowych."
+    "text": "W wielu dużych sklepach IKEA główna trasa prowadzi przez zaaranżowane wnętrza, Market Hall i magazyn samoobsługowy. Pokazuje produkty w kontekście i zachęca do obejrzenia większej części oferty, lecz mapy wskazują też skróty. Nazywanie układu „efektem Gruena” jest nieprecyzyjne, bo termin opisuje szersze zjawisko dezorientacji w przestrzeniach handlowych."
   },
   "korpo_6.webp": {
     "image": "korpo_6.webp",
@@ -711,21 +711,21 @@
     "category": "Kosmos",
     "title": "Rok świetlny",
     "summary": "Podstawowa jednostka astronomiczna mierząca odległość.",
-    "text": "Rok świetlny jest jednostką odległości, a nie czasu. Oznacza drogę, którą światło pokonuje w próżni przez jeden rok — około 9,46 biliona kilometrów — i pozwala wygodnie opisywać odległości między gwiazdami oraz galaktykami."
+    "text": "Rok świetlny jest jednostką odległości, a nie czasu. Oznacza drogę, którą światło pokonuje w próżni przez rok — około 9,46 biliona kilometrów — i pozwala wygodnie opisywać odległości między gwiazdami oraz galaktykami. Ponieważ światło potrzebuje czasu na podróż, odległe obiekty widzimy takimi, jakie były w przeszłości."
   },
   "kosmos_35.webp": {
     "image": "kosmos_35.webp",
     "category": "Kosmos",
     "title": "Droga Mleczna",
     "summary": "Spiralna galaktyka będąca naszym domem.",
-    "text": "Droga Mleczna jest galaktyką spiralną z poprzeczką, mającą około 100 tysięcy lat świetlnych średnicy i setki miliardów gwiazd. Układ Słoneczny znajduje się w Ostrodze Oriona, między większymi ramionami Perseusza i Strzelca."
+    "text": "Droga Mleczna jest galaktyką spiralną z poprzeczką, mającą około 100 tysięcy lat świetlnych średnicy i setki miliardów gwiazd. Układ Słoneczny znajduje się w Ostrodze Oriona, między większymi ramionami Perseusza i Strzelca. Jeden jego obieg wokół centrum galaktyki trwa około 230 milionów lat."
   },
   "kosmos_36.webp": {
     "image": "kosmos_36.webp",
     "category": "Kosmos",
     "title": "Lądowanie na Księżycu",
     "summary": "Pierwsze kroki na Srebrnym Globie.",
-    "text": "20 lipca 1969 roku lądownik misji Apollo 11 osiadł na Księżycu. Neil Armstrong jako pierwszy człowiek zszedł na powierzchnię, a wkrótce dołączył do niego Buzz Aldrin; Michael Collins pozostał na orbicie w module dowodzenia."
+    "text": "20 lipca 1969 roku lądownik misji Apollo 11 osiadł na Księżycu. Neil Armstrong jako pierwszy człowiek zszedł na powierzchnię, a wkrótce dołączył do niego Buzz Aldrin; Michael Collins pozostał na orbicie w module dowodzenia. Astronauci ustawili aparaturę naukową, zebrali próbki skał i wykonali fotografie terenu."
   },
   "kosmos_37.webp": {
     "image": "kosmos_37.webp",
@@ -956,7 +956,7 @@
     "category": "Lata sześćdziesiąte",
     "title": "Mini z ulic Londynu",
     "summary": "Krótka spódnica stała się symbolem młodzieżowej mody i Swinging London.",
-    "text": "Mary Quant pomogła spopularyzować minispódniczkę, lecz jej wynalezienia nie można bezspornie przypisać jednej osobie. Krótsze fasony pojawiały się stopniowo na ulicach i wybiegach, także w projektach André Courrèges’a. Około 1966 roku mini stała się symbolem londyńskiej mody młodzieżowej i przemian obyczajowych, choć jej rola w emancypacji kobiet pozostaje dyskutowana."
+    "text": "Mary Quant pomogła spopularyzować minispódniczkę, lecz jej wynalezienia nie można przypisać jednej osobie. Krótsze fasony pojawiały się stopniowo na ulicach i wybiegach, także w projektach André Courrèges’a. Około 1966 roku mini stała się symbolem londyńskiej mody młodzieżowej i przemian obyczajowych, choć jej rola w emancypacji kobiet pozostaje dyskutowana."
   },
   "lata_60_5.webp": {
     "image": "lata_60_5.webp",
@@ -1166,7 +1166,7 @@
     "category": "Literatura i Książki",
     "title": "Rycerz, który zmienił powieść",
     "summary": "„Don Kichot” połączył parodię romansów rycerskich z niezwykle nowoczesną grą narracją.",
-    "text": "Pierwsza część „Don Kichota” Miguela de Cervantesa ukazała się w 1605 roku, a druga w 1615. Dzieło zaczyna się jako parodia popularnych romansów rycerskich, lecz rozwija wielowymiarowych bohaterów, miesza perspektywy i komentuje własną fikcyjność. Z tego powodu bywa nazywane pierwszą nowoczesną powieścią, choć jest to ocena historycznoliteracka, a nie bezsporny rekord."
+    "text": "Pierwsza część „Don Kichota” Miguela de Cervantesa ukazała się w 1605 roku, druga w 1615. Dzieło zaczyna się jako parodia romansów rycerskich, lecz rozwija wielowymiarowych bohaterów, miesza perspektywy i komentuje własną fikcyjność. Dlatego bywa nazywane pierwszą nowoczesną powieścią, choć to ocena historycznoliteracka, a nie bezsporny rekord."
   },
   "lit_7.webp": {
     "image": "lit_7.webp",
@@ -1453,7 +1453,7 @@
     "category": "Psychologia",
     "title": "Siła placebo",
     "summary": "Wpływ oczekiwań pacjenta na odczuwanie niektórych objawów.",
-    "text": "Efekt placebo może zmieniać odczuwanie niektórych objawów, zwłaszcza bólu, poprzez oczekiwania pacjenta i reakcje układu nerwowego. Nie jest jednak uniwersalnym lekarstwem ani dowodem, że sama wiara usuwa przyczynę choroby."
+    "text": "Efekt placebo może zmieniać odczuwanie niektórych objawów, zwłaszcza bólu, poprzez oczekiwania pacjenta i reakcje układu nerwowego. Na jego siłę wpływają między innymi sposób podania terapii i kontakt z personelem medycznym. Nie jest jednak uniwersalnym lekarstwem ani dowodem, że sama wiara usuwa przyczynę choroby."
   },
   "psy_6.webp": {
     "image": "psy_6.webp",
