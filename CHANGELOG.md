@@ -8,7 +8,7 @@ W tym pliku dokumentowane są istotne zmiany projektu. Format jest oparty na [Ke
 
 - zastąpiono nieprecyzyjną ilustrację ciągu Fibonacciego klasycznym układem kwadratów od 1 do 34, czytelnymi oznaczeniami i ciągłą spiralą;
 - poprawiono siedem ilustracji edukacyjnych: film „Logistics”, transplantację serca z 1967 roku, niesporczaki, „Bogurodzicę”, wynalazek mikrofalówki, misję Voyager oraz Mount Everest;
-- wyrównano skrajne długości 42 opisów, skracając 30 najdłuższych i delikatnie rozwijając 12 najkrótszych bez zmiany ich znaczenia;
+- wyrównano skrajne długości 57 opisów, skracając 40 najdłuższych i delikatnie rozwijając 17 najkrótszych bez zmiany ich znaczenia;
 - poprawiono ilustracje mięśnia żwacza, koronacji Bolesława Chrobrego i III rozbioru Polski oraz doprecyzowano trzy sformułowania w kategoriach „Ciało Człowieka” i „Historia Polski”;
 - zastąpiono ilustracje Harambe i Hide the Pain Harold autorskimi reinterpretacjami, które zachowują kontekst memów bez kopiowania konkretnych fotografii;
 - poprawiono ilustracje kwasu fluoroantymonowego i odcisku języka, zastępując niejednoznaczną aparaturę bezpiecznym naczyniem z PTFE oraz pokazując bezdotykowe obrazowanie biometryczne zdrowego języka;
