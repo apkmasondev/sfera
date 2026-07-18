@@ -6,6 +6,7 @@ W tym pliku dokumentowane są istotne zmiany projektu. Format jest oparty na [Ke
 
 ### Zmieniono
 
+- poprawiono grafikę ciągu Fibonacciego, zamieniając motyw złotego podziału na abstrakcyjną kompozycję klocków obrazujących narastanie ciągu;
 - poprawiono siedem ilustracji edukacyjnych: film „Logistics”, transplantację serca z 1967 roku, niesporczaki, „Bogurodzicę”, wynalazek mikrofalówki, misję Voyager oraz Mount Everest;
 - wyrównano skrajne długości 42 opisów, skracając 30 najdłuższych i delikatnie rozwijając 12 najkrótszych bez zmiany ich znaczenia;
 - poprawiono ilustracje mięśnia żwacza, koronacji Bolesława Chrobrego i III rozbioru Polski oraz doprecyzowano trzy sformułowania w kategoriach „Ciało Człowieka” i „Historia Polski”;
